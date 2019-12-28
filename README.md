@@ -16,7 +16,7 @@ Final project of R, an English essay scorer.
 │   ├── professional
 │   ├── medium
 │   ├── beginner (few data)
-|   └── naive  
+|   └── native  
 ├── model (not yet)
 ├── README.md
 └── Statics (not yet)
