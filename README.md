@@ -15,9 +15,22 @@ Final project of R, an English essay scorer.
 ├── data
 │   ├── professional
 │   ├── medium
-│   ├── beginner (few data)
-|   └── native  
-├── model (not yet)
+│   ├── beginner
+│   ├── native 
+│   └── dictionary  
+├── preprocessing.py
+├── vsm.py
+├── vsm_v2.py
 ├── README.md
 └── Statics (not yet)
 ```
+
+### preprocessing.py
+We can clean the data into csv file which record words frequency in essay and the probability of word appearance among files.
+The result will save under the diretory /data/dictionary/.
+The data had bulit. If new essaies are added, you will better execute the python file angin to ensure the accuary.
+```
+python3 preprocessing.py
+```
+
+
