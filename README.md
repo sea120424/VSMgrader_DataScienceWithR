@@ -33,6 +33,12 @@ The data had bulit. If new essaies are added, you will better execute the python
 python3 preprocessing.py
 ```
 
+### Model
+Use vector space model to evaluate the relationship of the query and per section.
+
+tf: the frequency of the word in an essay, which signifies the importance of the words in the essay.
+$tf_{i,j} =\frac{n_{i,j}}{\sum{n_{k,j}}}$
+
 ### Result
 The expected output maybe this for the biginner writer.
 ```
