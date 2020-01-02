@@ -37,8 +37,8 @@ python3 preprocessing.py
 Use vector space model to evaluate the relationship of the query and per section.
 
 tf: the frequency of the word in an essay, which signifies the importance of the words in the essay.
-$$tf_{i,j} =\frac{n_{i,j}}{\sum{n_{k,j}}}$$
-
+idf: inverted document frequency. The larger the number is, the less impoertant does the word means.
+ 
 ### Result
 The expected output maybe this for the biginner writer.
 ```
