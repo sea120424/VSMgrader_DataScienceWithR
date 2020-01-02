@@ -33,4 +33,16 @@ The data had bulit. If new essaies are added, you will better execute the python
 python3 preprocessing.py
 ```
 
+### Result
+The expected output maybe this for the biginner writer.
+```
+|======= English Level =======|
+|                             |
+|  beginner:     45.534302 %  |
+|  medium:       13.673424 %  |
+|  professional: 30.480181 %  |
+|  native:       10.312093 %  |
+|                             |
+|=============================|
 
+```
