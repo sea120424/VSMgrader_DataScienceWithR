@@ -46,3 +46,15 @@ The expected output maybe this for the biginner writer.
 |=============================|
 
 ```
+
+### Statics Data
+
+- the comparsion of prep.
+- Article richness
+- word cloud
+- naive model
+- vsm model
+- average sentence length
+- usage of mark
+- average word length
+
