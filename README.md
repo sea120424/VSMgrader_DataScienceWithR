@@ -102,22 +102,23 @@ Reference: https://ithelp.ithome.com.tw/articles/10192052
 - beginner: 
 It is not a suprising answer to see such figure. **I** is the most popular word in beginner english. They practice writing by diary-like essay. The freqence of relative words prove the phenomenon
 
-![](img/df_beginner.png =100x100) 
- 
+<img src="img/df_beginner.png" width="200" height="200"/>
+
 - medium:
 The result of medium level write is intriguing. By knowing advanced grammar they always remember to put **the** before nouns, and they start to descript objectively by using **is**.
 
-![](img/df_medium.png =100x100)
+<img src="img/df_medium.png" width="200" height="200"/>
 
 - professional:
 For professional writer, they use various words make the essay looks vivid. No specific word dominates although **in** seems has highly fequency owning to the wanting amount of essays we use.
 
-![](img/df_professional.png =100x100)
+<img src="img/df_professional.png" width="200" height="200"/>
 
 - native:
 Our dataset contains the native writer in every generation and every type of essay. As same as professional write, they use various words to present the topic in diverse essays.
 
-![](img/df_native.png =100x100)
+<img src="img/df_native.png" width="200" height="200"/>
+
  
 - [ ] the comparsion of prep.
 - [ ] Article richness
