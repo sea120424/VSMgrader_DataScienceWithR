@@ -43,8 +43,17 @@ python3 preprocessing.py
 Use vector space model to evaluate the relationship of the query and per section.
 
 tf: the frequency of the word in an essay, which signifies the importance of the words in the essay.
+<br>
 idf: inverted document frequency. The larger the number is, the less impoertant does the word means.
- 
+```shell=
+python3 vsm.py
+
+or
+
+python3 vsm_v2.py
+```
+It will estimate the essay in query.txt and return the result.
+
 ### Result
 The expected output maybe this for the biginner writer.
 ```
