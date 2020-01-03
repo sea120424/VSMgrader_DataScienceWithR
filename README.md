@@ -36,8 +36,8 @@ python3 preprocessing.py
 ### Model
 Use vector space model to evaluate the relationship of the query and per section.
 
-tf: the frequency of the word in an essay, which signifies the importance of the words in the essay.
-idf: inverted document frequency. The larger the number is, the less impoertant does the word means.
+>　tf: the frequency of the word in an essay, which signifies the importance of the words in the essay.
+>  idf: inverted document frequency. The larger the number is, the less impoertant does the word means.
  
 ### Result
 The expected output maybe this for the biginner writer.
@@ -55,12 +55,17 @@ The expected output maybe this for the biginner writer.
 
 ### Statics Data
 
-- the comparsion of prep.
-- Article richness
-- word cloud
-- naive model
-- vsm model
-- average sentence length
-- usage of mark
-- average word length
+- [v] words in document frequency
+This section shows the statics of the a word appears in differnet essays. We discuss the word usage in 4 groups. We make a hypothesis that the lower degree english user may repeatedly use the same words among different essays due to their lacking vocabulary. **R wordcloud** is used to demostrate. 
+- beginner:
+![](img/df_beginner.png) 
+ 
+- [ ] the comparsion of prep.
+- [ ] Article richness
+- [ ] word cloud
+- [ ] naive model
+- [ ] vsm model
+- [ ] average sentence length
+- [ ] usage of mark
+- [ ] average word length
 
