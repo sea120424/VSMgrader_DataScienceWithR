@@ -150,7 +150,7 @@ def main():
 
     fp = open('data/idf_rank/professional.csv', 'w')
     professional_score = sorted(professional_dict.items(), key=lambda item:item[1]['idf']) 
-    for key, ele in native_score:
+    for key, ele in professional_score:
         fp.write(key + ', ' + str(essay_num/ele['idf']) + '\n')
     fp.close()
 
