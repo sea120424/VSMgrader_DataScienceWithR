@@ -71,7 +71,7 @@ The expected output maybe this for the biginner writer.
 - average word length
 
 <h3 id="df"> words in document frequency </h3>
-This section shows the statics of the a word appears in differnet essays. We discuss the word usage in 4 groups. We make a hypothesis that the lower degree english user may repeatedly use the same words among different essays due to their lacking vocabulary. **R-wordcloud** is used to demostrate. 
+This section shows the statics of the a word appears in differnet essays. We discuss the word usage in 4 groups. We make a hypothesis that the lower degree english user may repeatedly use the same words among different essays due to their lacking vocabulary. R wordcloud is used to demostrate. 
 
 #### Implementation
 
@@ -102,22 +102,22 @@ Reference: https://ithelp.ithome.com.tw/articles/10192052
 - beginner: 
 It is not a suprising answer to see such figure. **I** is the most popular word in beginner english. They practice writing by diary-like essay. The freqence of relative words prove the phenomenon
 
-![](img/df_beginner.png) 
+![](img/df_beginner.png =100x100) 
  
 - medium:
 The result of medium level write is intriguing. By knowing advanced grammar they always remember to put **the** before nouns, and they start to descript objectively by using **is**.
 
-![](img/df_medium.png)
+![](img/df_medium.png =100x100)
 
 - professional:
 For professional writer, they use various words make the essay looks vivid. No specific word dominates although **in** seems has highly fequency owning to the wanting amount of essays we use.
 
-![](img/df_professional.png)
+![](img/df_professional.png =100x100)
 
 - native:
 Our dataset contains the native writer in every generation and every type of essay. As same as professional write, they use various words to present the topic in diverse essays.
 
-![](img/df_native.png)
+![](img/df_native.png =100x100)
  
 - [ ] the comparsion of prep.
 - [ ] Article richness
