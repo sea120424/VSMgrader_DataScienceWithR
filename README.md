@@ -36,8 +36,8 @@ python3 preprocessing.py
 ### Model
 Use vector space model to evaluate the relationship of the query and per section.
 
->　tf: the frequency of the word in an essay, which signifies the importance of the words in the essay.
->  idf: inverted document frequency. The larger the number is, the less impoertant does the word means.
+tf: the frequency of the word in an essay, which signifies the importance of the words in the essay.
+idf: inverted document frequency. The larger the number is, the less impoertant does the word means.
  
 ### Result
 The expected output maybe this for the biginner writer.
@@ -54,11 +54,54 @@ The expected output maybe this for the biginner writer.
 ```
 
 ### Statics Data
+- [ ] words in document frequency(#df)
+- [ ] the comparsion of prep.
+- [ ] Article richness
+- [ ] word cloud
+- [ ] naive model
+- [ ] vsm model
+- [ ] average sentence length
+- [ ] usage of mark
+- [ ] average word length
 
-- [v] words in document frequency
+<h3 id="df"> words in document frequency </h3>
 This section shows the statics of the a word appears in differnet essays. We discuss the word usage in 4 groups. We make a hypothesis that the lower degree english user may repeatedly use the same words among different essays due to their lacking vocabulary. **R wordcloud** is used to demostrate. 
-- beginner:
+
+#### Implementation
+
+R is used to represent the word cloud. We only choose the top 35 frequency words drawing in the plot.
+
+```r=
+beginner_dat = read.csv("D:/NTU/R/VSMgrader_DataScienceWithR/data/idf_rank/beginner.csv", header = F)
+head(beginner_dat)
+beginner_dat <- head(beginner_dat, 35)
+library(wordcloud)
+wordcloud(
+  words = beginner_dat$V1, 
+  freq =  beginner_dat$V2, 
+  scale = c(8,.10), 
+  random.order = FALSE,
+  ordered.colors = FALSE,
+  rot.per = FALSE,
+  #min.freq = 7,
+  colors = brewer.pal(8,"Dark2"),
+  family = "mono", 
+  font = 10
+)
+```
+Reference: https://ithelp.ithome.com.tw/articles/10192052
+
+#### Result
+
+- beginner: 
+It is not a suprising answer to see such figure. **I** is the most popular word in beginner english. They practice writing by diary-like essay. The freqence of relative words prove the phenomenon
+
 ![](img/df_beginner.png) 
+ 
+- medium:
+The result of medium level write is intriguing. By knowing advanced grammar they always remember to put **the** before nouns, and they start to descript objectively by using **is**.
+
+![](img/medium.png)
  
 - [ ] the comparsion of prep.
 - [ ] Article richness
