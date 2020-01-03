@@ -19,7 +19,8 @@ medium_dict = {}
 total_dict = {}
 b = 1e-9
 
-black_list = ['the', 'in', 'it', 'to', 'a', 'and', 'for', 'as', 'that', 'is', 'of', 'this', 'with', 'they', 'on', 'i', 'be', 'when', 'so', 'my', 'have', 'but', 'by', 'can', 'are', 'not', 'people', 'all', 'we', 'their', 'if', 'from', 'an', 'there', 'at', 'one', 'because', 'more', 'or', 'will', 'also', 'time', 'some', 'other', 'do', 'what', 'about', 'he', 'was', 'such']
+black_list = []
+#black_list = ['the', 'in', 'it', 'to', 'a', 'and', 'for', 'as', 'that', 'is', 'of', 'this', 'with', 'they', 'on', 'i', 'be', 'when', 'so', 'my', 'have', 'but', 'by', 'can', 'are', 'not', 'people', 'all', 'we', 'their', 'if', 'from', 'an', 'there', 'at', 'one', 'because', 'more', 'or', 'will', 'also', 'time', 'some', 'other', 'do', 'what', 'about', 'he', 'was', 'such']
 
 def welcome():
     print('|===================================|')
@@ -136,7 +137,7 @@ def main():
 
     fp = open('data/idf_rank/native.csv', 'w')
     native_score = sorted(native_dict.items(), key=lambda item:item[1]['idf']) 
-    for key, ele in native_score[:10]:
+    for key, ele in native_score:
         fp.write(key + ', ' + str(essay_num/ele['idf']) + '\n')
     fp.close()
    
@@ -149,7 +150,7 @@ def main():
 
     fp = open('data/idf_rank/professional.csv', 'w')
     professional_score = sorted(professional_dict.items(), key=lambda item:item[1]['idf']) 
-    for key, ele in native_score[:10]:
+    for key, ele in native_score:
         fp.write(key + ', ' + str(essay_num/ele['idf']) + '\n')
     fp.close()
 
@@ -161,6 +162,7 @@ def main():
     total_score = sorted(total_dict.items(), key=lambda item:item[1]['idf']) 
     for key, ele in total_score[:50]:
         print("'"+ key + "'" + ', ', end = '')
+
 if __name__ == '__main__':
     main()
 
