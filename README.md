@@ -54,7 +54,7 @@ The expected output maybe this for the biginner writer.
 ```
 
 ### Statics Data
-- [ ] words in document frequency(#df)
+- [ ] [words in document frequency](#df)
 - [ ] the comparsion of prep.
 - [ ] Article richness
 - [ ] word cloud
@@ -65,7 +65,7 @@ The expected output maybe this for the biginner writer.
 - [ ] average word length
 
 <h3 id="df"> words in document frequency </h3>
-This section shows the statics of the a word appears in differnet essays. We discuss the word usage in 4 groups. We make a hypothesis that the lower degree english user may repeatedly use the same words among different essays due to their lacking vocabulary. **R wordcloud** is used to demostrate. 
+This section shows the statics of the a word appears in differnet essays. We discuss the word usage in 4 groups. We make a hypothesis that the lower degree english user may repeatedly use the same words among different essays due to their lacking vocabulary. **R** **wordcloud** is used to demostrate. 
 
 #### Implementation
 
