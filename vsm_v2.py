@@ -47,11 +47,6 @@ def load_csv(path, dictionary, number, length):
     while line:
         element = line.split(',')
 
-
-        if element[0] in black_list:
-            line = fp.readline()
-            continue
-
         dictionary[element[0]] = {'tf': (float(element[1]) / length) + b, 'idf': math.log(number / (float(element[2]) + 1), 2) }
         if element[0] not in total_dict:
             total_dict[element[0]] = {'tf': float(element[1]), 'idf': float(element[2]) }

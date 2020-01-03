@@ -1,1334 +1,896 @@
 word, tf, idf
-i, 363, 83
-have, 58, 43
-a, 103, 64
-good, 22, 18
-friend, 8, 6
-and, 176, 86
-her, 39, 24
-name, 4, 4
-is, 134, 72
-lucy, 3, 2
-we, 23, 16
-known, 4, 4
-each, 7, 7
-other, 11, 11
-for, 48, 38
-more, 12, 8
-than, 4, 4
-five, 3, 3
-years, 10, 10
-when, 27, 25
-am, 27, 25
-in, 74, 50
-trouble, 6, 6
-she, 32, 16
-will, 45, 30
-be, 38, 29
-the, 274, 90
-first, 16, 13
-one, 10, 10
+most, 2, 2
+children, 13, 8
+don’t, 10, 10
+like, 31, 26
 to, 280, 92
-give, 7, 7
-me, 107, 59
-hand, 2, 2
-so, 112, 65
-thankful, 2, 2
-so, 14, 13
-when, 25, 23
-feels, 4, 4
-unhappy, 4, 3
-accompany, 1, 1
-true, 1, 1
-hope, 3, 3
-our, 20, 15
-friendship, 2, 2
-can, 55, 40
-last, 8, 8
-forever, 2, 2
-i have, 23, 20
-have a, 10, 9
-a good, 8, 8
-good friend, 3, 3
-friend and, 2, 2
-and her, 3, 3
-her name, 2, 2
-name is, 4, 4
-is lucy, 2, 2
-lucy we, 1, 1
-we have, 2, 2
-have known, 1, 1
-known each, 1, 1
-each other, 6, 6
-other for, 2, 2
-for more, 1, 1
-more than, 1, 1
-than five, 1, 1
-five years, 3, 3
-years when, 2, 2
-when i, 18, 17
-i am, 27, 25
-am in, 2, 2
-in trouble, 2, 2
-trouble she, 2, 2
-she will, 2, 2
-will be, 10, 9
-be the, 4, 4
-the first, 2, 2
-first one, 1, 1
-one to, 1, 1
-to give, 2, 2
-give me, 2, 2
-me a, 2, 2
-a hand, 1, 1
-hand i, 1, 1
-am so, 15, 14
-so thankful, 2, 2
-thankful to, 1, 1
-to her, 3, 3
-her so, 2, 2
-so when, 1, 1
-when she, 4, 4
-she feels, 1, 1
-feels unhappy, 1, 1
-unhappy i, 2, 2
-i will, 16, 14
-will accompany, 1, 1
-accompany her, 1, 1
-her lucy, 1, 1
-lucy is, 1, 1
-is a, 11, 11
-a true, 1, 1
-true friend, 1, 1
-friend i, 1, 1
-i hope, 2, 2
-hope our, 1, 1
-our friendship, 2, 2
-friendship can, 1, 1
-can last, 1, 1
-last forever, 1, 1
-one, 4, 4
-evening, 3, 3
-man, 6, 3
-went, 4, 3
-attend, 1, 1
-friend´s, 1, 1
-marry, 1, 1
-ceremony, 1, 1
-he, 29, 8
-drinks, 1, 1
-lot, 18, 16
-of, 54, 40
-wine, 1, 1
-gulp, 1, 1
-face, 6, 6
-host, 2, 1
-the, 30, 24
-very, 38, 27
-angry, 3, 2
-because, 27, 26
-not, 18, 13
-polite, 3, 3
-he, 8, 7
-didn´t, 1, 1
-know, 10, 8
-himself, 1, 1
-act, 1, 1
-funny, 4, 4
-wave, 1, 1
-his, 10, 7
-police, 5, 2
-car, 3, 3
-policeman, 3, 1
-took, 4, 3
-him, 10, 8
-office, 1, 1
-as, 17, 17
-result, 6, 6
-wake, 3, 3
-up, 19, 18
-look, 8, 8
-said, 3, 2
-were, 1, 1
-are, 39, 25
-you, 8, 3
-do, 1, 1
-then, 6, 5
-don´t, 3, 2
-why, 1, 1
-here, 1, 1
-one evening, 3, 3
-evening the, 1, 1
-the man, 3, 2
-man went, 2, 2
-went to, 3, 3
-to attend, 1, 1
-attend friend´s, 1, 1
-friend´s marry, 1, 1
-marry ceremony, 1, 1
-ceremony he, 1, 1
-he drinks, 1, 1
-drinks a, 1, 1
-a lot, 16, 14
-lot of, 16, 14
-of wine, 1, 1
-wine and, 1, 1
-and gulp, 1, 1
-gulp face, 1, 1
-face to, 1, 1
-to host, 1, 1
-host the, 1, 1
-the host, 1, 1
-host very, 1, 1
-very angry, 2, 1
-angry because, 2, 2
-because he, 3, 3
-he so, 1, 1
-so not, 1, 1
-not polite, 1, 1
-polite he, 1, 1
-he didn´t, 1, 1
-didn´t know, 1, 1
-know himself, 1, 1
-himself act, 1, 1
-act so, 1, 1
-so funny, 1, 1
-funny and, 1, 1
-and wave, 1, 1
-wave his, 1, 1
-his hand, 1, 1
-hand for, 1, 1
-for police, 1, 1
-police car, 2, 2
-car the, 1, 1
-the policeman, 1, 1
-policeman took, 1, 1
-took him, 1, 1
-him to, 2, 2
-to police, 1, 1
-police office, 1, 1
-office as, 1, 1
-as a, 9, 9
-a result, 4, 4
-result the, 1, 1
-man wake, 1, 1
-wake up, 3, 3
-up look, 1, 1
-look the, 2, 2
-the policeman, 2, 1
-policeman the, 1, 1
-policeman very, 1, 1
-angry said, 1, 1
-said were, 1, 1
-were are, 1, 1
-are you, 1, 1
-you do, 1, 1
-do you, 1, 1
-you know, 1, 1
-know then, 1, 1
-then man, 1, 1
-man said, 1, 1
-said i, 1, 1
-i don´t, 1, 1
-don´t know, 2, 2
-know why, 1, 1
-why i, 1, 1
-am here, 1, 1
-small, 12, 12
-child, 5, 5
-get, 13, 13
-used, 3, 3
-think, 12, 11
-there, 18, 15
-only, 3, 3
-yellow, 1, 1
-skin, 4, 1
-people, 22, 16
-world, 7, 6
-but, 18, 17
-realize, 13, 13
-also, 9, 9
-white, 1, 1
-black, 2, 1
-another, 2, 2
-side, 4, 4
-later, 3, 3
-once, 2, 2
-saw, 6, 6
-person, 9, 6
-at, 4, 4
-felt, 6, 6
-scared, 2, 2
-was, 23, 16
-nice, 4, 4
-helped, 2, 2
-solve, 4, 3
-my, 121, 60
-problem, 6, 5
-we, 44, 26
-can't, 2, 2
-deny, 1, 1
-by, 13, 12
-color, 2, 2
-a small, 5, 5
-small child, 1, 1
-child i, 3, 3
-i get, 6, 6
-get used, 3, 3
-used to, 3, 3
-to think, 1, 1
-think there, 1, 1
-there is, 4, 4
-is only, 1, 1
-only yellow, 1, 1
-yellow skin, 1, 1
-skin people, 2, 1
-people in, 2, 1
-in the, 34, 27
-the world, 7, 6
-world but, 1, 1
-but i, 7, 7
-i realize, 8, 8
-realize there, 1, 1
-there are, 3, 3
-are also, 1, 1
-also white, 1, 1
-white skin, 1, 1
-skin and, 1, 1
-and black, 1, 1
-black skin, 1, 1
-in another, 1, 1
-another side, 1, 1
-side of, 1, 1
-of the, 10, 8
-world later, 1, 1
-later once, 1, 1
-once i, 2, 2
-i saw, 3, 3
-saw a, 2, 2
-a black, 1, 1
-black person, 1, 1
-person at, 1, 1
-at first, 2, 2
-first i, 1, 1
-i felt, 5, 5
-felt scared, 1, 1
-scared but, 1, 1
-but he, 2, 2
-he was, 3, 2
-was very, 6, 6
-very nice, 2, 2
-nice and, 1, 1
-and helped, 1, 1
-helped me, 1, 1
-me solve, 1, 1
-solve my, 1, 1
-my problem, 3, 3
-problem then, 1, 1
-then i, 2, 2
-i know, 3, 3
-know we, 1, 1
-we can't, 1, 1
-can't deny, 1, 1
-deny a, 1, 1
-a person, 2, 2
-person by, 1, 1
-by his, 1, 1
-his skin, 1, 1
-skin color, 1, 1
-two, 5, 5
-ago, 6, 6
-read, 11, 9
-fairy, 1, 1
-tale, 1, 1
-cinderella, 3, 1
-everybody, 6, 6
-knows, 3, 3
-treated, 3, 3
-badly, 1, 1
-stepmother, 1, 1
-finally, 3, 3
-rescued, 1, 1
-prince, 1, 1
-it, 26, 25
-seems, 1, 1
-such, 9, 9
-wonderful, 1, 1
-story, 2, 2
-girls, 2, 2
-now, 3, 3
-that, 56, 43
-negative, 2, 2
-life, 23, 17
-just, 10, 10
-waits, 1, 1
-someone’s, 1, 1
-help, 15, 14
-she, 18, 15
-should, 7, 6
-fight, 1, 1
-herself, 2, 2
-can’t, 11, 10
-expect, 1, 1
-people’s, 1, 1
-rescue, 1, 1
-two years, 3, 3
-years ago, 4, 4
-ago i, 3, 3
-i read, 5, 5
-read the, 4, 4
-the fairy, 1, 1
-fairy tale, 1, 1
-tale of, 1, 1
-of cinderella, 1, 1
-cinderella everybody, 1, 1
-everybody knows, 1, 1
-knows cinderella, 1, 1
-cinderella is, 2, 1
-is treated, 1, 1
-treated badly, 1, 1
-badly by, 1, 1
-by her, 1, 1
-her stepmother, 1, 1
-stepmother and, 1, 1
-and she, 6, 6
-she is, 5, 5
-is finally, 1, 1
-finally rescued, 1, 1
-rescued by, 1, 1
-by a, 1, 1
-a prince, 1, 1
-prince it, 1, 1
-it seems, 1, 1
-seems such, 1, 1
-such a, 2, 2
-a wonderful, 1, 1
-wonderful story, 1, 1
-story for, 1, 1
-for girls, 1, 1
-girls but, 1, 1
-but now, 1, 1
-now i, 1, 1
-realize that, 3, 3
-that cinderella, 1, 1
-is negative, 1, 1
-negative to, 1, 1
-to life, 1, 1
-life because, 1, 1
-because she, 5, 5
-she just, 1, 1
-just waits, 1, 1
-waits for, 1, 1
-for someone’s, 1, 1
-someone’s help, 1, 1
-help she, 1, 1
-she should, 1, 1
-should fight, 1, 1
-fight for, 1, 1
-for herself, 1, 1
-herself we, 1, 1
-we can’t, 2, 2
-can’t only, 1, 1
-only expect, 1, 1
-expect other, 1, 1
-other people’s, 1, 1
-people’s rescue, 1, 1
-people, 1, 1
-always, 28, 27
-say, 8, 7
-way, 8, 7
-treats, 1, 1
-waiter, 1, 1
-decides, 2, 2
-what, 21, 17
-kind, 4, 4
-agree, 2, 2
-with, 33, 29
-it, 36, 28
-my, 23, 21
-parents, 25, 20
-persons, 4, 4
-since, 9, 8
-they, 47, 35
-educated, 2, 2
-manner, 2, 1
-like, 1, 1
-shouldn’t, 1, 1
-talk, 8, 8
-while, 4, 4
-eating, 2, 2
-talking, 3, 2
-loudly, 2, 2
-public, 2, 2
-occasion, 1, 1
-banned, 1, 1
-helps, 6, 6
-better, 8, 7
-people always, 1, 1
-always say, 2, 2
-say that, 2, 2
-that the, 4, 4
-the way, 4, 3
-way a, 1, 1
-person treats, 1, 1
-treats the, 1, 1
-the waiter, 1, 1
-waiter decides, 1, 1
-decides what, 2, 2
-what kind, 4, 4
-kind of, 4, 4
-of person, 2, 2
-person he, 1, 1
-he is, 4, 3
-is i, 2, 2
-i agree, 2, 2
-agree with, 2, 2
-with it, 2, 2
-it my, 1, 1
-my parents, 6, 6
-parents are, 3, 2
-are polite, 1, 1
-polite persons, 1, 1
-persons since, 1, 1
-since i, 4, 4
-i was, 10, 9
-very small, 6, 6
-small they, 1, 1
-they have, 2, 2
-have educated, 1, 1
-educated me, 1, 1
-me the, 7, 7
-the manner, 1, 1
-manner like, 1, 1
-like i, 1, 1
-i shouldn’t, 1, 1
-shouldn’t talk, 1, 1
-talk while, 1, 1
-while eating, 1, 1
-eating and, 1, 1
-and talking, 1, 1
-talking loudly, 1, 1
-loudly in, 1, 1
-in public, 1, 1
-public occasion, 1, 1
-occasion is, 1, 1
-is banned, 1, 1
-banned the, 1, 1
-the good, 1, 1
-good manner, 1, 1
-manner helps, 1, 1
-helps me, 4, 4
-me to, 20, 17
-to be, 18, 15
-be a, 6, 6
-a better, 2, 2
-better person, 2, 2
-day, 8, 8
 go, 34, 25
 school, 12, 11
-remember, 6, 6
-feel, 35, 27
+and, 176, 86
+they, 47, 35
+just, 10, 10
+want, 34, 23
+enjoy, 9, 8
+freedom, 2, 1
+hang, 1, 1
+out, 12, 11
+for, 48, 38
+fun, 3, 3
+all, 17, 15
+the, 274, 90
 time, 30, 27
-leave, 2, 2
-teacher, 5, 4
-comes, 4, 4
-smiles, 2, 2
-at, 13, 11
-comfortable, 2, 2
-introduces, 1, 1
-many, 17, 13
-classmates, 3, 3
-play, 19, 18
-games, 5, 5
-become, 6, 6
-happy, 18, 18
-soon, 8, 8
-teacher's, 1, 1
-caring, 1, 1
-love, 19, 14
-the day, 1, 1
-day i, 3, 3
-i go, 12, 11
+but, 11, 10
+when, 25, 23
+i, 363, 83
+see, 15, 14
+some, 20, 17
+kids, 4, 3
+studying, 3, 3
+so, 112, 65
+hard, 11, 11
+their, 20, 18
+special, 5, 4
+skills, 3, 2
+help, 15, 14
+them, 27, 21
+win, 2, 1
+applause, 1, 1
+realize, 13, 13
+that, 56, 43
+need, 12, 11
+learn, 27, 19
+as, 10, 10
+more, 12, 8
+in, 74, 50
+future, 9, 7
+most children, 1, 1
+children don’t, 1, 1
+don’t like, 2, 2
+like to, 10, 10
+to go, 6, 6
 go to, 17, 14
 to school, 3, 3
-school i, 5, 5
-i remember, 2, 2
-remember that, 2, 2
-that i, 15, 15
-i feel, 24, 20
-feel so, 20, 17
-so scared, 1, 1
-scared because, 1, 1
-because it, 3, 3
-it is, 13, 11
-is the, 12, 12
-first time, 3, 3
-time for, 1, 1
-for me, 18, 16
-to leave, 1, 1
-leave my, 1, 1
-my parents, 11, 9
-parents then, 1, 1
-then my, 1, 1
-my teacher, 1, 1
-teacher comes, 1, 1
-comes to, 1, 1
-to me, 11, 10
-me and, 11, 11
-and smiles, 1, 1
-smiles at, 2, 2
-at me, 1, 1
-me i, 10, 10
-so comfortable, 1, 1
-comfortable she, 1, 1
-she introduces, 1, 1
-introduces many, 1, 1
-many classmates, 1, 1
-classmates to, 1, 1
-me then, 1, 1
-then we, 2, 2
-we play, 1, 1
-play many, 1, 1
-many funny, 1, 1
-funny games, 1, 1
-games i, 1, 1
-i become, 2, 2
-become happy, 1, 1
-happy soon, 1, 1
-soon and, 3, 3
-and feel, 2, 2
-feel my, 1, 1
-my teacher's, 1, 1
-teacher's caring, 1, 1
-caring and, 1, 1
-and love, 2, 2
-there, 4, 3
-fair, 4, 1
-hometown, 4, 4
-every, 7, 7
-year, 4, 3
-show, 3, 3
-their, 20, 18
-farm, 1, 1
-work, 8, 5
-local, 1, 1
-every, 9, 9
-catches, 2, 2
-visit, 3, 3
-this, 11, 11
-place, 4, 4
-much, 18, 17
-enjoy, 9, 8
-lively, 1, 1
-atmosphere, 1, 1
-food, 32, 12
-music, 2, 2
-same, 3, 3
-looking, 4, 4
-forward, 6, 6
-new, 5, 5
-there is, 3, 3
-a fair, 1, 1
-fair in, 1, 1
-in my, 5, 5
-my hometown, 4, 4
-hometown every, 1, 1
-every year, 1, 1
-year it, 1, 1
-it is, 18, 18
-is to, 7, 7
-to show, 3, 3
-show their, 1, 1
-their farm, 1, 1
-farm work, 1, 1
-work for, 2, 2
-for the, 7, 7
-the local, 1, 1
-local people, 1, 1
-people every, 1, 1
-every year, 1, 1
-year the, 1, 1
-the fair, 2, 1
-fair catches, 1, 1
-catches many, 1, 1
-many people, 3, 2
-people to, 1, 1
-to visit, 2, 2
-visit this, 1, 1
-this place, 1, 1
-place i, 2, 2
-i love, 4, 4
-love the, 1, 1
-fair so, 1, 1
-so much, 8, 8
-much there, 1, 1
-there are, 1, 1
-are so, 10, 10
-so many, 4, 4
-people and, 3, 3
-and i, 20, 20
-i enjoy, 2, 2
-enjoy the, 5, 4
-the lively, 1, 1
-lively atmosphere, 1, 1
-atmosphere i, 1, 1
-i can, 23, 19
-can also, 1, 1
-also enjoy, 1, 1
-the food, 8, 7
-food and, 2, 2
-and music, 1, 1
-music at, 1, 1
-at the, 1, 1
-the same, 3, 3
-same time, 1, 1
-time i, 9, 9
-so looking, 4, 4
-looking forward, 4, 4
-forward to, 6, 6
-to the, 15, 13
-the new, 4, 4
-new fair, 1, 1
-nowadays, 1, 1
-like, 31, 26
-keep, 11, 10
-pets, 2, 1
-company, 2, 2
-them, 27, 21
-these, 4, 4
-lovely, 7, 5
-well, 13, 10
-they, 9, 8
-family, 10, 9
-members, 1, 1
-but, 11, 10
-sometimes, 4, 4
-owner, 1, 1
-don’t, 10, 10
-want, 34, 23
-raise, 3, 3
-anymore, 2, 2
-animals, 6, 4
-abandoned, 1, 1
-owner’s, 1, 1
-duty, 1, 1
-deal, 6, 5
-if, 8, 8
-take, 5, 5
-care, 2, 2
-someone, 4, 4
-else, 1, 1
-nowadays people, 1, 1
-people like, 1, 1
-like to, 10, 10
-to keep, 6, 6
-keep pets, 1, 1
-pets to, 1, 1
-to company, 1, 1
-company them, 1, 1
-them these, 1, 1
-these lovely, 1, 1
-lovely pets, 1, 1
-pets are, 1, 1
-are always, 2, 2
-always treated, 2, 2
-treated well, 1, 1
-well they, 1, 1
-they are, 4, 4
-are one, 1, 1
-one of, 3, 3
-the family, 1, 1
-family members, 1, 1
-members but, 1, 1
-but sometimes, 1, 1
-sometimes the, 1, 1
-the owner, 1, 1
-owner don’t, 1, 1
-don’t want, 1, 1
+school and, 3, 3
+and they, 2, 2
+they just, 2, 2
+just want, 1, 1
 want to, 24, 19
-to raise, 3, 3
-raise them, 1, 1
-them anymore, 1, 1
-anymore the, 1, 1
-the animals, 3, 2
-animals are, 1, 1
-are abandoned, 1, 1
-abandoned it, 1, 1
-the owner’s, 1, 1
-owner’s duty, 1, 1
-duty to, 1, 1
-to deal, 3, 2
-deal with, 3, 2
-with the, 4, 3
-animals well, 1, 1
-well if, 1, 1
-if they, 2, 2
-they can’t, 1, 1
-can’t take, 1, 1
-take care, 1, 1
-care this, 1, 1
-this lovely, 1, 1
-lovely animals, 1, 1
-animals they, 1, 1
-they can, 2, 2
-can give, 1, 1
-give to, 1, 1
-to someone, 1, 1
-someone else, 1, 1
-david, 2, 1
-beckham, 1, 1
-families, 4, 3
-famous, 6, 6
-around, 5, 5
-no, 6, 6
-matter, 6, 6
-where, 5, 5
-catch, 3, 3
-media's, 1, 1
-attention, 5, 5
-four, 1, 1
-children, 13, 8
-favored, 1, 1
-too, 4, 4
-makes, 9, 9
-rules, 1, 1
-wife, 1, 1
-tell, 13, 13
-behave, 1, 1
-loves, 3, 3
-david beckham, 1, 1
-beckham and, 1, 1
-and his, 2, 1
-his families, 1, 1
-families are, 1, 1
-so famous, 1, 1
-famous around, 1, 1
-around the, 5, 5
-world no, 1, 1
-no matter, 3, 3
-matter where, 4, 4
-where they, 1, 1
-they go, 1, 1
-go they, 1, 1
-they will, 2, 2
-will catch, 1, 1
-catch the, 1, 1
-the media's, 1, 1
-media's attention, 1, 1
-attention the, 1, 1
-the four, 1, 1
-four lovely, 1, 1
-lovely children, 1, 1
-children are, 1, 1
-are favored, 1, 1
-favored by, 1, 1
-by people, 1, 1
-people too, 1, 1
-too it, 1, 1
-is said, 1, 1
-said that, 1, 1
-that david, 1, 1
-david makes, 1, 1
-makes family, 1, 1
-family rules, 1, 1
-rules he, 1, 1
-he and, 1, 1
-his wife, 1, 1
-wife tell, 1, 1
-tell their, 1, 1
-their children, 4, 3
-children to, 4, 3
-be polite, 1, 1
-polite and, 1, 1
-love each, 1, 1
-other the, 2, 2
-the children, 1, 1
-children remember, 1, 1
-that and, 1, 1
-and behave, 1, 1
-behave so, 1, 1
-so well, 1, 1
-well everybody, 1, 1
-everybody loves, 2, 2
-loves them, 1, 1
-news, 6, 6
-inspired, 4, 4
-great, 11, 9
-as, 10, 10
-bill, 2, 2
-gates, 2, 2
-steve, 2, 2
-jobs, 2, 2
-their, 2, 2
-stories, 6, 4
-guide, 3, 3
-young, 6, 5
-how, 5, 5
-successful, 3, 3
-us, 9, 6
-do, 27, 23
-most, 5, 5
-important, 9, 9
-thing, 8, 8
-moving, 2, 2
-on, 13, 10
-difficulty, 3, 3
-meet, 8, 8
-the news, 5, 5
-news i, 3, 3
-am always, 2, 2
-always inspired, 2, 2
-inspired by, 2, 2
-by the, 2, 2
-the famous, 2, 2
-famous great, 2, 2
-great persons, 2, 2
-persons such, 2, 2
-such as, 5, 5
-as bill, 2, 2
-bill gates, 2, 2
-gates and, 2, 2
-and steve, 2, 2
-steve jobs, 2, 2
-jobs their, 2, 2
-their stories, 2, 2
-stories of, 2, 2
-of life, 2, 2
-life guide, 2, 2
-guide the, 2, 2
-the young, 2, 2
-young people, 2, 2
-people how, 2, 2
-how to, 4, 4
-to get, 5, 5
-get successful, 2, 2
-successful they, 2, 2
-they tell, 2, 2
-tell us, 2, 2
-us to, 7, 6
-to do, 16, 15
-do what, 3, 3
-what we, 2, 2
-we like, 3, 3
-like and, 5, 5
-and the, 8, 8
-the most, 4, 4
-most important, 2, 2
-important thing, 2, 2
-thing is, 2, 2
-keep moving, 2, 2
-moving on, 2, 2
-on no, 2, 2
-matter what, 2, 2
-of difficulty, 2, 2
-difficulty we, 2, 2
-we meet, 2, 2
-recently, 5, 5
-tired, 2, 2
-class, 5, 5
-playing, 3, 2
-computer, 6, 5
-game, 2, 1
-night, 4, 4
-sleep, 5, 4
-late, 6, 4
-focus, 3, 3
-mind, 4, 4
-study, 8, 7
-really, 1, 1
-bad, 5, 5
-decide, 3, 3
-stop, 3, 2
-sleeping, 1, 1
-enough, 7, 7
-now, 6, 6
-recently i, 3, 3
-feel tired, 1, 1
-tired in, 1, 1
-the class, 2, 2
-class because, 1, 1
-because i, 4, 4
-i can’t, 6, 5
-can’t help, 1, 1
-help playing, 1, 1
-playing a, 1, 1
-a new, 1, 1
-new computer, 1, 1
-computer game, 2, 1
-game at, 1, 1
-at night, 1, 1
-night i, 1, 1
-i sleep, 2, 2
-sleep very, 2, 2
-very late, 4, 4
-late as, 1, 1
-result i, 3, 3
-can’t focus, 1, 1
-focus my, 1, 1
-my mind, 3, 3
-mind on, 1, 1
-on study, 1, 1
-study i, 1, 1
-feel really, 1, 1
-really bad, 1, 1
-bad and, 1, 1
-and decide, 1, 1
-decide to, 3, 3
-to stop, 1, 1
-stop sleeping, 1, 1
-sleeping so, 1, 1
-so late, 1, 1
-late i, 2, 2
-i stop, 1, 1
-stop playing, 1, 1
-playing the, 1, 1
-the computer, 1, 1
-game and, 1, 1
-and have, 2, 2
-have enough, 2, 2
-enough sleep, 1, 1
-sleep now, 1, 1
-now i, 5, 5
-so good, 1, 1
-novel, 1, 1
-books, 4, 3
-since, 2, 2
-three, 2, 2
-find, 12, 11
-guys, 2, 1
-ending, 1, 1
-need, 12, 11
-pay, 2, 2
-bills, 1, 1
-learn, 27, 19
-everybody, 2, 2
-good, 1, 1
-educate, 2, 2
-i like, 17, 14
-to read, 2, 2
-read novel, 1, 1
-novel so, 1, 1
-much i, 3, 3
-have read, 1, 1
-read a, 3, 3
-of books, 1, 1
-books since, 1, 1
-since three, 1, 1
-three years, 1, 1
-i find, 7, 6
-find that, 4, 4
-the good, 4, 4
-good guys, 1, 1
-guys always, 1, 1
-always have, 1, 1
-have the, 6, 5
-the happy, 2, 2
-happy ending, 1, 1
-ending and, 1, 1
-the bad, 2, 2
-bad guys, 1, 1
-guys need, 1, 1
+to enjoy, 1, 1
+enjoy freedom, 1, 1
+freedom and, 1, 1
+and hang, 1, 1
+hang out, 1, 1
+out for, 3, 3
+for fun, 3, 3
+fun all, 1, 1
+all the, 8, 7
+the time, 7, 7
+time but, 1, 1
+but when, 1, 1
+when i, 11, 9
+i see, 8, 8
+see some, 1, 1
+some kids, 1, 1
+kids studying, 1, 1
+studying so, 1, 1
+so hard, 6, 6
+hard and, 3, 3
+and their, 1, 1
+their special, 1, 1
+special skills, 1, 1
+skills help, 1, 1
+help them, 1, 1
+them to, 4, 4
+to win, 2, 1
+win applause, 1, 1
+applause i, 1, 1
+i realize, 8, 8
+realize that, 3, 3
+that i, 15, 15
+i need, 6, 5
 need to, 10, 10
-to pay, 1, 1
-pay for, 1, 1
-the bills, 1, 1
-bills so, 1, 1
-so i, 10, 10
-i learn, 4, 4
-learn that, 1, 1
-i should, 3, 3
-should be, 1, 1
-good person, 1, 1
-person so, 1, 1
-so that, 6, 6
-that everybody, 1, 1
-everybody will, 1, 1
-will love, 1, 1
-love me, 1, 1
-and help, 2, 2
-help me, 3, 3
-me good, 1, 1
-good books, 1, 1
-books can, 1, 1
-can educate, 1, 1
-educate children, 1, 1
-all, 17, 15
-broaden, 1, 1
-vision, 1, 1
-book, 4, 3
-touches, 1, 1
-heart, 8, 8
-tells, 5, 5
-readers, 1, 1
-own, 1, 1
-advantages, 1, 1
-accept, 2, 2
-disadvantages, 1, 1
-try, 6, 6
-hard, 11, 11
-myself, 12, 11
-grow, 5, 5
-gradually, 1, 1
+to learn, 15, 10
+learn some, 1, 1
+some skills, 1, 1
+skills so, 1, 1
+so as, 2, 2
+as to, 2, 2
+win more, 1, 1
+more freedom, 1, 1
+freedom in, 1, 1
+in the, 34, 27
+the future, 4, 4
+one, 4, 4
+evening, 3, 3
+a, 103, 64
+man, 6, 3
+went, 4, 3
+party, 2, 1
+he, 8, 7
+drinked, 1, 1
+much, 18, 17
+ch3cooh, 1, 1
+he, 29, 8
+felt, 6, 6
+asleep, 1, 1
+when, 27, 25
+was, 23, 16
+end, 3, 3
+home, 14, 11
+took, 4, 3
+taxi, 2, 2
+sleep, 5, 4
+on, 13, 10
+car, 3, 3
+what, 6, 6
+can, 55, 40
+driver, 1, 1
+do, 27, 23
+opened, 1, 1
+his, 10, 7
+eyes, 3, 3
+saw, 6, 6
+aand, 1, 1
+family, 10, 9
+one evening, 3, 3
+evening a, 1, 1
+a man, 1, 1
+man went, 2, 2
+went to, 3, 3
+to a, 5, 5
+a party, 1, 1
+party he, 1, 1
+he drinked, 1, 1
+drinked much, 1, 1
+much ch3cooh, 1, 1
+ch3cooh and, 1, 1
+and that, 1, 1
+that he, 3, 3
+he felt, 1, 1
+felt asleep, 1, 1
+asleep when, 1, 1
+when the, 4, 3
+the party, 1, 1
+party was, 1, 1
+was end, 1, 1
+end he, 2, 2
+he want, 1, 1
+to went, 1, 1
+went home, 1, 1
+home he, 1, 1
+he took, 1, 1
+took taxi, 1, 1
+taxi and, 1, 1
+and sleep, 1, 1
+sleep on, 1, 1
+on the, 5, 4
+the car, 1, 1
+car what, 1, 1
+what can, 1, 1
+can the, 1, 1
+the driver, 1, 1
+driver do, 1, 1
+do when, 1, 1
+the man, 3, 2
+man opened, 1, 1
+opened his, 1, 1
+his eyes, 1, 1
+eyes he, 1, 1
+he saw, 1, 1
+saw aand, 1, 1
+aand his, 1, 1
+his family, 1, 1
+it, 26, 25
+is, 134, 72
+known, 4, 4
+english, 10, 6
+international, 2, 2
+language, 4, 4
+it, 36, 28
+since, 2, 2
+were, 2, 2
+very, 38, 27
+small, 12, 12
+as, 17, 17
+many, 17, 13
+chinese, 10, 7
+have, 58, 43
+chance, 1, 1
+talk, 8, 8
+foreigners, 4, 4
+speak, 4, 3
+way, 8, 7
+with, 33, 29
+features, 1, 1
+though, 10, 10
+embarrassed, 1, 1
+better, 8, 7
+than, 4, 4
+never, 7, 7
+loudly, 2, 2
+we, 23, 16
+lot, 18, 16
+from, 9, 8
+making, 3, 3
+mistakes, 1, 1
+chinglish, 1, 1
+may, 1, 1
+be, 38, 29
+someday, 2, 2
+formal, 1, 1
+it is, 18, 18
 is known, 3, 3
 known to, 3, 3
 to all, 3, 3
 all that, 3, 3
-that we, 1, 1
-we should, 2, 2
-should read, 1, 1
-read more, 2, 2
-more books, 2, 2
-books it, 1, 1
-it can, 1, 1
-can broaden, 1, 1
-broaden our, 1, 1
-our vision, 1, 1
-vision and, 1, 1
-help us, 3, 2
-person once, 1, 1
-a book, 2, 2
-book it, 1, 1
-it touches, 1, 1
-touches my, 1, 1
-my heart, 3, 3
-heart the, 1, 1
-the book, 1, 1
-book tells, 1, 1
-tells the, 1, 1
-the readers, 1, 1
-readers how, 1, 1
-to find, 3, 3
-find our, 1, 1
-our own, 1, 1
-own advantages, 1, 1
-advantages and, 1, 1
-and accept, 1, 1
-accept our, 1, 1
-our disadvantages, 1, 1
-disadvantages i, 1, 1
-i try, 2, 2
-try not, 1, 1
-not hard, 1, 1
-hard to, 6, 6
-be myself, 1, 1
-myself and, 2, 2
-and learn, 1, 1
-learn to, 3, 3
-to grow, 2, 2
-grow up, 5, 5
-up gradually, 1, 1
-complain, 1, 1
-about, 22, 18
-mother, 31, 19
-strict, 1, 1
-whatever, 1, 1
-some, 20, 17
-home, 14, 11
-criticizes, 1, 1
-then, 18, 17
-asks, 6, 5
-whether, 2, 2
-hurt, 1, 1
-explain, 1, 1
-friends, 25, 22
-does, 3, 2
-everything, 5, 5
-i always, 4, 4
-always complain, 1, 1
-complain about, 1, 1
-about my, 3, 3
-my mother, 18, 12
-mother because, 1, 1
-is very, 10, 10
-very strict, 1, 1
-strict to, 1, 1
-can’t do, 1, 1
-do whatever, 1, 1
-whatever i, 1, 1
-i want, 19, 15
-want but, 1, 1
-but some, 1, 1
-some day, 1, 1
-day when, 1, 1
-when i, 11, 9
-go home, 7, 5
-home very, 2, 2
-late she, 1, 1
-she criticizes, 1, 1
-criticizes me, 1, 1
-me at, 1, 1
-at first, 2, 2
-first and, 5, 5
-and then, 8, 8
-then asks, 1, 1
-asks me, 4, 4
-me whether, 1, 1
-whether i, 1, 1
-get hurt, 1, 1
-hurt i, 1, 1
-i explain, 1, 1
-explain to, 1, 1
-her that, 1, 1
-i just, 3, 3
-just play, 2, 2
-play with, 4, 4
-with my, 11, 11
-my friends, 10, 9
-friends my, 1, 1
-my mother, 10, 9
-mother loves, 1, 1
-loves me, 1, 1
-me so, 2, 2
-much and, 2, 2
-she does, 1, 1
-does everything, 1, 1
-everything for, 1, 1
-eat, 9, 7
+that english, 1, 1
+english is, 1, 1
+is the, 12, 12
+the international, 2, 2
+international language, 2, 2
+language that, 1, 1
+that kids, 1, 1
+kids need, 1, 1
+learn it, 1, 1
+it since, 1, 1
+since they, 1, 1
+they were, 1, 1
+were very, 1, 1
+very small, 6, 6
+small as, 1, 1
+as many, 1, 1
+many chinese, 1, 1
+chinese kids, 1, 1
+kids don’t, 1, 1
+don’t have, 2, 2
+have the, 6, 5
+the chance, 1, 1
+chance to, 1, 1
+to talk, 1, 1
+talk to, 4, 4
+to foreigners, 1, 1
+foreigners so, 1, 1
+so they, 4, 4
+they speak, 1, 1
+speak the, 1, 1
+the way, 4, 3
+way with, 1, 1
+with chinese, 1, 1
+chinese features, 1, 1
+features though, 1, 1
+though it, 2, 2
+it is, 13, 11
+is embarrassed, 1, 1
+embarrassed it, 1, 1
+is better, 1, 1
+better than, 1, 1
+than never, 1, 1
+never speak, 1, 1
+speak out, 1, 1
+out loudly, 1, 1
+loudly we, 1, 1
+we can, 5, 4
+can learn, 2, 2
+learn a, 4, 4
+a lot, 16, 14
+lot from, 1, 1
+from making, 1, 1
+making mistakes, 1, 1
+mistakes chinglish, 1, 1
+chinglish may, 1, 1
+may be, 1, 1
+be someday, 1, 1
+someday the, 1, 1
+the formal, 1, 1
+formal english, 1, 1
+every, 9, 9
+student, 5, 4
+needs, 3, 3
+face, 6, 6
 kinds, 3, 3
-meat, 2, 2
-vegetables, 3, 2
-tries, 2, 2
-let, 8, 8
-educates, 1, 1
-balanced, 2, 1
-diet, 3, 2
-stay, 2, 2
-healthy, 1, 1
-start, 4, 3
-importance, 2, 2
-vegetable, 2, 1
-later, 1, 1
-fall, 4, 4
-necessary, 3, 3
-a child, 3, 3
-to eat, 2, 2
-eat all, 1, 1
+of, 54, 40
+exams, 1, 1
+score, 3, 1
+comes, 4, 4
+sitting, 1, 1
+court, 1, 1
+waiting, 2, 2
+judge, 1, 1
+announce, 1, 1
+result, 6, 6
+actually, 3, 3
+my, 121, 60
+mother, 31, 19
+cares, 1, 1
+about, 22, 18
+she, 32, 16
+tells, 5, 5
+me, 107, 59
+improve, 3, 3
+ability, 2, 1
+sometimes, 4, 4
+getting, 1, 1
+high, 3, 3
+doesn’t, 1, 1
+mean, 1, 1
+agree, 2, 2
+her, 39, 24
+every student, 1, 1
+student needs, 1, 1
+needs to, 2, 2
+to face, 1, 1
+face all, 1, 1
 all kinds, 3, 3
 kinds of, 3, 3
-of meat, 1, 1
-meat but, 1, 1
-i don’t, 3, 3
-don’t like, 2, 2
-like vegetables, 1, 1
-vegetables my, 1, 1
-mother always, 1, 1
-always tries, 1, 1
-tries to, 2, 2
-to let, 4, 4
-let me, 6, 6
-me eat, 2, 2
-eat some, 1, 1
-some vegetables, 1, 1
-vegetables she, 1, 1
-she educates, 1, 1
-educates me, 1, 1
+of exams, 1, 1
+exams when, 1, 1
+when score, 1, 1
+score comes, 1, 1
+comes out, 1, 1
+out they, 1, 1
+just like, 2, 2
+like sitting, 1, 1
+sitting in, 1, 1
+the court, 1, 1
+court waiting, 1, 1
+waiting for, 1, 1
+for the, 7, 7
+the judge, 1, 1
+judge to, 1, 1
+to announce, 1, 1
+announce the, 1, 1
+the result, 1, 1
+result actually, 1, 1
+actually my, 1, 1
+my mother, 18, 12
+mother never, 1, 1
+never cares, 1, 1
+cares about, 1, 1
+about my, 3, 3
+my score, 1, 1
+score she, 1, 1
+she tells, 1, 1
+tells me, 4, 4
 me that, 6, 6
-that balanced, 1, 1
-balanced diet, 2, 1
-diet can, 1, 1
-can help, 4, 3
-me stay, 1, 1
-stay healthy, 1, 1
-healthy i, 1, 1
-i start, 4, 3
-start to, 3, 3
-to realize, 3, 3
-realize the, 2, 2
-the importance, 2, 2
-importance of, 2, 2
-of balanced, 1, 1
-diet so, 1, 1
-so i, 11, 9
-try to, 5, 5
+that all, 1, 1
+all i, 1, 1
+to do, 16, 15
+do is, 3, 3
+is to, 7, 7
+to improve, 1, 1
+improve my, 3, 3
+my ability, 1, 1
+ability and, 1, 1
+and sometimes, 2, 2
+sometimes getting, 1, 1
+getting the, 1, 1
+the high, 1, 1
+high score, 1, 1
+score doesn’t, 1, 1
+doesn’t mean, 1, 1
+mean the, 1, 1
+the ability, 1, 1
+ability i, 1, 1
+i agree, 2, 2
+agree with, 2, 2
+with her, 6, 6
+last, 4, 4
+week, 3, 3
+did, 3, 3
+not, 18, 13
+well, 13, 10
+exam, 4, 4
+lost, 3, 3
+talked, 2, 2
+friends, 25, 22
+then, 18, 17
+inspired, 4, 4
+keep, 11, 10
+move, 4, 4
+one, 10, 10
+failure, 2, 2
+big, 7, 7
+deal, 6, 5
+feel, 35, 27
+problem, 6, 5
+tell, 13, 13
+myself, 12, 11
+lose, 4, 3
+heart, 8, 8
+now, 6, 6
+smile, 2, 2
+trouble, 6, 6
+important, 9, 9
+positive, 3, 3
+attitude, 2, 2
+last week, 3, 3
+week i, 2, 2
+i did, 2, 2
+did not, 3, 3
+not do, 2, 2
+do well, 3, 3
+well in, 3, 3
+the english, 3, 3
+english exam, 2, 2
+exam and, 2, 2
+and i, 20, 20
+i felt, 5, 5
+felt so, 3, 3
+so lost, 2, 2
+lost i, 2, 2
+i talked, 2, 2
+talked to, 2, 2
+to my, 7, 7
+my friends, 10, 9
+friends then, 2, 2
+then they, 3, 3
+they inspired, 2, 2
+inspired me, 2, 2
+me to, 20, 17
+to keep, 6, 6
+keep move, 2, 2
+move on, 3, 3
+on and, 2, 2
+and one, 2, 2
+one time, 3, 3
+time failure, 2, 2
+failure was, 2, 2
+was not, 4, 4
+not a, 2, 2
+a big, 3, 3
+big deal, 2, 2
+deal i, 2, 2
+i feel, 24, 20
+feel much, 2, 2
+much better, 2, 2
+better and, 2, 2
+and face, 2, 2
+face my, 2, 2
+my problem, 3, 3
+problem i, 3, 3
+i tell, 6, 6
+tell myself, 5, 5
+myself not, 3, 3
+not to, 3, 3
+to lose, 2, 2
+lose heart, 2, 2
+heart now, 2, 2
+now i, 5, 5
+i can, 23, 19
+can smile, 2, 2
+smile to, 2, 2
+to trouble, 2, 2
+trouble it, 3, 3
+is important, 4, 4
+important to, 3, 3
 to have, 6, 6
-have vegetable, 1, 1
-vegetable later, 1, 1
-later i, 1, 1
-i fall, 3, 3
-fall in, 2, 2
-in love, 3, 3
-love with, 3, 3
-it and, 2, 2
-and now, 1, 1
-now vegetable, 1, 1
-vegetable is, 1, 1
-is necessary, 2, 2
-necessary food, 2, 2
-food for, 3, 3
+have positive, 2, 2
+positive attitude, 2, 2
+today, 10, 10
+walk, 4, 4
+into, 4, 4
+classroom, 2, 2
+deskmate, 1, 1
+brings, 1, 1
+corner, 1, 1
+another, 2, 2
+three, 2, 2
+classmates, 3, 3
+are, 39, 25
+there, 18, 15
+get, 13, 13
+near, 2, 2
+take, 5, 5
+presents, 2, 2
+say, 8, 7
+happy, 18, 18
+birthday, 2, 2
+surprised, 1, 1
+touched, 2, 2
+they, 9, 8
+remember, 6, 6
+day, 8, 8
+best, 6, 6
+today when, 3, 3
+i walk, 2, 2
+walk into, 2, 2
+into the, 4, 4
+the classroom, 2, 2
+classroom my, 1, 1
+my deskmate, 1, 1
+deskmate brings, 1, 1
+brings me, 1, 1
+a corner, 1, 1
+corner then, 1, 1
+then i, 4, 4
+see another, 1, 1
+another three, 1, 1
+three classmates, 1, 1
+classmates are, 2, 2
+are waiting, 1, 1
+waiting there, 1, 1
+there for, 1, 1
+for me, 18, 16
+me as, 2, 2
+as i, 3, 3
+i get, 6, 6
+get near, 1, 1
+near them, 1, 1
+them they, 2, 2
+they take, 1, 1
+take out, 1, 1
+out presents, 1, 1
+presents and, 1, 1
+and say, 3, 3
+say happy, 1, 1
+happy birthday, 1, 1
+birthday to, 1, 1
+to me, 11, 10
+me i, 10, 10
+feel so, 20, 17
+so surprised, 1, 1
+surprised and, 1, 1
+and so, 1, 1
+so touched, 1, 1
+touched they, 1, 1
+they remember, 1, 1
+remember my, 1, 1
+my big, 1, 1
+big day, 1, 1
+day they, 1, 1
+they are, 4, 4
+are my, 1, 1
+my best, 2, 2
+best friends, 2, 2
+my, 23, 21
+uncle, 2, 1
+invites, 1, 1
+our, 20, 15
+visit, 3, 3
+him, 10, 8
+at, 13, 11
+this, 11, 11
+weekend, 2, 1
+am, 27, 25
+excited, 12, 12
+because, 27, 26
+we, 44, 26
+will, 45, 30
+spend, 2, 2
 lake, 4, 2
-which, 10, 9
-favorite, 7, 5
-swim, 1, 1
-sometimes, 3, 3
-boating, 1, 1
-quiet, 3, 3
-moment, 7, 7
-clean, 4, 4
-pollution, 1, 1
-protecting, 2, 2
-environment, 4, 4
-small lake, 1, 1
-lake in, 1, 1
-hometown which, 1, 1
-which is, 5, 5
-is one, 1, 1
-of my, 4, 4
-my favorite, 6, 4
-favorite place, 1, 1
-always go, 1, 1
-the lake, 3, 2
-lake with, 1, 1
-friends we, 1, 1
-we swim, 1, 1
-swim and, 1, 1
-and play, 2, 2
-play a, 2, 2
-lot there, 1, 1
-there sometimes, 1, 1
-sometimes we, 1, 1
+house, 8, 8
+play, 19, 18
+cousins, 1, 1
+happily, 2, 2
+haven’t, 1, 1
+seen, 2, 2
+each, 7, 7
+other, 11, 11
+while, 4, 4
+parents, 25, 20
+share, 4, 4
+daily, 1, 1
+things, 13, 13
+enjoying, 1, 1
+leisure, 2, 2
+this, 9, 7
+precious, 1, 1
+memory, 2, 2
+my uncle, 2, 1
+uncle invites, 1, 1
+invites our, 1, 1
+our family, 2, 2
+family to, 1, 1
+to visit, 2, 2
+visit him, 1, 1
+him at, 1, 1
+at this, 1, 1
+this weekend, 1, 1
+weekend i, 1, 1
+i am, 27, 25
+am so, 15, 14
+so excited, 10, 10
+excited because, 3, 3
+because we, 3, 3
 we will, 3, 3
-will go, 2, 2
-go boating, 1, 1
-boating and, 1, 1
-and enjoy, 2, 2
-the quiet, 1, 1
-quiet moment, 1, 1
-moment now, 1, 1
-now the, 1, 1
-lake is, 1, 1
-is not, 2, 2
-not that, 1, 1
-that clean, 1, 1
-clean because, 1, 1
-because of, 1, 1
-the pollution, 1, 1
-pollution i, 1, 1
-of protecting, 1, 1
-protecting the, 2, 2
-the environment, 2, 2
+will spend, 1, 1
+spend the, 1, 1
+time in, 2, 2
+the lake, 3, 2
+lake house, 1, 1
+house i, 1, 1
+i will, 16, 14
+will play, 1, 1
+play with, 4, 4
+with my, 11, 11
+my cousins, 1, 1
+cousins so, 1, 1
+so happily, 1, 1
+happily we, 1, 1
+we haven’t, 1, 1
+haven’t seen, 1, 1
+seen each, 1, 1
+each other, 6, 6
+other for, 2, 2
+for a, 1, 1
+a while, 1, 1
+while my, 1, 1
+uncle and, 1, 1
+and my, 5, 5
+my parents, 11, 9
+parents will, 2, 2
+will share, 1, 1
+share the, 2, 2
+the daily, 1, 1
+daily things, 1, 1
+things enjoying, 1, 1
+enjoying the, 1, 1
+the leisure, 1, 1
+leisure time, 1, 1
+time this, 1, 1
+this weekend, 1, 1
+weekend will, 1, 1
+will be, 10, 9
+be the, 4, 4
+the precious, 1, 1
+precious memory, 1, 1
+memory in, 1, 1
+in my, 5, 5
+my heart, 3, 3
+summer, 3, 3
+vacation, 2, 2
+coming, 6, 6
+made, 7, 7
+plans, 3, 3
+something, 9, 9
+useful, 3, 3
+first, 16, 13
+thing, 8, 8
+swimming, 4, 2
+an, 12, 12
+skill, 3, 3
+save, 2, 2
+life, 23, 17
+if, 7, 7
+fall, 4, 4
+water, 3, 3
+also, 9, 9
+cool, 5, 5
+sports, 2, 2
+lesson, 4, 4
+as summer, 2, 2
+summer vacation, 2, 2
+vacation is, 2, 2
+is coming, 6, 6
+coming my, 2, 2
+parents have, 4, 4
+have made, 5, 5
+made some, 2, 2
+some plans, 2, 2
+plans for, 3, 3
+me because, 3, 3
+because they, 4, 4
+they want, 8, 5
+want me, 4, 2
+learn something, 2, 2
+something useful, 2, 2
+useful this, 2, 2
+this first, 2, 2
+first thing, 3, 3
+thing they, 2, 2
+learn swimming, 4, 2
+swimming this, 2, 2
+this is, 3, 3
+is an, 3, 3
+an important, 3, 3
+important skill, 2, 2
+skill it, 2, 2
+it can, 3, 3
+can save, 2, 2
+save my, 2, 2
+my life, 5, 5
+life if, 2, 2
+if i, 5, 5
+i fall, 3, 3
+fall into, 2, 2
+the water, 3, 3
+water i, 2, 2
+i also, 2, 2
+also want, 2, 2
+swimming so, 2, 2
+so that, 6, 6
+can do, 3, 3
+do many, 2, 2
+many cool, 2, 2
+cool sports, 2, 2
+sports i, 2, 2
+excited about, 3, 3
+about the, 5, 5
+the lesson, 3, 3
+live, 5, 5
+ordinary, 3, 3
+proud, 5, 5
+night, 4, 4
+father, 1, 1
+before, 6, 6
+everything, 5, 5
+happened, 2, 2
+willing, 1, 1
+hear, 4, 4
+good, 22, 18
+delicious, 7, 6
+food, 32, 12
+looking, 4, 4
+forward, 6, 6
+tasting, 1, 1
+the, 30, 24
+living, 1, 1
+situation, 1, 1
+though i, 5, 5
+i live, 3, 3
+live in, 2, 2
+in an, 3, 3
+an ordinary, 3, 3
+ordinary family, 3, 3
+family i, 2, 2
+so proud, 4, 4
+proud of, 4, 4
+of the, 10, 8
+the things, 4, 4
+things i, 2, 2
+i have, 23, 20
+have every, 1, 1
+every night, 1, 1
+night my, 2, 2
+my father, 1, 1
+father will, 1, 1
+will talk, 3, 3
+me before, 3, 3
+before i, 2, 2
+i sleep, 2, 2
+sleep i, 1, 1
+i share, 1, 1
+share everything, 1, 1
+everything happened, 1, 1
+happened at, 1, 1
+at school, 1, 1
+and he, 2, 2
+he is, 4, 3
+is willing, 1, 1
+willing to, 1, 1
+to hear, 2, 2
+hear my, 1, 1
+my mother, 10, 9
+mother is, 2, 2
+is good, 1, 1
+good at, 3, 2
+at making, 1, 1
+making delicious, 1, 1
+delicious food, 6, 5
+food so, 4, 4
+so i, 11, 9
+so looking, 4, 4
+looking forward, 4, 4
+forward to, 6, 6
+to tasting, 1, 1
+tasting her, 1, 1
+her food, 1, 1
+food the, 1, 1
+the life, 1, 1
+life i, 2, 2
+i living, 1, 1
+living is, 1, 1
+is my, 5, 5
+best situation, 1, 1
+friend’s, 1, 1
+asks, 6, 5
+has, 17, 16
+emergent, 1, 1
+us, 9, 6
+look, 8, 8
+after, 6, 6
+little, 5, 5
+boy, 6, 2
+at, 4, 4
+think, 12, 11
+easy, 3, 3
+but, 18, 17
+later, 3, 3
+stops, 2, 2
+playing, 3, 2
+goes, 1, 1
+up, 19, 18
+down, 5, 5
+can’t, 11, 10
+stop, 3, 2
+naughty, 4, 4
+mother’s, 1, 1
+effort, 1, 1
+raise, 3, 3
+today i, 1, 1
+i go, 12, 11
+my friend’s, 1, 1
+friend’s home, 1, 1
+home because, 1, 1
+because she, 5, 5
+she asks, 2, 1
+asks me, 4, 4
+to play, 9, 8
+her as, 1, 1
+as her, 1, 1
+her mother, 1, 1
+mother has, 4, 4
+has something, 2, 2
+something emergent, 1, 1
+emergent to, 1, 1
+do so, 2, 2
+so she, 2, 2
+asks us, 1, 1
+us to, 7, 6
+to look, 2, 2
+look after, 2, 2
+after her, 2, 2
+her little, 1, 1
+little boy, 1, 1
+boy at, 1, 1
+at first, 2, 2
+first we, 1, 1
+we think, 1, 1
+think it, 1, 1
+an easy, 1, 1
+easy thing, 1, 1
+thing but, 1, 1
+but later, 1, 1
+later the, 1, 1
+the boy, 1, 1
+boy never, 1, 1
+never stops, 1, 1
+stops playing, 1, 1
+playing and, 1, 1
+and goes, 1, 1
+goes up, 1, 1
+up and, 4, 4
+and down, 3, 3
+down we, 1, 1
+we can’t, 2, 2
+can’t stop, 1, 1
+stop him, 1, 1
+him what, 1, 1
+what a, 4, 4
+a naughty, 1, 1
+naughty boy, 1, 1
+boy i, 1, 1
+realize my, 1, 1
+my mother’s, 1, 1
+mother’s effort, 1, 1
+effort to, 1, 1
+to raise, 3, 3
+raise me, 1, 1
 primary, 3, 3
 classic, 4, 3
 poems, 3, 2
+which, 10, 9
 written, 1, 1
+by, 13, 12
+famous, 6, 6
 old, 6, 6
 poets, 1, 1
-though, 10, 10
 recite, 3, 2
 still, 4, 4
 finish, 11, 7
 tasks, 1, 1
+these, 4, 4
 ignored, 2, 2
 cultivate, 1, 1
 interest, 1, 1
 culture, 6, 4
-chinese, 10, 7
-has, 17, 16
-things, 13, 13
+love, 19, 14
+when i, 18, 17
 to primary, 1, 1
 primary school, 3, 3
+school i, 5, 5
 have to, 3, 3
-to learn, 15, 10
-learn a, 4, 4
+lot of, 16, 14
 of classic, 1, 1
 classic poems, 2, 1
 poems which, 2, 2
@@ -1339,7 +901,6 @@ by famous, 1, 1
 famous old, 1, 1
 old poets, 1, 1
 poets though, 1, 1
-though it, 2, 2
 is hard, 1, 1
 hard for, 1, 1
 to recite, 2, 2
@@ -1355,8 +916,6 @@ can’t be, 1, 1
 be ignored, 1, 1
 ignored and, 1, 1
 and it, 2, 2
-is important, 4, 4
-important to, 3, 3
 to cultivate, 1, 1
 cultivate my, 1, 1
 my interest, 1, 1
@@ -1367,173 +926,121 @@ culture chinese, 1, 1
 chinese culture, 2, 2
 culture has, 1, 1
 has so, 1, 1
+so many, 4, 4
 many things, 4, 4
 things for, 1, 1
 learn and, 1, 1
+i love, 4, 4
 love it, 1, 1
-live, 5, 5
-an, 12, 12
-ordinary, 3, 3
-proud, 5, 5
-father, 1, 1
-before, 6, 6
-share, 4, 4
-happened, 2, 2
-willing, 1, 1
-hear, 4, 4
-making, 3, 3
-delicious, 7, 6
-tasting, 1, 1
-living, 1, 1
-best, 6, 6
-situation, 1, 1
-though i, 5, 5
-i live, 3, 3
-live in, 2, 2
-in an, 3, 3
-an ordinary, 3, 3
-ordinary family, 3, 3
-family i, 2, 2
-so proud, 4, 4
-proud of, 4, 4
-the things, 4, 4
-things i, 2, 2
-have every, 1, 1
-every night, 1, 1
-night my, 2, 2
-my father, 1, 1
-father will, 1, 1
-will talk, 3, 3
-talk to, 4, 4
-me before, 3, 3
-before i, 2, 2
-sleep i, 1, 1
-i share, 1, 1
-share everything, 1, 1
-everything happened, 1, 1
-happened at, 1, 1
-at school, 1, 1
-school and, 3, 3
-and he, 2, 2
-is willing, 1, 1
-willing to, 1, 1
-to hear, 2, 2
-hear my, 1, 1
-mother is, 2, 2
-is good, 1, 1
-good at, 3, 2
-at making, 1, 1
-making delicious, 1, 1
-delicious food, 6, 5
-food so, 4, 4
-to tasting, 1, 1
-tasting her, 1, 1
-her food, 1, 1
-food the, 1, 1
+two, 5, 5
+years, 10, 10
+ago, 6, 6
+lived, 1, 1
+hometown, 4, 4
+beautiful, 7, 6
+place, 4, 4
+wake, 3, 3
+early, 4, 4
+morning, 6, 5
+country, 8, 5
+road, 2, 2
+grandma, 2, 2
+meet, 8, 8
+people, 22, 16
+hello, 3, 2
+trees, 2, 2
+green, 2, 2
+clean, 4, 4
+river, 2, 2
+two years, 3, 3
+years ago, 4, 4
+ago i, 3, 3
+i lived, 1, 1
+lived in, 1, 1
+my hometown, 4, 4
+hometown it, 1, 1
+is a, 11, 11
+a beautiful, 1, 1
+beautiful place, 1, 1
+place for, 1, 1
+me and, 11, 11
+i like, 17, 14
+like the, 1, 1
 the life, 1, 1
-life i, 2, 2
-i living, 1, 1
-living is, 1, 1
-is my, 5, 5
-my best, 2, 2
-best situation, 1, 1
-xiao, 1, 1
-li, 3, 3
-student, 5, 4
-wants, 1, 1
-top, 2, 2
-plan, 2, 2
-sets, 1, 1
-high, 3, 3
-expectation, 2, 1
-in, 11, 8
-latest, 1, 1
-exam, 4, 4
-made, 7, 7
-big, 7, 7
-progress, 1, 1
-lost, 3, 3
-reach, 1, 1
-teachers, 1, 1
-job, 5, 5
-becomes, 1, 1
-again, 5, 5
-xiao li, 1, 1
-li is, 1, 1
-good student, 1, 1
-student he, 1, 1
-he always, 1, 1
-always wants, 1, 1
-wants to, 1, 1
-the top, 1, 1
-top student, 1, 1
-student in, 1, 1
-in class, 1, 1
-class so, 1, 1
-so he, 1, 1
-he makes, 1, 1
-makes the, 2, 2
-the plan, 2, 2
-plan and, 1, 1
-and sets, 1, 1
-sets up, 1, 1
-up high, 1, 1
-high expectation, 1, 1
-expectation in, 1, 1
-in the, 5, 4
-the latest, 1, 1
-latest exam, 1, 1
-exam he, 1, 1
-he has, 2, 2
-has made, 1, 1
-made the, 2, 2
-the big, 1, 1
-big progress, 1, 1
-progress but, 1, 1
-he still, 1, 1
-still feels, 1, 1
-feels lost, 1, 1
-lost because, 1, 1
-he does, 2, 1
-does not, 1, 1
-not reach, 1, 1
-reach his, 1, 1
-his expectation, 1, 1
-expectation teachers, 1, 1
-teachers and, 1, 1
-and friends, 3, 2
-friends tell, 1, 1
-tell him, 1, 1
-him that, 1, 1
-that he, 3, 3
-does the, 1, 1
-the great, 5, 5
-great job, 1, 1
-job then, 1, 1
-then he, 2, 2
-he becomes, 1, 1
-becomes happy, 1, 1
-happy again, 1, 1
+life there, 1, 1
+there every, 1, 1
+every day, 2, 2
+day i, 3, 3
+i wake, 1, 1
+wake up, 3, 3
+up early, 1, 1
+early in, 4, 4
+the morning, 5, 4
+morning then, 1, 1
+will walk, 1, 1
+walk in, 1, 1
+the country, 1, 1
+country road, 1, 1
+road with, 1, 1
+my grandma, 2, 2
+grandma we, 1, 1
+we will, 2, 2
+will meet, 1, 1
+meet some, 1, 1
+some people, 1, 1
+people and, 3, 3
+and we, 5, 5
+we say, 1, 1
+say hello, 3, 2
+hello to, 2, 2
+to each, 1, 1
+other the, 2, 2
+the trees, 2, 2
+trees are, 2, 2
+are so, 10, 10
+so green, 2, 2
+green and, 2, 2
+and the, 8, 8
+water is, 1, 1
+is so, 10, 10
+so clean, 2, 2
+clean i, 1, 1
+i play, 2, 2
+play a, 2, 2
+of time, 1, 1
+the small, 1, 1
+small river, 1, 1
+river i, 1, 1
+the beautiful, 2, 2
+beautiful memory, 1, 1
+memory there, 1, 1
+around, 5, 5
+world, 7, 6
 a, 4, 4
-foreigners, 4, 4
-speak, 4, 3
 highly, 3, 3
 come, 5, 5
-country, 8, 5
 for, 5, 5
 spicy, 4, 2
 hot, 4, 3
 pot, 5, 3
+favorite, 7, 5
+eat, 9, 7
+what, 21, 17
 put, 3, 3
 soup, 2, 2
 hotness, 2, 2
-cool, 5, 5
+makes, 9, 9
 no, 4, 4
+matter, 6, 6
+where, 5, 5
+always, 28, 27
 chinese food, 5, 3
 food is, 4, 2
 is famous, 2, 2
 famous all, 2, 2
 all around, 2, 2
+around the, 5, 5
+the world, 7, 6
 world a, 2, 2
 a lot, 2, 2
 of foreigners, 2, 2
@@ -1555,12 +1062,15 @@ spicy food, 2, 2
 so hot, 2, 2
 hot pot, 4, 3
 pot is, 3, 3
+my favorite, 6, 4
 favorite i, 2, 2
 can eat, 2, 2
 eat what, 2, 2
 what i, 8, 6
+like and, 5, 5
 and put, 3, 3
 put the, 2, 2
+the food, 8, 7
 food in, 2, 2
 the spicy, 2, 2
 spicy soup, 2, 2
@@ -1572,141 +1082,131 @@ me feel, 2, 2
 so cool, 2, 2
 cool no, 2, 2
 no matter, 3, 3
+matter where, 4, 4
 where i, 2, 2
 go chinese, 2, 2
 is always, 6, 6
 always my, 2, 2
-cook, 2, 2
-excited, 12, 12
-make, 14, 14
-from, 9, 8
-teach, 1, 1
-wash, 1, 1
-shows, 2, 2
-steps, 1, 1
-mixing, 1, 1
-together, 2, 2
-mother can, 1, 1
-can cook, 1, 1
-cook a, 2, 2
-of delicious, 2, 2
-food every, 1, 1
-every day, 2, 2
-so excited, 10, 10
-excited to, 2, 2
-eat the, 1, 1
-food she, 1, 1
-she makes, 1, 1
-makes so, 1, 1
-learn how, 1, 1
-to make, 5, 5
-make delicious, 1, 1
-food from, 1, 1
-from her, 1, 1
-her and, 2, 2
-is happy, 1, 1
-happy to, 4, 4
-to teach, 1, 1
-teach me, 1, 1
-i help, 1, 1
-help my, 1, 1
-mother to, 2, 2
-to wash, 1, 1
-wash the, 1, 1
-food first, 1, 1
-then she, 1, 1
-she shows, 1, 1
-shows me, 2, 2
-the steps, 1, 1
-steps of, 1, 1
-of mixing, 1, 1
-mixing food, 1, 1
-food together, 1, 1
-together i, 1, 1
-the time, 7, 7
+buys, 1, 1
+moment, 7, 7
+takes, 4, 4
+present, 1, 1
+piece, 1, 1
+dress, 4, 2
+told, 3, 3
+would, 5, 5
+buy, 9, 7
+go home, 7, 5
+home after, 2, 2
+after school, 2, 2
+school my, 1, 1
+mother tells, 2, 2
+that she, 1, 1
+she buys, 1, 1
+buys me, 1, 1
+me something, 1, 1
+something the, 1, 1
+the moment, 1, 1
+moment she, 1, 1
+she takes, 1, 1
+takes out, 1, 1
+out the, 1, 1
+the present, 1, 1
+present i, 1, 1
+so happy, 6, 6
+happy it, 1, 1
+a piece, 1, 1
+piece of, 1, 1
+of beautiful, 1, 1
+beautiful dress, 1, 1
+dress my, 1, 1
+mother told, 1, 1
+told me, 3, 3
+before if, 2, 2
+i do, 1, 1
+the exam, 1, 1
+exam she, 1, 1
+she would, 1, 1
+would buy, 1, 1
+buy me, 2, 2
+me the, 7, 7
+the dress, 1, 1
+dress now, 1, 1
+get it, 1, 1
+it and, 2, 2
+and feel, 2, 2
+of myself, 2, 2
+return, 1, 1
+holidays, 1, 1
+sky, 2, 2
+blue, 2, 2
+side, 4, 4
+catch, 3, 3
+fish, 1, 1
+grow, 5, 5
+dear, 1, 1
+forget, 4, 4
+scenery, 2, 2
+i return, 1, 1
+return to, 1, 1
+hometown on, 1, 1
+on holidays, 1, 1
+holidays i, 1, 1
+be very, 3, 3
+very excited, 2, 2
+because it, 3, 3
+the place, 1, 1
+place that, 1, 1
+love so, 1, 1
+so much, 8, 8
+much the, 1, 1
+the sky, 1, 1
+sky is, 2, 2
+so blue, 1, 1
+blue when, 1, 1
+play on, 1, 1
+the river, 1, 1
+river side, 1, 1
+side i, 1, 1
+can catch, 1, 1
+catch fish, 1, 1
+fish i, 1, 1
+i grow, 2, 2
+grow up, 5, 5
+up there, 1, 1
+there and, 1, 1
+and have, 2, 2
+have a, 10, 9
+a happy, 1, 1
+happy time, 1, 1
 time with, 3, 3
-watch, 2, 2
-movies, 2, 2
-especially, 3, 3
-see, 15, 14
-inspiring, 1, 1
-touched, 2, 2
-inspire, 1, 1
-move, 4, 4
-difficulties, 1, 1
-heroes, 1, 1
-never, 7, 7
-succeed, 1, 1
-if, 7, 7
-dreams, 2, 2
-persistent, 1, 1
-some, 4, 4
-to watch, 1, 1
-watch movies, 1, 1
-movies especially, 1, 1
-especially when, 1, 1
-i see, 8, 8
-see the, 3, 3
-the inspiring, 1, 1
-inspiring stories, 1, 1
-stories i, 1, 1
-will feel, 1, 1
-feel touched, 1, 1
-touched these, 1, 1
-these stories, 1, 1
-stories are, 1, 1
-are good, 1, 1
-good for, 1, 1
-me they, 1, 1
-they inspire, 1, 1
-inspire me, 1, 1
-to move, 1, 1
-move on, 3, 3
-on when, 1, 1
-i meet, 3, 3
-meet difficulties, 1, 1
-difficulties the, 1, 1
-the heroes, 1, 1
-heroes will, 1, 1
+my dear, 1, 1
+dear friends, 1, 1
+friends i, 4, 4
 will never, 2, 2
-never give, 1, 1
-give up, 1, 1
-up and, 4, 4
-and finally, 1, 1
-finally they, 1, 1
-they succeed, 1, 1
-succeed so, 1, 1
-so if, 1, 1
-if we, 2, 2
-we want, 1, 1
-realize our, 2, 2
-our dreams, 2, 2
-dreams we, 1, 1
-we also, 1, 1
-also need, 1, 1
-be persistent, 1, 1
-persistent some, 1, 1
-some day, 1, 1
-day we, 1, 1
-we can, 5, 4
-can make, 3, 3
-make it, 2, 2
+never forget, 1, 1
+forget the, 1, 1
+beautiful scenery, 1, 1
+scenery there, 1, 1
+in, 11, 8
+class, 5, 5
 must, 11, 10
+top, 2, 2
 students, 4, 1
 others, 5, 5
 average, 2, 1
 top, 1, 1
-easy, 3, 3
 noticed, 2, 2
 often, 1, 1
-actually, 3, 3
+everybody, 2, 2
 talent, 3, 3
-studying, 3, 3
 knowledge, 5, 5
 art, 1, 1
 or, 8, 6
+if, 8, 8
+someone, 4, 4
 supports, 1, 1
-someday, 2, 2
+successful, 3, 3
 in a, 1, 1
 a class, 1, 1
 class there, 1, 1
@@ -1724,6 +1224,7 @@ top students, 1, 1
 students are, 2, 1
 are easy, 1, 1
 easy to, 2, 2
+to be, 18, 15
 be noticed, 1, 1
 noticed and, 1, 1
 the average, 1, 1
@@ -1753,360 +1254,411 @@ things if, 1, 1
 if someone, 1, 1
 someone supports, 1, 1
 supports them, 1, 1
-them they, 2, 2
+they will, 2, 2
 be successful, 1, 1
 successful someday, 1, 1
-picky, 2, 1
-worry, 1, 1
-fruits, 1, 1
-little, 5, 5
-after, 6, 6
-mom, 2, 2
-learns, 3, 2
-cartoon, 1, 1
-pictures, 1, 1
-like eating, 1, 1
-eating meat, 1, 1
-meat so, 1, 1
-so picky, 1, 1
-picky about, 1, 1
-about food, 1, 1
-food my, 1, 1
-parents always, 3, 3
-always worry, 1, 1
-worry about, 1, 1
-my diet, 1, 1
-diet and, 1, 1
-and they, 2, 2
-they try, 1, 1
-eat vegetables, 1, 1
-vegetables and, 1, 1
-and fruits, 1, 1
-fruits but, 1, 1
-but i, 2, 2
-i only, 1, 1
-only can, 1, 1
-can have, 1, 1
-a little, 2, 2
-little but, 1, 1
-but after, 1, 1
-after my, 1, 1
-my mom, 2, 2
-mom learns, 1, 1
-learns to, 2, 2
-make food, 1, 1
-food with, 1, 1
-with all, 2, 2
-of cartoon, 1, 1
-cartoon pictures, 1, 1
-pictures i, 1, 1
-of food, 1, 1
-and don’t, 2, 2
-don’t picky, 1, 1
-picky anymore, 1, 1
-today, 10, 10
-friend’s, 1, 1
-something, 9, 9
-emergent, 1, 1
-boy, 6, 2
-stops, 2, 2
-goes, 1, 1
-down, 5, 5
-what, 6, 6
-naughty, 4, 4
-mother’s, 1, 1
-effort, 1, 1
-today i, 1, 1
-to my, 7, 7
-my friend’s, 1, 1
-friend’s home, 1, 1
-home because, 1, 1
-she asks, 2, 1
-to play, 9, 8
-with her, 6, 6
-her as, 1, 1
-as her, 1, 1
-her mother, 1, 1
-mother has, 4, 4
-has something, 2, 2
-something emergent, 1, 1
-emergent to, 1, 1
-do so, 2, 2
-so she, 2, 2
-asks us, 1, 1
-to look, 2, 2
-look after, 2, 2
-after her, 2, 2
-her little, 1, 1
-little boy, 1, 1
-boy at, 1, 1
-first we, 1, 1
-we think, 1, 1
-think it, 1, 1
-is an, 3, 3
-an easy, 1, 1
-easy thing, 1, 1
-thing but, 1, 1
-but later, 1, 1
-later the, 1, 1
-the boy, 1, 1
-boy never, 1, 1
-never stops, 1, 1
-stops playing, 1, 1
-playing and, 1, 1
-and goes, 1, 1
-goes up, 1, 1
-and down, 3, 3
-down we, 1, 1
-can’t stop, 1, 1
-stop him, 1, 1
-him what, 1, 1
-what a, 4, 4
-a naughty, 1, 1
-naughty boy, 1, 1
-boy i, 1, 1
-realize my, 1, 1
-my mother’s, 1, 1
-mother’s effort, 1, 1
-effort to, 1, 1
-raise me, 1, 1
-born, 1, 1
-stand, 1, 1
-back, 2, 2
-prepared, 2, 2
-happiness, 7, 6
-was born, 1, 1
-born in, 1, 1
-live the, 2, 2
-happy life, 1, 1
-life my, 1, 1
-parents will, 2, 2
-will stand, 1, 1
-stand by, 1, 1
-by my, 2, 2
-my side, 1, 1
-side when, 1, 1
-meet trouble, 2, 2
-trouble especially, 1, 1
-especially my, 1, 1
-mother she, 1, 1
-she will, 1, 1
-will cook, 1, 1
-to come, 1, 1
-come back, 1, 1
-back home, 2, 2
-home from, 1, 1
-from school, 1, 1
-know my, 1, 1
-has prepared, 2, 2
-prepared great, 1, 1
-great food, 1, 1
-me what, 1, 1
-a great, 2, 2
-great happiness, 1, 1
-happiness for, 1, 1
-reported, 2, 2
-sell, 1, 1
-products, 1, 1
-many, 3, 3
-gave, 3, 3
-praise, 1, 1
-could, 4, 3
-wanted, 2, 2
-this, 9, 7
-strong, 1, 1
-difference, 1, 1
-future, 9, 7
+travel, 3, 3
+teacher, 5, 4
+first, 1, 1
+travel, 14, 4
+contry´s, 1, 1
+example, 3, 3
+middle, 1, 1
+east, 3, 1
+don´t, 3, 2
+pig, 1, 1
+westness, 1, 1
+sweet, 1, 1
+petato, 1, 1
+second, 1, 1
+yourself, 1, 1
+less, 1, 1
+pressurethe, 1, 1
+last, 8, 8
+make, 14, 14
+friend, 8, 6
+foriend, 2, 1
+you, 8, 3
+know, 10, 8
+oversea, 1, 1
+taiwan, 3, 2
+mountain, 2, 2
+view, 3, 2
+use, 1, 1
+environment, 4, 4
+recycle, 2, 1
+haven´t, 1, 1
+garbage, 1, 1
+destroy, 1, 1
+travel is, 2, 2
+the best, 3, 3
+best teacher, 1, 1
+teacher for, 1, 1
+me first, 1, 1
+first travel, 1, 1
+travel can, 3, 1
+learn about, 1, 1
+about a, 2, 2
+a contry´s, 1, 1
+contry´s culture, 1, 1
+culture for, 1, 1
+for example, 2, 2
+example middle, 1, 1
+middle east, 1, 1
+east people, 1, 1
+people don´t, 1, 1
+don´t eat, 1, 1
+eat pig, 1, 1
+pig and, 1, 1
+and westness, 1, 1
+westness eat, 1, 1
+eat sweet, 1, 1
+sweet petato, 1, 1
+petato the, 1, 1
+the second, 1, 1
+second travel, 1, 1
+can realize, 1, 1
+realize yourself, 1, 1
+yourself and, 1, 1
+and less, 1, 1
+less pressurethe, 1, 1
+pressurethe last, 1, 1
+last one, 1, 1
+one travel, 1, 1
+can make, 3, 3
+make friend, 1, 1
+friend with, 1, 1
+with foriend, 1, 1
+foriend when, 1, 1
+when you, 1, 1
+you come, 1, 1
+come home, 1, 1
+home foriend, 1, 1
+foriend friend, 1, 1
+friend will, 1, 1
+talk you, 1, 1
+you what, 1, 1
+what things, 1, 1
+things happened, 1, 1
+happened and, 1, 1
+we don´t, 1, 1
+don´t know, 2, 2
+know in, 1, 1
+in oversea, 1, 1
+oversea first, 1, 1
+first time, 3, 3
+time i, 9, 9
+a travel, 1, 1
+travel in, 2, 2
+in east, 2, 1
+east taiwan, 2, 1
+taiwan there, 1, 1
+there have, 1, 1
+have high, 1, 1
+high mountain, 1, 1
+mountain and, 1, 1
+and good, 1, 1
+good view, 2, 1
+view that, 1, 1
+that use, 1, 1
+use me, 1, 1
+me think, 1, 1
+think about, 1, 1
+about environment, 1, 1
+environment and, 1, 1
+and recycle, 1, 1
+recycle if, 1, 1
+if we, 2, 2
+we haven´t, 1, 1
+haven´t recycle, 1, 1
+recycle garbage, 1, 1
+garbage we, 1, 1
+we would, 1, 1
+would destroy, 1, 1
+destroy that, 1, 1
+that good, 1, 1
+view in, 2, 2
+everybody, 6, 6
+idol, 3, 1
+who, 4, 4
+set, 1, 1
+should, 7, 6
+bring, 2, 2
+public, 2, 2
+mind, 4, 4
+whether, 2, 2
+pretty, 1, 1
+real, 7, 7
+hero, 1, 1
+works, 2, 2
+gives, 2, 2
 his, 2, 2
-lucky, 3, 3
-recently the, 2, 2
-news reported, 2, 2
-reported a, 2, 2
-small boy, 1, 1
-boy was, 1, 1
-was studying, 1, 1
-studying while, 1, 1
-while he, 1, 1
-he helped, 1, 1
-helped his, 1, 1
-his mother, 1, 1
-to sell, 1, 1
-sell the, 1, 1
-the products, 1, 1
-products many, 1, 1
-many people, 2, 2
-people gave, 1, 1
-gave him, 1, 1
-him great, 1, 1
-great praise, 1, 1
-praise because, 1, 1
-he could, 1, 1
-could focus, 1, 1
-focus his, 1, 1
-his attention, 1, 1
-attention but, 1, 1
-but their, 2, 2
-children always, 1, 1
-always wanted, 1, 1
-wanted to, 2, 2
-play this, 1, 1
-this boy, 1, 1
-boy is, 1, 1
-is such, 2, 2
-such strong, 1, 1
-strong that, 1, 1
-he must, 1, 1
-must make, 1, 1
-make a, 3, 3
-a difference, 1, 1
-difference in, 1, 1
-the future, 4, 4
-future his, 1, 1
-his mother, 1, 1
-is so, 10, 10
-so lucky, 1, 1
-lucky to, 1, 1
-a boy, 1, 1
-boy like, 1, 1
-like him, 1, 1
-party, 2, 1
-drinked, 1, 1
-ch3cooh, 1, 1
-asleep, 1, 1
-end, 3, 3
-taxi, 2, 2
-driver, 1, 1
-opened, 1, 1
-eyes, 3, 3
-aand, 1, 1
-evening a, 1, 1
-a man, 1, 1
-to a, 5, 5
-a party, 1, 1
-party he, 1, 1
-he drinked, 1, 1
-drinked much, 1, 1
-much ch3cooh, 1, 1
-ch3cooh and, 1, 1
-and that, 1, 1
-he felt, 1, 1
-felt asleep, 1, 1
-asleep when, 1, 1
-when the, 4, 3
-the party, 1, 1
-party was, 1, 1
-was end, 1, 1
-end he, 2, 2
-he want, 1, 1
-to went, 1, 1
-went home, 1, 1
-home he, 1, 1
-he took, 1, 1
-took taxi, 1, 1
-taxi and, 1, 1
-and sleep, 1, 1
-sleep on, 1, 1
-on the, 5, 4
-the car, 1, 1
-car what, 1, 1
-what can, 1, 1
-can the, 1, 1
-the driver, 1, 1
-driver do, 1, 1
-do when, 1, 1
-man opened, 1, 1
-opened his, 1, 1
-his eyes, 1, 1
-eyes he, 1, 1
-he saw, 1, 1
-saw aand, 1, 1
-aand his, 1, 1
-his family, 1, 1
-days, 3, 3
-weather, 2, 1
-forecast, 1, 1
-predicted, 1, 1
-cold, 2, 1
-wind, 1, 1
-would, 5, 5
-blow, 1, 1
-today, 1, 1
-early, 4, 4
-morning, 6, 5
-chillness, 1, 1
-changes, 3, 3
-quickly, 3, 3
-afternoon, 1, 1
-started, 1, 1
-sleepy, 1, 1
-winter, 1, 1
+persistence, 1, 1
+helps, 6, 6
+great, 11, 9
+achievement, 1, 1
+everybody has, 1, 1
+has an, 1, 1
+an idol, 1, 1
+idol in, 1, 1
+in their, 1, 1
+their heart, 1, 1
+heart who, 1, 1
+who will, 1, 1
+will set, 1, 1
+set the, 1, 1
+the good, 4, 4
+good example, 1, 1
+example for, 1, 1
+for them, 3, 3
+them in, 1, 1
+in my, 2, 2
+my eyes, 1, 1
+eyes a, 1, 1
+a good, 8, 8
+good idol, 1, 1
+idol should, 1, 1
+should bring, 1, 1
+bring the, 1, 1
+the positive, 1, 1
+positive side, 1, 1
+side to, 1, 1
+to the, 15, 13
+the public, 1, 1
+public so, 1, 1
+i don’t, 3, 3
+don’t mind, 1, 1
+mind whether, 1, 1
+whether they, 1, 1
+they look, 2, 2
+look pretty, 1, 1
+pretty my, 1, 1
+my idol, 1, 1
+idol is, 1, 1
+the real, 4, 4
+real hero, 1, 1
+hero he, 1, 1
+he works, 1, 1
+works so, 2, 2
+and never, 1, 1
+never gives, 1, 1
+gives up, 1, 1
+up his, 1, 1
+his persistence, 1, 1
+persistence helps, 1, 1
+helps him, 1, 1
+him to, 2, 2
+to make, 5, 5
+make the, 1, 1
+the great, 5, 5
+great achievement, 1, 1
+achievement i, 1, 1
+i should, 3, 3
+should learn, 1, 1
+learn from, 1, 1
+from him, 1, 1
+used, 3, 3
+finishing, 2, 2
+task, 9, 4
+minute, 3, 3
 excuse, 3, 3
-loosen, 1, 1
-two days, 2, 2
-days ago, 2, 2
-ago the, 1, 1
-the weather, 1, 1
-weather forecast, 1, 1
-forecast predicted, 1, 1
-predicted that, 1, 1
-the cold, 1, 1
-cold wind, 1, 1
-wind would, 1, 1
-would blow, 1, 1
-blow and, 1, 1
-and today, 1, 1
-today early, 1, 1
-early in, 4, 4
-the morning, 5, 4
-morning i, 4, 4
-felt the, 1, 1
-the chillness, 1, 1
-chillness the, 1, 1
-the weather, 1, 1
-weather changes, 1, 1
-changes so, 1, 1
-so quickly, 1, 1
-quickly that, 1, 1
-that it, 2, 2
-very cold, 1, 1
-cold in, 1, 1
-the afternoon, 1, 1
-afternoon i, 1, 1
-i started, 1, 1
-started to, 1, 1
-to feel, 1, 1
-feel sleepy, 1, 1
-sleepy in, 1, 1
-class but, 1, 1
-i tell, 6, 6
-tell myself, 5, 5
-myself to, 2, 2
-keep focus, 1, 1
-focus winter, 1, 1
-winter is, 1, 1
-not the, 1, 1
-the excuse, 1, 1
-excuse to, 1, 1
-to loosen, 1, 1
-loosen attention, 1, 1
-takes, 4, 4
+tomorrow, 5, 3
+enough, 7, 7
+computer, 6, 5
+games, 5, 5
+so, 14, 13
+changes, 3, 3
+funny, 4, 4
+never, 2, 2
+wait, 3, 3
+job, 5, 5
+get used, 3, 3
+used to, 3, 3
+to finishing, 2, 2
+finishing my, 2, 2
+my task, 2, 2
+task in, 2, 2
+the last, 3, 3
+last minute, 2, 2
+minute and, 2, 2
+my excuse, 2, 2
+excuse is, 2, 2
+always tomorrow, 2, 2
+tomorrow i, 2, 2
+i think, 5, 5
+think time, 2, 2
+time is, 2, 2
+is enough, 2, 2
+enough for, 2, 2
+i want, 19, 15
+play computer, 4, 4
+computer games, 4, 4
+games first, 2, 2
+first as, 2, 2
+as a, 9, 9
+a result, 4, 4
+result i, 3, 3
+hard to, 6, 6
+to finish, 2, 2
+the task, 6, 3
+task so, 2, 2
+so i, 10, 10
+make some, 2, 2
+some changes, 2, 2
+changes i, 2, 2
+i must, 9, 8
+must finish, 2, 2
+task first, 2, 2
+first and, 5, 5
+and then, 8, 8
+then to, 2, 2
+do other, 2, 2
+other funny, 2, 2
+funny things, 2, 2
+things never, 2, 2
+never wait, 2, 2
+wait for, 3, 3
+for tomorrow, 2, 2
+tomorrow or, 2, 2
+or i, 2, 2
+i can’t, 6, 5
+can’t finish, 2, 2
+finish my, 3, 3
+my job, 3, 3
+new, 2, 2
+semester, 2, 2
+soon, 8, 8
+six, 1, 1
+grade, 1, 1
+year, 4, 3
+study, 8, 7
+level, 2, 2
+master, 2, 2
+international, 1, 1
+new semester, 1, 1
+semester is, 2, 2
+coming soon, 2, 2
+soon and, 3, 3
+be a, 6, 6
+a six, 1, 1
+six grade, 1, 1
+grade student, 1, 1
+student i, 1, 1
+last year, 2, 2
+year of, 1, 1
+the primary, 1, 1
+school so, 2, 2
+made up, 2, 2
+up my, 2, 2
+my mind, 3, 3
+mind i, 1, 1
+must study, 3, 2
+study hard, 3, 3
+and improve, 1, 1
+my english, 3, 3
+english level, 2, 2
+level i, 1, 1
+realize master, 1, 1
+master the, 2, 2
+the international, 1, 1
+international language, 1, 1
+language will, 1, 1
+be useful, 1, 1
+useful for, 1, 1
+me so, 2, 2
+study it, 1, 1
+it well, 1, 1
+well i, 3, 3
+think i, 1, 1
+make it, 2, 2
+nature, 1, 1
+seek, 1, 1
+while, 2, 2
+most, 5, 5
+ignore, 1, 1
+themselves, 2, 1
+how, 3, 3
+decides, 2, 2
+kind, 4, 4
+person, 9, 6
+built, 1, 1
+confidence, 1, 1
+stronger, 1, 1
+only, 1, 1
+ourselves, 1, 1
+persons, 4, 4
+the nature, 1, 1
+nature for, 1, 1
+for children, 1, 1
+children to, 4, 3
+to seek, 1, 1
+seek for, 1, 1
+for love, 1, 1
+love from, 2, 1
+from their, 1, 1
+their parents, 3, 3
+parents the, 1, 1
+the happy, 1, 1
+happy family, 1, 1
+family helps, 1, 1
+helps children, 1, 1
+to better, 1, 1
+better grow, 1, 1
+up while, 1, 1
+while most, 1, 1
+most children, 1, 1
+children ignore, 1, 1
+ignore the, 1, 1
+the love, 1, 1
+from themselves, 1, 1
+themselves how, 1, 1
+how much, 1, 1
+much they, 1, 1
+they love, 1, 1
+love themselves, 1, 1
+themselves decides, 1, 1
+decides what, 2, 2
+what kind, 4, 4
+kind of, 4, 4
+of person, 2, 2
+person they, 1, 1
+they are, 4, 4
+are this, 1, 1
+this love, 1, 1
+love can, 1, 1
+can built, 1, 1
+built confidence, 1, 1
+confidence and, 1, 1
+and make, 1, 1
+make them, 1, 1
+them stronger, 1, 1
+stronger only, 1, 1
+only when, 1, 1
+when we, 4, 4
+we love, 1, 1
+love ourselves, 1, 1
+ourselves can, 1, 1
+can we, 1, 1
+we to, 1, 1
+the better, 2, 2
+better persons, 1, 1
 zoo, 2, 2
+animals, 6, 4
 monkey, 2, 2
 impresses, 2, 2
 active, 2, 2
 going, 2, 2
-buy, 9, 7
 bananas, 2, 2
 feed, 2, 2
+give, 7, 7
 monkeys, 2, 2
 rush, 2, 2
-how, 3, 3
+try, 6, 6
 today my, 4, 4
 mother takes, 2, 2
 takes me, 2, 2
 the zoo, 2, 2
 zoo and, 2, 2
-so happy, 6, 6
 happy i, 2, 2
 see a, 4, 4
 of animals, 2, 2
@@ -2114,14 +1666,13 @@ animals and, 2, 2
 and monkey, 2, 2
 monkey impresses, 2, 2
 impresses me, 2, 2
+the most, 4, 4
 most they, 2, 2
 so active, 2, 2
 active going, 2, 2
 going up, 2, 2
 down all, 2, 2
-all the, 8, 7
 time we, 2, 2
-we can, 5, 4
 can buy, 2, 2
 buy bananas, 2, 2
 bananas to, 2, 2
@@ -2136,338 +1687,248 @@ of monkeys, 2, 2
 monkeys rush, 2, 2
 rush to, 2, 2
 and try, 3, 3
+try to, 5, 5
+to get, 5, 5
 get the, 2, 2
 food how, 2, 2
 how naughty, 2, 2
 naughty they, 2, 2
-they are, 4, 4
-meeting, 1, 1
-alone, 1, 1
-sad, 1, 1
-tv, 1, 1
-lonely, 2, 2
-independent, 4, 4
-parents go, 1, 1
-have an, 1, 1
-an important, 3, 3
-important meeting, 1, 1
-meeting with, 1, 1
-with their, 2, 2
-their friends, 1, 1
-friends so, 1, 1
-so they, 4, 4
-they leave, 1, 1
-leave me, 1, 1
-me home, 1, 1
-home alone, 1, 1
-alone though, 1, 1
-though my, 2, 2
-prepared everything, 1, 1
-everything i, 1, 1
-i need, 6, 5
-need i, 1, 1
-still feel, 1, 1
-feel a, 1, 1
-little sad, 1, 1
-sad i, 1, 1
-i watch, 1, 1
-watch the, 1, 1
-the tv, 1, 1
-tv and, 1, 1
-play computer, 4, 4
-computer games, 4, 4
-games but, 1, 1
-feel more, 1, 1
-more and, 2, 2
-and more, 2, 2
-more lonely, 1, 1
-lonely i, 1, 1
-realize i, 1, 1
-need my, 1, 1
-parents so, 1, 1
-i must, 9, 8
-must learn, 1, 1
-be independent, 4, 4
-out, 12, 11
-house, 8, 8
-grandma, 2, 2
-walks, 1, 1
-square, 1, 1
-dances, 1, 1
-sky, 2, 2
-beautiful, 7, 6
-sun, 1, 1
-shining, 1, 1
-red, 5, 2
-scenery, 2, 2
-city, 1, 1
-today early, 1, 1
-go out, 3, 3
-out of, 1, 1
-my house, 3, 3
-house with, 1, 1
-my grandma, 2, 2
-grandma she, 1, 1
-she walks, 1, 1
-walks to, 1, 1
-the square, 1, 1
-square and, 1, 1
-then dances, 1, 1
-dances with, 1, 1
-her friends, 2, 2
-friends the, 1, 1
-the sky, 1, 1
-sky is, 2, 2
-so clean, 2, 2
-clean and, 1, 1
-and beautiful, 2, 2
-beautiful the, 1, 1
-the sun, 1, 1
-sun is, 1, 1
-is shining, 1, 1
-shining with, 1, 1
-with red, 1, 1
-red color, 1, 1
-color the, 1, 1
-the scenery, 1, 1
-scenery catches, 1, 1
-catches my, 1, 1
-my attention, 2, 2
-attention i, 1, 1
-have never, 1, 1
-never noticed, 1, 1
-noticed it, 1, 1
-it before, 2, 2
-before the, 1, 1
-the city, 1, 1
-city in, 1, 1
-morning is, 1, 1
-is quiet, 1, 1
-quiet and, 2, 2
-and comfortable, 1, 1
-finishing, 2, 2
-task, 9, 4
-minute, 3, 3
-tomorrow, 5, 3
-never, 2, 2
-wait, 3, 3
-to finishing, 2, 2
-finishing my, 2, 2
-my task, 2, 2
-task in, 2, 2
-the last, 3, 3
-last minute, 2, 2
-minute and, 2, 2
-and my, 5, 5
-my excuse, 2, 2
-excuse is, 2, 2
-always tomorrow, 2, 2
-tomorrow i, 2, 2
-i think, 5, 5
-think time, 2, 2
-time is, 2, 2
-is enough, 2, 2
-enough for, 2, 2
-games first, 2, 2
-first as, 2, 2
-so hard, 6, 6
-to finish, 2, 2
-the task, 6, 3
-task so, 2, 2
-make some, 2, 2
-some changes, 2, 2
-changes i, 2, 2
-must finish, 2, 2
-task first, 2, 2
-then to, 2, 2
-do other, 2, 2
-other funny, 2, 2
-funny things, 2, 2
-things never, 2, 2
-never wait, 2, 2
-wait for, 3, 3
-for tomorrow, 2, 2
-tomorrow or, 2, 2
-or i, 2, 2
-can’t finish, 2, 2
-finish my, 3, 3
-my job, 3, 3
-most, 2, 2
-dress, 4, 2
-refuse, 2, 2
-obvious, 1, 1
-dressing, 1, 1
-full, 2, 2
-vitality, 2, 1
-red, 1, 1
-presents, 2, 2
-new, 2, 2
-year, 1, 1
-coming, 6, 6
-most parents, 1, 1
-parents like, 1, 1
-like their, 1, 1
-to dress, 1, 1
-dress in, 2, 1
-in red, 3, 1
-red but, 1, 1
-children refuse, 1, 1
-refuse because, 1, 1
-because they, 4, 4
-they think, 1, 1
-think red, 1, 1
-red is, 1, 1
-is too, 1, 1
-too obvious, 1, 1
-obvious for, 1, 1
-like dressing, 1, 1
-dressing in, 1, 1
-red which, 1, 1
-which makes, 1, 1
-me look, 1, 1
-look full, 1, 1
-full of, 2, 2
-of vitality, 1, 1
-vitality and, 1, 1
-beautiful red, 1, 1
-red presents, 1, 1
-presents life, 1, 1
-life and, 1, 1
-and vitality, 1, 1
-vitality in, 1, 1
-in chinese, 1, 1
-culture when, 1, 1
-the new, 1, 1
-new year, 1, 1
-year is, 1, 1
-is coming, 6, 6
-coming people, 1, 1
-people will, 2, 2
-will dress, 1, 1
-red to, 1, 1
-show happiness, 1, 1
-needs, 3, 3
-exams, 1, 1
-score, 3, 1
-sitting, 1, 1
-court, 1, 1
-waiting, 2, 2
-judge, 1, 1
-announce, 1, 1
-cares, 1, 1
-improve, 3, 3
-ability, 2, 1
-getting, 1, 1
-doesn’t, 1, 1
-mean, 1, 1
-every student, 1, 1
-student needs, 1, 1
-needs to, 2, 2
-to face, 1, 1
-face all, 1, 1
-of exams, 1, 1
-exams when, 1, 1
-when score, 1, 1
-score comes, 1, 1
-comes out, 1, 1
-out they, 1, 1
-they just, 2, 2
-just like, 2, 2
-like sitting, 1, 1
-sitting in, 1, 1
-the court, 1, 1
-court waiting, 1, 1
-waiting for, 1, 1
-the judge, 1, 1
-judge to, 1, 1
-to announce, 1, 1
-announce the, 1, 1
-the result, 1, 1
-result actually, 1, 1
-actually my, 1, 1
-mother never, 1, 1
-never cares, 1, 1
-cares about, 1, 1
-my score, 1, 1
-score she, 1, 1
-she tells, 1, 1
-tells me, 4, 4
-that all, 1, 1
-all i, 1, 1
-do is, 3, 3
-to improve, 1, 1
-improve my, 3, 3
-my ability, 1, 1
-ability and, 1, 1
-and sometimes, 2, 2
-sometimes getting, 1, 1
-getting the, 1, 1
-the high, 1, 1
-high score, 1, 1
-score doesn’t, 1, 1
-doesn’t mean, 1, 1
-mean the, 1, 1
-the ability, 1, 1
-ability i, 1, 1
-neighbors, 1, 1
-next, 2, 2
-singing, 2, 2
-voice, 3, 2
-hello, 3, 2
-girl, 6, 6
-who, 4, 4
-almost, 2, 2
-age, 3, 3
-standing, 1, 1
-garden, 1, 1
-practicing, 1, 1
-everyday, 1, 1
-since the, 1, 1
-new neighbors, 1, 1
-neighbors move, 1, 1
-move next, 1, 1
-next to, 2, 2
-house every, 1, 1
-every morning, 1, 1
-can hear, 1, 1
-hear someone, 1, 1
-someone singing, 1, 1
-singing and, 1, 1
-the voice, 1, 1
-voice is, 2, 2
-so nice, 2, 2
-nice so, 1, 1
-i decide, 2, 2
-to say, 2, 2
-say hello, 3, 2
-hello then, 1, 1
-a girl, 3, 3
-girl who, 1, 1
-who is, 1, 1
-is almost, 1, 1
-almost my, 1, 1
-my age, 1, 1
-age standing, 1, 1
-standing in, 1, 1
-the garden, 1, 1
-garden and, 1, 1
-is practicing, 1, 1
-practicing her, 1, 1
-her voice, 2, 2
-voice everyday, 1, 1
-everyday she, 1, 1
-she is, 4, 4
-very happy, 3, 3
-to see, 4, 4
-see me, 2, 2
-and say, 3, 3
-hello to, 2, 2
-me since, 1, 1
-since then, 3, 3
-then we, 1, 1
-we become, 1, 1
-become good, 1, 1
-good friends, 1, 1
+child, 5, 5
+only, 3, 3
+yellow, 1, 1
+skin, 4, 1
+white, 1, 1
+black, 2, 1
+once, 2, 2
+scared, 2, 2
+nice, 4, 4
+helped, 2, 2
+solve, 4, 3
+then, 6, 5
+cant, 2, 2
+deny, 1, 1
+color, 2, 2
+a small, 5, 5
+small child, 1, 1
+child i, 3, 3
+to think, 1, 1
+think there, 1, 1
+there is, 4, 4
+is only, 1, 1
+only yellow, 1, 1
+yellow skin, 1, 1
+skin people, 2, 1
+people in, 2, 1
+world but, 1, 1
+but i, 7, 7
+realize there, 1, 1
+there are, 3, 3
+are also, 1, 1
+also white, 1, 1
+white skin, 1, 1
+skin and, 1, 1
+and black, 1, 1
+black skin, 1, 1
+in another, 1, 1
+another side, 1, 1
+side of, 1, 1
+world later, 1, 1
+later once, 1, 1
+once i, 2, 2
+i saw, 3, 3
+saw a, 2, 2
+a black, 1, 1
+black person, 1, 1
+person at, 1, 1
+first i, 1, 1
+felt scared, 1, 1
+scared but, 1, 1
+but he, 2, 2
+he was, 3, 2
+was very, 6, 6
+very nice, 2, 2
+nice and, 1, 1
+and helped, 1, 1
+helped me, 1, 1
+me solve, 1, 1
+solve my, 1, 1
+problem then, 1, 1
+then i, 2, 2
+i know, 3, 3
+know we, 1, 1
+we cant, 1, 1
+cant deny, 1, 1
+deny a, 1, 1
+a person, 2, 2
+person by, 1, 1
+by his, 1, 1
+his skin, 1, 1
+skin color, 1, 1
+complain, 1, 1
+strict, 1, 1
+whatever, 1, 1
+late, 6, 4
+criticizes, 1, 1
+hurt, 1, 1
+explain, 1, 1
+loves, 3, 3
+does, 3, 2
+i always, 4, 4
+always complain, 1, 1
+complain about, 1, 1
+mother because, 1, 1
+she is, 5, 5
+is very, 10, 10
+very strict, 1, 1
+strict to, 1, 1
+can’t do, 1, 1
+do whatever, 1, 1
+whatever i, 1, 1
+want but, 1, 1
+but some, 1, 1
+some day, 1, 1
+day when, 1, 1
+home very, 2, 2
+very late, 4, 4
+late she, 1, 1
+she criticizes, 1, 1
+criticizes me, 1, 1
+me at, 1, 1
+at first, 2, 2
+then asks, 1, 1
+me whether, 1, 1
+whether i, 1, 1
+get hurt, 1, 1
+hurt i, 1, 1
+i explain, 1, 1
+explain to, 1, 1
+to her, 3, 3
+her that, 1, 1
+i just, 3, 3
+just play, 2, 2
+friends my, 1, 1
+mother loves, 1, 1
+loves me, 1, 1
+much and, 2, 2
+and she, 6, 6
+she does, 1, 1
+does everything, 1, 1
+everything for, 1, 1
+recently, 5, 5
+tired, 2, 2
+new, 5, 5
+game, 2, 1
+focus, 3, 3
+really, 1, 1
+bad, 5, 5
+decide, 3, 3
+sleeping, 1, 1
+recently i, 3, 3
+feel tired, 1, 1
+tired in, 1, 1
+the class, 2, 2
+class because, 1, 1
+because i, 4, 4
+can’t help, 1, 1
+help playing, 1, 1
+playing a, 1, 1
+a new, 1, 1
+new computer, 1, 1
+computer game, 2, 1
+game at, 1, 1
+at night, 1, 1
+night i, 1, 1
+sleep very, 2, 2
+late as, 1, 1
+can’t focus, 1, 1
+focus my, 1, 1
+mind on, 1, 1
+on study, 1, 1
+study i, 1, 1
+feel really, 1, 1
+really bad, 1, 1
+bad and, 1, 1
+and decide, 1, 1
+decide to, 3, 3
+to stop, 1, 1
+stop sleeping, 1, 1
+sleeping so, 1, 1
+so late, 1, 1
+late i, 2, 2
+i stop, 1, 1
+stop playing, 1, 1
+playing the, 1, 1
+the computer, 1, 1
+game and, 1, 1
+have enough, 2, 2
+enough sleep, 1, 1
+sleep now, 1, 1
+so good, 1, 1
+nowadays, 1, 1
+pets, 2, 1
+company, 2, 2
+lovely, 7, 5
+treated, 3, 3
+members, 1, 1
+owner, 1, 1
+anymore, 2, 2
+abandoned, 1, 1
+owner’s, 1, 1
+duty, 1, 1
+care, 2, 2
+else, 1, 1
+nowadays people, 1, 1
+people like, 1, 1
+keep pets, 1, 1
+pets to, 1, 1
+to company, 1, 1
+company them, 1, 1
+them these, 1, 1
+these lovely, 1, 1
+lovely pets, 1, 1
+pets are, 1, 1
+are always, 2, 2
+always treated, 2, 2
+treated well, 1, 1
+well they, 1, 1
+are one, 1, 1
+one of, 3, 3
+the family, 1, 1
+family members, 1, 1
+members but, 1, 1
+but sometimes, 1, 1
+sometimes the, 1, 1
+the owner, 1, 1
+owner don’t, 1, 1
+don’t want, 1, 1
+raise them, 1, 1
+them anymore, 1, 1
+anymore the, 1, 1
+the animals, 3, 2
+animals are, 1, 1
+are abandoned, 1, 1
+abandoned it, 1, 1
+the owner’s, 1, 1
+owner’s duty, 1, 1
+duty to, 1, 1
+to deal, 3, 2
+deal with, 3, 2
+with the, 4, 3
+animals well, 1, 1
+well if, 1, 1
+if they, 2, 2
+they can’t, 1, 1
+can’t take, 1, 1
+take care, 1, 1
+care this, 1, 1
+this lovely, 1, 1
+lovely animals, 1, 1
+animals they, 1, 1
+they can, 2, 2
+can give, 1, 1
+give to, 1, 1
+to someone, 1, 1
+someone else, 1, 1
 do, 4, 1
 not, 2, 1
 agree, 1, 1
@@ -2570,283 +2031,878 @@ him for, 1, 1
 for all, 1, 1
 all this, 1, 1
 this things, 1, 1
-shopping, 1, 1
-foreigner, 2, 1
-having, 2, 2
-problems, 1, 1
-shop, 2, 2
-assistant, 2, 1
-couldn’t, 2, 2
-communicate, 1, 1
-did, 3, 3
+there, 4, 3
+woman, 2, 1
+lives, 1, 1
+next, 2, 2
+she, 18, 15
+two, 2, 2
+looks, 2, 2
+younger, 2, 2
+age, 3, 3
+feels, 4, 4
+envious, 1, 1
+speaks, 1, 1
+find, 12, 11
+talks, 1, 1
+girl, 6, 6
+young, 6, 5
+there is, 3, 3
+a special, 3, 3
+special woman, 1, 1
+woman who, 1, 1
+who lives, 1, 1
+lives next, 1, 1
+next to, 2, 2
+my house, 3, 3
+house she, 1, 1
+she has, 2, 1
+has two, 1, 1
+two children, 1, 1
+children and, 1, 1
+she looks, 1, 1
+looks much, 1, 1
+much younger, 1, 1
+younger than, 2, 2
+than her, 1, 1
+her real, 1, 1
+real age, 1, 1
+age my, 1, 1
+mother feels, 2, 2
+feels envious, 1, 1
+envious about, 1, 1
+about her, 2, 2
+her and, 2, 2
+and always, 1, 1
+always speaks, 1, 1
+speaks highly, 1, 1
+of her, 1, 1
+her i, 1, 1
+i talk, 1, 1
+the woman, 1, 1
+woman one, 1, 1
+time and, 1, 1
+i find, 7, 6
+find that, 4, 4
+that the, 4, 4
+way she, 1, 1
+she talks, 1, 1
+talks just, 1, 1
+like a, 1, 1
+a girl, 3, 3
+girl she, 1, 1
+has a, 4, 4
+a young, 1, 1
+young heart, 2, 2
+heart which, 1, 1
+which is, 5, 5
+way makes, 1, 1
+makes her, 1, 1
+her special, 1, 1
+kid, 1, 1
+independent, 4, 4
+adults, 1, 1
+lucky, 3, 3
+innocent, 1, 1
 understand, 3, 3
-english, 10, 6
-wished, 1, 1
-master, 2, 2
-international, 2, 2
-language, 4, 4
-ago when, 1, 1
-was shopping, 1, 1
-shopping with, 1, 1
-friends we, 1, 1
-we saw, 1, 1
-a foreigner, 1, 1
-foreigner having, 1, 1
-having some, 1, 1
-some problems, 1, 1
-problems with, 1, 1
-the shop, 2, 2
-shop assistant, 1, 1
-assistant they, 1, 1
-they couldn’t, 1, 1
-couldn’t communicate, 1, 1
-communicate well, 1, 1
-well because, 1, 1
-because the, 3, 3
-the assistant, 1, 1
-assistant did, 1, 1
-did not, 3, 3
-not understand, 1, 1
-understand english, 1, 1
-english well, 1, 1
-well i, 3, 3
-i wished, 1, 1
-wished i, 1, 1
-i could, 2, 2
-could help, 1, 1
-help the, 1, 1
-the foreigner, 1, 1
-foreigner to, 1, 1
+words, 4, 3
+totally, 1, 1
+every, 7, 7
+small kid, 1, 1
+kid i, 1, 1
+to grow, 2, 2
+up soon, 1, 1
+soon so, 2, 2
+can be, 5, 4
+be independent, 4, 4
+independent but, 1, 1
+but the, 1, 1
+the adults, 1, 1
+adults always, 1, 1
+always tell, 1, 1
+tell me, 1, 1
+that it, 2, 2
+a lucky, 1, 1
+lucky thing, 1, 1
+thing to, 1, 1
+a child, 3, 3
+child because, 1, 1
+be young, 1, 1
+young and, 2, 2
+and innocent, 1, 1
+innocent though, 1, 1
+don’t understand, 1, 1
+understand their, 1, 1
+their words, 2, 2
+words totally, 1, 1
+totally i, 1, 1
+must keep, 1, 1
+keep my, 2, 2
+my young, 1, 1
+heart and, 1, 1
+and enjoy, 2, 2
+enjoy every, 2, 2
+every moment, 2, 2
+moment of, 1, 1
+of my, 4, 4
+refuse, 2, 2
+strangers, 2, 1
+gave, 3, 3
+distance, 1, 1
+news, 6, 6
+how, 5, 5
+kidnapped, 1, 1
+protect, 7, 5
+sometimes, 3, 3
+necessary, 3, 3
+no, 6, 6
+i was, 10, 9
+small my, 3, 3
+parents told, 1, 1
+to refuse, 1, 1
+refuse the, 1, 1
+things that, 1, 1
+that strangers, 1, 1
+strangers gave, 1, 1
+gave me, 1, 1
+i keep, 1, 1
+keep their, 1, 1
+words in, 1, 1
+heart so, 1, 1
+so when, 1, 1
+i meet, 3, 3
+meet strangers, 1, 1
+strangers i, 1, 1
+always keep, 2, 2
+keep distance, 1, 1
+distance every, 1, 1
+every time, 2, 2
+time when, 2, 2
+see the, 3, 3
+the news, 5, 5
+news about, 1, 1
+about how, 1, 1
+how kids, 1, 1
+kids are, 1, 1
+are get, 1, 1
+get kidnapped, 1, 1
+kidnapped i, 1, 1
+know i, 1, 1
+learn to, 3, 3
+to protect, 5, 3
+protect myself, 1, 1
+myself sometimes, 1, 1
+sometimes it, 1, 1
+is necessary, 2, 2
+necessary to, 1, 1
+to say, 2, 2
+say no, 1, 1
+no to, 1, 1
+to others, 2, 2
+fair, 4, 1
+show, 3, 3
+farm, 1, 1
+work, 8, 5
+local, 1, 1
+catches, 2, 2
+lively, 1, 1
+atmosphere, 1, 1
+music, 2, 2
+same, 3, 3
+a fair, 1, 1
+fair in, 1, 1
+hometown every, 1, 1
+every year, 1, 1
+year it, 1, 1
+to show, 3, 3
+show their, 1, 1
+their farm, 1, 1
+farm work, 1, 1
+work for, 2, 2
+the local, 1, 1
+local people, 1, 1
+people every, 1, 1
+every year, 1, 1
+year the, 1, 1
+the fair, 2, 1
+fair catches, 1, 1
+catches many, 1, 1
+many people, 3, 2
+people to, 1, 1
+visit this, 1, 1
+this place, 1, 1
+place i, 2, 2
+love the, 1, 1
+fair so, 1, 1
+much there, 1, 1
+there are, 1, 1
+i enjoy, 2, 2
+enjoy the, 5, 4
+the lively, 1, 1
+lively atmosphere, 1, 1
+atmosphere i, 1, 1
+can also, 1, 1
+also enjoy, 1, 1
+food and, 2, 2
+and music, 1, 1
+music at, 1, 1
+at the, 1, 1
+the same, 3, 3
+same time, 1, 1
+the new, 4, 4
+new fair, 1, 1
+natural, 1, 1
+protection, 1, 1
+grown, 2, 2
+every child, 1, 1
+child needs, 1, 1
+needs his, 1, 1
+his parents, 1, 1
+parents when, 1, 1
+they meet, 1, 1
+meet trouble, 2, 2
+is natural, 1, 1
+natural for, 1, 1
+to find, 3, 3
+find protection, 1, 1
+protection my, 1, 1
+my parents, 6, 6
+parents protect, 1, 1
+protect me, 1, 1
+me all, 1, 1
+can feel, 1, 1
+feel their, 1, 1
+their love, 1, 1
+love but, 1, 1
+but as, 1, 1
+as i, 1, 1
+up i, 1, 1
 to solve, 2, 2
+solve problem, 1, 1
+problem by, 1, 1
+by myself, 1, 1
+myself when, 1, 1
+i solve, 1, 1
 solve the, 2, 2
 the problem, 2, 2
-problem but, 1, 1
-but my, 1, 1
-my english, 3, 3
-english was, 1, 1
-was not, 4, 4
-good enough, 1, 1
-enough so, 1, 1
-must study, 3, 2
-study hard, 3, 3
-to master, 1, 1
-master the, 2, 2
-the international, 2, 2
-international language, 2, 2
-language well, 1, 1
-last, 4, 4
-week, 3, 3
-talked, 2, 2
-failure, 2, 2
-lose, 4, 3
-smile, 2, 2
-positive, 3, 3
-attitude, 2, 2
-last week, 3, 3
-week i, 2, 2
-i did, 2, 2
-not do, 2, 2
-do well, 3, 3
-well in, 3, 3
-the english, 3, 3
-english exam, 2, 2
-exam and, 2, 2
-felt so, 3, 3
-so lost, 2, 2
-lost i, 2, 2
-i talked, 2, 2
-talked to, 2, 2
-friends then, 2, 2
-then they, 3, 3
-they inspired, 2, 2
-inspired me, 2, 2
-keep move, 2, 2
-on and, 2, 2
-and one, 2, 2
-one time, 3, 3
-time failure, 2, 2
-failure was, 2, 2
-not a, 2, 2
-a big, 3, 3
-big deal, 2, 2
-deal i, 2, 2
-feel much, 2, 2
-much better, 2, 2
-better and, 2, 2
-and face, 2, 2
-face my, 2, 2
-problem i, 3, 3
-myself not, 3, 3
-not to, 3, 3
-to lose, 2, 2
-lose heart, 2, 2
-heart now, 2, 2
-can smile, 2, 2
-smile to, 2, 2
-to trouble, 2, 2
-trouble it, 3, 3
-have positive, 2, 2
-positive attitude, 2, 2
-idol, 3, 1
-set, 1, 1
-example, 3, 3
-bring, 2, 2
-pretty, 1, 1
-real, 7, 7
-hero, 1, 1
-works, 2, 2
-gives, 2, 2
-persistence, 1, 1
-achievement, 1, 1
-everybody has, 1, 1
-has an, 1, 1
-an idol, 1, 1
-idol in, 1, 1
-in their, 1, 1
-their heart, 1, 1
-heart who, 1, 1
-who will, 1, 1
-will set, 1, 1
-set the, 1, 1
-good example, 1, 1
-example for, 1, 1
-for them, 3, 3
-them in, 1, 1
-in my, 2, 2
-my eyes, 1, 1
-eyes a, 1, 1
-good idol, 1, 1
-idol should, 1, 1
-should bring, 1, 1
-bring the, 1, 1
-the positive, 1, 1
-positive side, 1, 1
-side to, 1, 1
-the public, 1, 1
-public so, 1, 1
-don’t mind, 1, 1
-mind whether, 1, 1
-whether they, 1, 1
-they look, 2, 2
-look pretty, 1, 1
-pretty my, 1, 1
-my idol, 1, 1
-idol is, 1, 1
-the real, 4, 4
-real hero, 1, 1
-hero he, 1, 1
-he works, 1, 1
-works so, 2, 2
-hard and, 3, 3
-and never, 1, 1
-never gives, 1, 1
-gives up, 1, 1
-up his, 1, 1
-his persistence, 1, 1
-persistence helps, 1, 1
-helps him, 1, 1
-make the, 1, 1
-great achievement, 1, 1
-achievement i, 1, 1
-should learn, 1, 1
-learn from, 1, 1
-from him, 1, 1
-key, 3, 1
-worried, 1, 1
-places, 1, 1
+myself and, 2, 2
+the moment, 2, 2
+moment i, 1, 1
+have grown, 2, 2
+grown up, 2, 2
+since, 9, 8
+neighbors, 1, 1
+singing, 2, 2
+voice, 3, 2
+almost, 2, 2
+standing, 1, 1
+garden, 1, 1
+practicing, 1, 1
+everyday, 1, 1
+become, 6, 6
+since the, 1, 1
+new neighbors, 1, 1
+neighbors move, 1, 1
+move next, 1, 1
+house every, 1, 1
+every morning, 1, 1
+morning i, 4, 4
+can hear, 1, 1
+hear someone, 1, 1
+someone singing, 1, 1
+singing and, 1, 1
+the voice, 1, 1
+voice is, 2, 2
+so nice, 2, 2
+nice so, 1, 1
+i decide, 2, 2
+hello then, 1, 1
+girl who, 1, 1
+who is, 1, 1
+is almost, 1, 1
+almost my, 1, 1
+my age, 1, 1
+age standing, 1, 1
+standing in, 1, 1
+the garden, 1, 1
+garden and, 1, 1
+is practicing, 1, 1
+practicing her, 1, 1
+her voice, 2, 2
+voice everyday, 1, 1
+everyday she, 1, 1
+she is, 4, 4
+very happy, 3, 3
+happy to, 4, 4
+to see, 4, 4
+see me, 2, 2
+me since, 1, 1
+since then, 3, 3
+then we, 1, 1
+we become, 1, 1
+become good, 1, 1
+good friends, 1, 1
+born, 1, 1
+stand, 1, 1
+especially, 3, 3
+cook, 2, 2
+back, 2, 2
+prepared, 2, 2
+happiness, 7, 6
+was born, 1, 1
+born in, 1, 1
+live the, 2, 2
+the happy, 2, 2
+happy life, 1, 1
+life my, 1, 1
+will stand, 1, 1
+stand by, 1, 1
+by my, 2, 2
+my side, 1, 1
+side when, 1, 1
+trouble especially, 1, 1
+especially my, 1, 1
+mother she, 1, 1
+she will, 1, 1
+will cook, 1, 1
+cook a, 2, 2
+of delicious, 2, 2
+excited to, 2, 2
+to come, 1, 1
+come back, 1, 1
+back home, 2, 2
+home from, 1, 1
+from school, 1, 1
+know my, 1, 1
+has prepared, 2, 2
+prepared great, 1, 1
+great food, 1, 1
+food for, 3, 3
+me what, 1, 1
+a great, 2, 2
+great happiness, 1, 1
+happiness for, 1, 1
+eating, 2, 2
+meat, 2, 2
+picky, 2, 1
+worry, 1, 1
+diet, 3, 2
+let, 8, 8
+vegetables, 3, 2
+fruits, 1, 1
+mom, 2, 2
+learns, 3, 2
+cartoon, 1, 1
+pictures, 1, 1
+start, 4, 3
+like eating, 1, 1
+eating meat, 1, 1
+meat so, 1, 1
+so picky, 1, 1
+picky about, 1, 1
+about food, 1, 1
+food my, 1, 1
+parents always, 3, 3
+always worry, 1, 1
+worry about, 1, 1
+my diet, 1, 1
+diet and, 1, 1
+they try, 1, 1
+to let, 4, 4
+let me, 6, 6
+me eat, 2, 2
+eat vegetables, 1, 1
+vegetables and, 1, 1
+and fruits, 1, 1
+fruits but, 1, 1
+but i, 2, 2
+i only, 1, 1
+only can, 1, 1
+can have, 1, 1
+a little, 2, 2
+little but, 1, 1
+but after, 1, 1
+after my, 1, 1
+my mom, 2, 2
+mom learns, 1, 1
+learns to, 2, 2
+make food, 1, 1
+food with, 1, 1
+with all, 2, 2
+of cartoon, 1, 1
+cartoon pictures, 1, 1
+pictures i, 1, 1
+i start, 4, 3
+start to, 3, 3
+of food, 1, 1
+and don’t, 2, 2
+don’t picky, 1, 1
+picky anymore, 1, 1
+read, 11, 9
+such, 9, 9
+bill, 2, 2
+gates, 2, 2
+steve, 2, 2
+jobs, 2, 2
+their, 2, 2
+stories, 6, 4
+guide, 3, 3
+moving, 2, 2
+difficulty, 3, 3
+i read, 5, 5
+read the, 4, 4
+news i, 3, 3
+am always, 2, 2
+always inspired, 2, 2
+inspired by, 2, 2
+by the, 2, 2
+the famous, 2, 2
+famous great, 2, 2
+great persons, 2, 2
+persons such, 2, 2
+such as, 5, 5
+as bill, 2, 2
+bill gates, 2, 2
+gates and, 2, 2
+and steve, 2, 2
+steve jobs, 2, 2
+jobs their, 2, 2
+their stories, 2, 2
+stories of, 2, 2
+of life, 2, 2
+life guide, 2, 2
+guide the, 2, 2
+the young, 2, 2
+young people, 2, 2
+people how, 2, 2
+how to, 4, 4
+get successful, 2, 2
+successful they, 2, 2
+they tell, 2, 2
+tell us, 2, 2
+do what, 3, 3
+what we, 2, 2
+we like, 3, 3
+most important, 2, 2
+important thing, 2, 2
+thing is, 2, 2
+keep moving, 2, 2
+moving on, 2, 2
+on no, 2, 2
+no matter, 3, 3
+matter what, 2, 2
+of difficulty, 2, 2
+difficulty we, 2, 2
+we meet, 2, 2
+winter, 1, 1
+pick, 1, 1
+our, 1, 1
+sit, 2, 2
+together, 2, 2
+having, 2, 2
+different, 7, 7
+tastes, 1, 1
+convenient, 1, 1
+many, 3, 3
+china, 1, 1
+hot, 1, 1
 been, 2, 2
-walk, 4, 4
-into, 4, 4
-yes, 1, 1
-today when, 3, 3
-home after, 2, 2
-after school, 2, 2
-i lose, 2, 1
-lose my, 1, 1
-my key, 2, 1
-key i, 2, 1
-so worried, 1, 1
-worried and, 1, 1
-to remember, 1, 1
-remember all, 1, 1
-the places, 1, 1
-places i, 1, 1
-have been, 1, 1
-been to, 1, 1
-to as, 1, 1
-as i, 3, 3
-i walk, 2, 2
-walk into, 2, 2
-into the, 4, 4
-shop an, 1, 1
-an old, 1, 1
-old man, 1, 1
-man stops, 1, 1
-stops me, 1, 1
-and asks, 1, 1
-asks if, 1, 1
-if i, 5, 5
-lose the, 1, 1
-the key, 1, 1
-excited and, 2, 2
-say yes, 1, 1
-yes at, 1, 1
-at last, 1, 1
-last i, 2, 2
-find my, 3, 3
-key and, 1, 1
+symbol, 1, 1
+when winter, 1, 1
+winter comes, 1, 1
+comes hot, 1, 1
+the necessary, 1, 1
+necessary food, 2, 2
+for our, 1, 1
+family it, 1, 1
+very delicious, 1, 1
+delicious we, 1, 1
+we can, 5, 4
+can pick, 1, 1
+pick the, 1, 1
+food we, 1, 1
+like our, 1, 1
+our family, 1, 1
+family sit, 1, 1
+sit together, 1, 1
+together having, 1, 1
+having different, 1, 1
+different tastes, 1, 1
+tastes which, 1, 1
+is such, 2, 2
+such cool, 1, 1
+cool and, 1, 1
+and convenient, 1, 1
+convenient many, 1, 1
+many foreigners, 1, 1
+foreigners fall, 1, 1
+fall in, 2, 2
+in love, 3, 3
+love with, 3, 3
+with hot, 1, 1
+pot when, 1, 1
+to china, 1, 1
+china hot, 1, 1
+hot pot, 1, 1
+pot has, 1, 1
+has been, 1, 1
+been the, 1, 1
+the symbol, 1, 1
+symbol of, 1, 1
+of chinese, 1, 1
+book, 4, 3
+sees, 1, 1
+alien’s, 1, 1
+her, 4, 4
+sorrow, 2, 2
+could, 4, 3
+foresee, 1, 1
+accept, 2, 2
+happen, 3, 3
+change, 1, 1
+fact, 3, 3
+read a, 3, 3
+a book, 2, 2
+book about, 1, 1
+girl sees, 1, 1
+sees her, 1, 1
+her future, 1, 1
+future after, 1, 1
+after she, 1, 1
+she learns, 2, 1
+learns the, 1, 1
+the alien’s, 1, 1
+alien’s language, 1, 1
+language her, 1, 1
+her future, 1, 1
+future life, 1, 1
+life has, 1, 1
+has happiness, 1, 1
+happiness and, 1, 1
+and sorrow, 1, 1
+sorrow since, 1, 1
+since she, 1, 1
+she could, 1, 1
+could foresee, 1, 1
+foresee she, 1, 1
+to accept, 1, 1
+accept what, 1, 1
+what will, 2, 2
+will happen, 2, 2
+happen in, 1, 1
+in her, 1, 1
+her life, 1, 1
+life if, 1, 1
+if i, 3, 3
+i could, 2, 2
+could see, 1, 1
+see my, 2, 2
+my future, 1, 1
+future and, 2, 2
+can’t change, 1, 1
+change the, 1, 1
+the fact, 1, 1
+fact but, 1, 1
+will enjoy, 1, 1
+every minute, 1, 1
+minute of, 1, 1
+retired, 2, 1
+husband, 1, 1
+activities, 2, 2
+dance, 3, 3
+sing, 2, 2
+group, 1, 1
+always say, 2, 2
+say that, 2, 2
+that they, 3, 2
+be old, 1, 1
+old soon, 1, 1
+can retired, 1, 1
+retired and, 1, 1
+and travel, 1, 1
+travel around, 1, 1
+world many, 1, 1
+many people, 2, 2
+people have, 1, 1
+made plans, 1, 1
+for their, 1, 1
+their future, 1, 1
+future so, 1, 1
+look forward, 2, 2
+the retired, 1, 1
+retired life, 1, 1
+life while, 1, 1
+while for, 1, 1
+to live, 1, 1
+live with, 1, 1
+my husband, 1, 1
+husband and, 1, 1
+and find, 2, 2
+find some, 1, 1
+some activities, 1, 1
+activities like, 1, 1
+like dance, 1, 1
+dance or, 1, 1
+or sing, 1, 1
+sing in, 1, 1
+the group, 1, 1
+group what, 1, 1
+a leisure, 1, 1
+leisure life, 1, 1
+name, 4, 4
+li, 3, 3
+mei, 1, 1
+without, 1, 1
+hesitation, 1, 1
+meets, 3, 2
+secrets, 2, 2
+stay, 2, 2
+good friend, 3, 3
+friend and, 2, 2
+and her, 3, 3
+her name, 2, 2
+name is, 4, 4
+is li, 2, 2
+li mei, 1, 1
+mei we, 1, 1
+we know, 2, 2
+know each, 2, 2
+other about, 1, 1
+about two, 1, 1
+two years, 1, 1
+years when, 2, 2
+am in, 2, 2
+in trouble, 2, 2
+trouble she, 2, 2
+she helps, 1, 1
+helps me, 4, 4
+me without, 1, 1
+without hesitation, 1, 1
+hesitation so, 1, 1
+will also, 1, 1
+also help, 1, 1
+help her, 3, 3
+her when, 1, 1
+when she, 4, 4
+she meets, 1, 1
+meets difficulty, 1, 1
+difficulty we, 1, 1
+we share, 1, 1
+share our, 1, 1
+our secrets, 2, 2
+secrets and, 1, 1
+sometimes she, 1, 1
+she will, 2, 2
+will stay, 1, 1
+stay the, 1, 1
+the night, 1, 1
+night with, 1, 1
+with me, 1, 1
+me we, 1, 1
+talk very, 1, 1
+very happily, 1, 1
+happily and, 1, 1
 and go, 2, 2
-home though, 1, 1
-am lucky, 1, 1
-lucky this, 1, 1
-this time, 2, 2
-do it, 2, 2
-it again, 1, 1
-buys, 1, 1
-present, 1, 1
-piece, 1, 1
-told, 3, 3
-school my, 1, 1
-mother tells, 2, 2
-that she, 1, 1
-she buys, 1, 1
-buys me, 1, 1
-me something, 1, 1
-something the, 1, 1
-the moment, 1, 1
-moment she, 1, 1
-she takes, 1, 1
-takes out, 1, 1
-out the, 1, 1
-the present, 1, 1
-present i, 1, 1
-happy it, 1, 1
-a piece, 1, 1
-piece of, 1, 1
-of beautiful, 1, 1
-beautiful dress, 1, 1
-dress my, 1, 1
-mother told, 1, 1
-told me, 3, 3
-before if, 2, 2
-i do, 1, 1
-the exam, 1, 1
-exam she, 1, 1
-she would, 1, 1
-would buy, 1, 1
-buy me, 2, 2
-the dress, 1, 1
-dress now, 1, 1
-get it, 1, 1
-of myself, 2, 2
+to sleep, 1, 1
+fairy, 1, 1
+tale, 1, 1
+cinderella, 3, 1
+knows, 3, 3
+badly, 1, 1
+stepmother, 1, 1
+finally, 3, 3
+rescued, 1, 1
+prince, 1, 1
+seems, 1, 1
+wonderful, 1, 1
+story, 2, 2
+girls, 2, 2
+now, 3, 3
+negative, 2, 2
+waits, 1, 1
+someone’s, 1, 1
+fight, 1, 1
+herself, 2, 2
+expect, 1, 1
+people’s, 1, 1
+rescue, 1, 1
+the fairy, 1, 1
+fairy tale, 1, 1
+tale of, 1, 1
+of cinderella, 1, 1
+cinderella everybody, 1, 1
+everybody knows, 1, 1
+knows cinderella, 1, 1
+cinderella is, 2, 1
+is treated, 1, 1
+treated badly, 1, 1
+badly by, 1, 1
+by her, 1, 1
+her stepmother, 1, 1
+stepmother and, 1, 1
+is finally, 1, 1
+finally rescued, 1, 1
+rescued by, 1, 1
+by a, 1, 1
+a prince, 1, 1
+prince it, 1, 1
+it seems, 1, 1
+seems such, 1, 1
+such a, 2, 2
+a wonderful, 1, 1
+wonderful story, 1, 1
+story for, 1, 1
+for girls, 1, 1
+girls but, 1, 1
+but now, 1, 1
+now i, 1, 1
+that cinderella, 1, 1
+is negative, 1, 1
+negative to, 1, 1
+to life, 1, 1
+life because, 1, 1
+she just, 1, 1
+just waits, 1, 1
+waits for, 1, 1
+for someone’s, 1, 1
+someone’s help, 1, 1
+help she, 1, 1
+she should, 1, 1
+should fight, 1, 1
+fight for, 1, 1
+for herself, 1, 1
+herself we, 1, 1
+can’t only, 1, 1
+only expect, 1, 1
+expect other, 1, 1
+other people’s, 1, 1
+people’s rescue, 1, 1
+meeting, 1, 1
+leave, 2, 2
+alone, 1, 1
+sad, 1, 1
+watch, 2, 2
+tv, 1, 1
+lonely, 2, 2
+parents go, 1, 1
+have an, 1, 1
+important meeting, 1, 1
+meeting with, 1, 1
+with their, 2, 2
+their friends, 1, 1
+friends so, 1, 1
+they leave, 1, 1
+leave me, 1, 1
+me home, 1, 1
+home alone, 1, 1
+alone though, 1, 1
+though my, 2, 2
+prepared everything, 1, 1
+everything i, 1, 1
+need i, 1, 1
+still feel, 1, 1
+feel a, 1, 1
+little sad, 1, 1
+sad i, 1, 1
+i watch, 1, 1
+watch the, 1, 1
+the tv, 1, 1
+tv and, 1, 1
+and play, 2, 2
+games but, 1, 1
+feel more, 1, 1
+more and, 2, 2
+and more, 2, 2
+more lonely, 1, 1
+lonely i, 1, 1
+realize i, 1, 1
+need my, 1, 1
+parents so, 1, 1
+much i, 3, 3
+must learn, 1, 1
+tain, 2, 1
+benefit, 1, 1
+folklore, 1, 1
+butiful, 2, 1
+word, 1, 1
+virgin, 1, 1
+vecation, 1, 1
+japen, 4, 1
+confrotable, 1, 1
+you, 1, 1
+improstable, 1, 1
+any, 1, 1
+grabeby, 1, 1
+wish, 1, 1
+again, 5, 5
+november, 1, 1
+rain, 1, 1
+mood, 2, 2
+what tain, 1, 1
+tain make, 1, 1
+make me, 1, 1
+the benefit, 1, 1
+benefit it, 1, 1
+is let, 1, 1
+me learn, 1, 1
+learn more, 2, 2
+more folklore, 1, 1
+folklore and, 1, 1
+and look, 1, 1
+look the, 2, 2
+the different, 1, 1
+different view, 1, 1
+in this, 1, 1
+this butiful, 1, 1
+butiful word, 1, 1
+word in, 1, 1
+my virgin, 1, 1
+virgin tain, 1, 1
+tain this, 1, 1
+the summer, 1, 1
+summer vecation, 1, 1
+vecation in, 1, 1
+the japen, 1, 1
+japen japen, 1, 1
+japen are, 1, 1
+are very, 1, 1
+very confrotable, 1, 1
+confrotable in, 1, 1
+in the, 5, 4
+the every, 1, 1
+every where, 1, 1
+where you, 1, 1
+you are, 1, 1
+are improstable, 1, 1
+improstable to, 1, 1
+find any, 1, 1
+any grabeby, 1, 1
+grabeby in, 1, 1
+in fact, 1, 1
+fact i, 1, 1
+i wish, 1, 1
+wish go, 1, 1
+to japen, 2, 1
+japen again, 1, 1
+again if, 1, 1
+can go, 3, 2
+japen in, 1, 1
+the november, 1, 1
+november to, 1, 1
+the rain, 1, 1
+rain i, 1, 1
+just keep, 1, 1
+keep butiful, 1, 1
+butiful mood, 1, 1
+mood in, 1, 1
 dinner, 1, 1
 drink, 1, 1
 little醉, 1, 1
 dime, 1, 1
 heself, 1, 1
 walking, 1, 1
-road, 2, 2
 disunderstanding, 2, 1
+police, 5, 2
 and, 2, 2
 police局, 1, 1
 next, 1, 1
@@ -2867,13 +2923,14 @@ much drink, 1, 1
 drink very, 1, 1
 much so, 1, 1
 so he, 2, 1
-has a, 4, 4
+he has, 2, 2
 a little醉, 1, 1
 little醉 when, 1, 1
 the dime, 1, 1
 dime in, 1, 1
 the end, 2, 2
 he will, 2, 1
+will go, 2, 2
 home by, 1, 1
 by heself, 1, 1
 heself he, 1, 1
@@ -2892,6 +2949,7 @@ was disunderstanding, 1, 1
 disunderstanding he, 1, 1
 he took, 1, 1
 a police, 1, 1
+police car, 2, 2
 car and, 1, 1
 and then, 1, 1
 then the, 1, 1
@@ -2923,593 +2981,166 @@ have 喝醉, 1, 1
 yesterday so, 1, 1
 very red-face, 1, 1
 red-face and, 1, 1
+then he, 2, 2
 he just, 1, 1
 just real, 1, 1
 real go, 1, 1
-forget, 4, 4
-turns, 1, 1
-advance, 1, 1
-heart-broken, 1, 1
-sorry, 2, 2
-promise, 3, 2
-won’t, 1, 1
-happen, 3, 3
-am very, 2, 2
-very naughty, 1, 1
-naughty and, 1, 1
-and forget, 2, 2
-forget about, 2, 2
-about what, 1, 1
-what my, 2, 2
-me one, 1, 1
-one time, 1, 1
-go back, 1, 1
-late when, 1, 1
-see my, 2, 2
-mother she, 1, 1
-she smiles, 1, 1
-then turns, 1, 1
-turns angry, 1, 1
-she has, 1, 1
-has told, 1, 1
-home late, 1, 1
-must tell, 1, 1
-tell her, 1, 1
-her in, 1, 1
-in advance, 1, 1
-advance i, 1, 1
-i let, 1, 1
-let my, 2, 2
-mother heart-broken, 1, 1
-heart-broken i, 1, 1
-feel sorry, 1, 1
-sorry and, 1, 1
-and promise, 1, 1
-promise it, 1, 1
-it won’t, 1, 1
-won’t happen, 1, 1
-happen again, 1, 1
-travel, 14, 4
-expiences, 1, 1
-graduate, 1, 1
-camp, 1, 1
-mountain, 2, 2
-museams…, 1, 1
-etc, 2, 2
-even, 1, 1
-traveling, 1, 1
-fact, 3, 3
-can´t, 2, 1
-common, 2, 2
-ever, 1, 1
-gone, 1, 1
-japan, 3, 2
-once, 2, 2
-learned, 3, 2
-that, 2, 2
-plane, 2, 1
-got, 1, 1
-found, 2, 2
-different, 7, 7
-taiwan, 3, 2
-cars, 1, 1
-drive, 1, 1
-left, 1, 1
-shocked, 1, 1
-worldwilde, 1, 1
-have many, 1, 1
-many travel, 1, 1
-travel expiences, 1, 1
-expiences in, 1, 1
-our life, 1, 1
-life like, 1, 1
-like graduate, 1, 1
-graduate travel, 1, 1
-travel camp, 1, 1
-camp on, 1, 1
-the mountain, 1, 1
-mountain visit, 1, 1
-visit museams…, 1, 1
-museams… etc, 1, 1
-etc every, 1, 1
-every travel, 1, 1
-travel have, 1, 1
-have little, 1, 1
-little or, 1, 1
-or much, 1, 1
-much knowledge, 1, 1
-knowledge in, 1, 1
-in it, 1, 1
-it even, 1, 1
-even you, 1, 1
-you think, 1, 1
-think that, 3, 2
-that you, 1, 1
-you just, 1, 1
-play in, 1, 1
-in traveling, 1, 1
-traveling in, 1, 1
-in fact, 1, 1
-fact you, 1, 1
-you learn, 1, 1
-learn more, 2, 2
-more about, 1, 1
-about life, 2, 2
-life which, 1, 1
-which you, 1, 1
-you can´t, 1, 1
-can´t learn, 1, 1
-learn in, 1, 1
-in common, 2, 2
-common life, 1, 1
-have ever, 1, 1
-ever gone, 1, 1
-gone to, 1, 1
-to japan, 1, 1
-japan once, 1, 1
-once time, 1, 1
-i learned, 3, 2
-learned many, 1, 1
-things in, 2, 2
-the travel, 1, 1
-travel that, 1, 1
-that was, 1, 1
-was my, 1, 1
-my first, 1, 1
-time to, 2, 2
-to take, 2, 2
-take the, 1, 1
-the plane, 2, 1
-plane i, 1, 1
-learned what, 1, 1
-can do, 3, 3
-do and, 1, 1
-and what, 1, 1
-i can´t, 1, 1
-can´t do, 1, 1
-do on, 1, 1
-plane when, 1, 1
-when we, 1, 1
-we got, 1, 1
-got japan, 1, 1
-japan i, 1, 1
-i found, 1, 1
-found first, 1, 1
-first thing, 3, 3
-thing which, 1, 1
-is different, 1, 1
-different from, 2, 2
-from taiwan, 1, 1
-taiwan is, 1, 1
-is that, 2, 2
-that their, 1, 1
-their cars, 1, 1
-cars and, 1, 1
-and people, 1, 1
-people drive, 1, 1
-drive or, 1, 1
-or walk, 1, 1
-walk on, 1, 1
-on left, 1, 1
-left it, 1, 1
-it shocked, 1, 1
-shocked me, 1, 1
-me because, 3, 3
-that worldwilde, 1, 1
-return, 1, 1
-holidays, 1, 1
-trees, 2, 2
-green, 2, 2
-blue, 2, 2
-river, 2, 2
-fish, 1, 1
-dear, 1, 1
-i return, 1, 1
-return to, 1, 1
-hometown on, 1, 1
-on holidays, 1, 1
-holidays i, 1, 1
-be very, 3, 3
-very excited, 2, 2
-excited because, 3, 3
-the place, 1, 1
-place that, 1, 1
-love so, 1, 1
-much the, 1, 1
-the trees, 2, 2
-trees are, 2, 2
-so green, 2, 2
-green and, 2, 2
-the sky, 1, 1
-so blue, 1, 1
-blue when, 1, 1
-i play, 2, 2
-play on, 1, 1
-the river, 1, 1
-river side, 1, 1
-side i, 1, 1
-can catch, 1, 1
-catch fish, 1, 1
-fish i, 1, 1
-i grow, 2, 2
-up there, 1, 1
-there and, 1, 1
-a happy, 1, 1
-happy time, 1, 1
-my dear, 1, 1
-dear friends, 1, 1
-friends i, 4, 4
-never forget, 1, 1
-forget the, 1, 1
-the beautiful, 2, 2
-beautiful scenery, 1, 1
-scenery there, 1, 1
-planned, 2, 2
-interesting, 3, 3
-write, 2, 2
-wishes, 1, 1
-bottle, 1, 1
-exchange, 1, 1
-bottles, 2, 1
-secrets, 2, 2
-open, 1, 1
-my friends, 2, 2
-friends and, 5, 5
-have planned, 1, 1
-planned to, 2, 2
-do something, 1, 1
-something interesting, 1, 1
-interesting we, 1, 1
-we write, 1, 1
-write down, 1, 1
-down our, 1, 1
-our future, 1, 1
-future wishes, 1, 1
-wishes and, 1, 1
-put them, 1, 1
-them in, 1, 1
-in a, 1, 1
-a bottle, 1, 1
-bottle then, 1, 1
-we exchange, 1, 1
-exchange the, 1, 1
-the bottles, 2, 1
-bottles making, 1, 1
-making it, 1, 1
-it as, 1, 1
-as our, 1, 1
-our secrets, 2, 2
-secrets we, 1, 1
-we make, 1, 1
-a deal, 1, 1
-deal to, 1, 1
-take it, 1, 1
-it out, 1, 1
-out five, 1, 1
-years later, 1, 1
-later and, 1, 1
-and see, 1, 1
-see if, 1, 1
-we have, 3, 3
-have realize, 1, 1
-dreams no, 1, 1
-no one, 1, 1
-one knows, 1, 1
-knows what, 1, 1
-what will, 2, 2
-will happen, 2, 2
-happen tomorrow, 1, 1
-tomorrow but, 1, 1
-but we, 1, 1
+educate, 2, 2
+measured, 1, 1
+money, 3, 2
+some, 4, 4
+rich, 3, 2
+poor, 1, 1
+families, 4, 3
+root, 1, 1
+always educate, 1, 1
+educate me, 1, 1
+that there, 3, 3
+things cant, 1, 1
+cant be, 1, 1
+be measured, 1, 1
+measured by, 1, 1
+by money, 1, 1
+money such, 1, 1
+as the, 2, 2
+real happiness, 2, 2
+happiness some, 1, 1
+some rich, 1, 1
+rich people, 1, 1
+people live, 1, 1
+good life, 1, 1
+life but, 1, 1
+but they, 1, 1
+they feel, 1, 1
+feel lonely, 1, 1
+lonely while, 1, 1
+while some, 1, 1
+some poor, 1, 1
+poor people, 1, 1
+people enjoy, 1, 1
+great life, 1, 1
+life with, 1, 1
+their families, 1, 1
+families and, 2, 1
+and friends, 3, 2
+friends no, 1, 1
+where we, 1, 1
 we are, 2, 2
-the moment, 2, 2
-moment when, 1, 1
-when we, 4, 4
-we open, 1, 1
-open the, 1, 1
-semester, 2, 2
-six, 1, 1
-grade, 1, 1
-level, 2, 2
-international, 1, 1
-useful, 3, 3
-new semester, 1, 1
-semester is, 2, 2
-coming soon, 2, 2
-a six, 1, 1
-six grade, 1, 1
-grade student, 1, 1
-student i, 1, 1
-excited about, 3, 3
-about the, 5, 5
-last year, 2, 2
-year of, 1, 1
-the primary, 1, 1
-school so, 2, 2
-have made, 5, 5
-made up, 2, 2
-up my, 2, 2
-mind i, 1, 1
-and improve, 1, 1
-english level, 2, 2
-level i, 1, 1
-realize master, 1, 1
-the international, 1, 1
-international language, 1, 1
-language will, 1, 1
-be useful, 1, 1
-useful for, 1, 1
-study it, 1, 1
-it well, 1, 1
-think i, 1, 1
-listen, 3, 3
-songs, 4, 2
-band, 2, 1
-coldplay, 1, 1
-song, 1, 1
-yellow, 1, 1
-reason, 1, 1
-search, 2, 2
-listening, 1, 1
-to listen, 1, 1
-listen to, 3, 3
-to music, 1, 1
-music very, 1, 1
-much especially, 1, 1
-especially the, 1, 1
-english songs, 2, 1
-songs my, 1, 1
-my favorite, 1, 1
-favorite band, 1, 1
-band is, 2, 1
-is coldplay, 1, 1
-coldplay when, 1, 1
-i hear, 1, 1
-hear their, 1, 1
-their classic, 1, 1
-classic song, 1, 1
-song yellow, 1, 1
-yellow i, 1, 1
-excited the, 1, 1
-the reason, 1, 1
-reason i, 1, 1
-like this, 1, 1
-this band, 1, 1
-that they, 3, 2
-have something, 2, 2
-something different, 1, 1
-from others, 1, 1
-others in, 1, 1
-in their, 1, 1
-their songs, 1, 1
-songs they, 1, 1
-they search, 1, 1
-search about, 1, 1
-life listening, 1, 1
-listening to, 1, 1
-to english, 1, 1
-songs also, 1, 1
-also can, 2, 2
-me improve, 1, 1
-lived, 1, 1
-water, 3, 3
-memory, 2, 2
-i lived, 1, 1
-lived in, 1, 1
-hometown it, 1, 1
-a beautiful, 1, 1
-beautiful place, 1, 1
-place for, 1, 1
-like the, 1, 1
-the life, 1, 1
-life there, 1, 1
-there every, 1, 1
-i wake, 1, 1
-up early, 1, 1
-morning then, 1, 1
-then i, 4, 4
-will walk, 1, 1
-walk in, 1, 1
-the country, 1, 1
-country road, 1, 1
-road with, 1, 1
-grandma we, 1, 1
-we will, 2, 2
-will meet, 1, 1
-meet some, 1, 1
-some people, 1, 1
-and we, 5, 5
-we say, 1, 1
-to each, 1, 1
-the water, 3, 3
-water is, 1, 1
-clean i, 1, 1
-of time, 1, 1
-time in, 2, 2
-the small, 1, 1
-small river, 1, 1
-river i, 1, 1
-beautiful memory, 1, 1
-memory there, 1, 1
-travel, 3, 3
-everywhere, 1, 1
-meets, 3, 2
-knew, 2, 1
-have, 1, 1
-land, 1, 1
-however, 1, 1
-somewhere, 1, 1
-differen, 1, 1
-chat, 1, 1
-noti, 1, 1
-i´m, 1, 1
-travel is, 2, 2
-nice it, 1, 1
-it can, 3, 3
-us understand, 1, 1
-understand everywhere, 1, 1
-everywhere culture, 1, 1
-culture and, 1, 1
-and to, 1, 1
-to meets, 1, 1
-meets different, 1, 1
-different people, 1, 1
-people and, 1, 1
-and travel, 1, 1
-travel also, 1, 1
-to knew, 1, 1
-knew everything, 1, 1
-everything have, 1, 1
-have some, 1, 1
-some land, 1, 1
-land is, 1, 1
-is we, 3, 1
-we study, 1, 1
-study is, 1, 1
-is our, 1, 1
-our book, 1, 1
-book however, 1, 1
-however somewhere, 1, 1
-somewhere is, 1, 1
-can go, 3, 2
-to travel, 4, 1
-travel we, 1, 1
-can knew, 1, 1
-knew differen, 1, 1
-differen culture, 1, 1
-culture people, 1, 1
-and life, 1, 1
-life for, 1, 1
-for example, 2, 2
-example we, 1, 1
-we go, 1, 1
-travel in, 2, 2
-in japan, 1, 1
-japan we, 1, 1
-can meets, 1, 1
-meets people, 1, 1
-people become, 1, 1
-become friends, 1, 1
-and chat, 1, 1
-chat have, 1, 1
-something is, 1, 1
-we noti, 1, 1
-noti very, 1, 1
-very like, 1, 1
-travel i´m, 1, 1
-i´m hope, 1, 1
-hope i, 1, 1
-travel every, 1, 1
-every country, 1, 1
-slept, 1, 1
-describe, 1, 1
-girl’s, 1, 1
-growing, 1, 1
-brave, 1, 1
-heroines, 1, 1
-helping, 1, 1
-small my, 3, 3
-parents would, 1, 1
-would read, 1, 1
-read me, 1, 1
-me some, 1, 1
-some stories, 1, 1
-stories before, 1, 1
-i slept, 1, 1
-slept i, 1, 1
-hear the, 1, 1
-the stories, 1, 1
-stories that, 1, 1
-that describe, 1, 1
-describe a, 1, 1
-a girl’s, 1, 1
-girl’s growing, 1, 1
-growing up, 1, 1
-up these, 1, 1
-these girls, 1, 1
-girls are, 1, 1
-so brave, 1, 1
-brave and, 1, 1
-and become, 1, 1
-become heroines, 1, 1
-heroines at, 1, 1
-at last, 1, 1
-be one, 1, 1
-of them, 2, 2
-them so, 1, 1
-independent helping, 1, 1
-helping my, 1, 1
-mom with, 1, 1
-her house, 1, 1
-house work, 3, 3
-work she, 2, 2
-see it, 1, 1
-retired, 2, 1
-plans, 3, 3
-while, 2, 2
-husband, 1, 1
-activities, 2, 2
-dance, 3, 3
-sing, 2, 2
-group, 1, 1
-leisure, 2, 2
-they want, 8, 5
-be old, 1, 1
-old soon, 1, 1
-soon so, 2, 2
-can retired, 1, 1
-retired and, 1, 1
-and travel, 1, 1
-travel around, 1, 1
-world many, 1, 1
-people have, 1, 1
-made plans, 1, 1
-plans for, 3, 3
-for their, 1, 1
-their future, 1, 1
-future so, 1, 1
-look forward, 2, 2
-the retired, 1, 1
-retired life, 1, 1
-life while, 1, 1
-while for, 1, 1
-to live, 1, 1
-live with, 1, 1
-my husband, 1, 1
-husband and, 1, 1
-and find, 2, 2
-find some, 1, 1
-some activities, 1, 1
-activities like, 1, 1
-like dance, 1, 1
-dance or, 1, 1
-or sing, 1, 1
-sing in, 1, 1
-the group, 1, 1
-group what, 1, 1
-a leisure, 1, 1
-leisure life, 1, 1
+are families, 1, 1
+friends are, 1, 1
+always the, 1, 1
+the root, 1, 1
+root of, 1, 1
+of happiness, 1, 1
+smiles, 2, 2
+comfortable, 2, 2
+introduces, 1, 1
+teachers, 2, 2
+caring, 1, 1
+the day, 1, 1
+i remember, 2, 2
+remember that, 2, 2
+so scared, 1, 1
+scared because, 1, 1
+the first, 2, 2
+time for, 1, 1
+to leave, 1, 1
+leave my, 1, 1
+parents then, 1, 1
+then my, 1, 1
+my teacher, 1, 1
+teacher comes, 1, 1
+comes to, 1, 1
+and smiles, 1, 1
+smiles at, 2, 2
+at me, 1, 1
+so comfortable, 1, 1
+comfortable she, 1, 1
+she introduces, 1, 1
+introduces many, 1, 1
+many classmates, 1, 1
+classmates to, 1, 1
+me then, 1, 1
+then we, 2, 2
+we play, 1, 1
+play many, 1, 1
+many funny, 1, 1
+funny games, 1, 1
+games i, 1, 1
+i become, 2, 2
+become happy, 1, 1
+happy soon, 1, 1
+feel my, 1, 1
+my teachers, 1, 1
+teachers caring, 1, 1
+caring and, 1, 1
+and love, 2, 2
+tries, 2, 2
+educates, 1, 1
+balanced, 2, 1
+healthy, 1, 1
+importance, 2, 2
+vegetable, 2, 1
+later, 1, 1
+to eat, 2, 2
+eat all, 1, 1
+of meat, 1, 1
+meat but, 1, 1
+like vegetables, 1, 1
+vegetables my, 1, 1
+mother always, 1, 1
+always tries, 1, 1
+tries to, 2, 2
+eat some, 1, 1
+some vegetables, 1, 1
+vegetables she, 1, 1
+she educates, 1, 1
+educates me, 1, 1
+that balanced, 1, 1
+balanced diet, 2, 1
+diet can, 1, 1
+can help, 4, 3
+help me, 3, 3
+me stay, 1, 1
+stay healthy, 1, 1
+healthy i, 1, 1
+to realize, 3, 3
+realize the, 2, 2
+the importance, 2, 2
+importance of, 2, 2
+of balanced, 1, 1
+diet so, 1, 1
+i try, 2, 2
+have vegetable, 1, 1
+vegetable later, 1, 1
+later i, 1, 1
+with it, 2, 2
+and now, 1, 1
+now vegetable, 1, 1
+vegetable is, 1, 1
 dog, 1, 1
 loyal, 1, 1
 animal, 3, 2
+reported, 2, 2
 dog, 2, 1
 wandered, 1, 1
 wasted, 1, 1
 building, 1, 1
+once, 2, 2
 finally, 1, 1
 guy, 1, 1
 moves, 1, 1
 dogs, 1, 1
-protect, 7, 5
 dog is, 1, 1
 treated as, 1, 1
-as the, 2, 2
 the lovely, 1, 1
 lovely and, 2, 2
 and loyal, 1, 1
 loyal animal, 1, 1
 animal the, 1, 1
 the news, 1, 1
+news reported, 2, 2
+reported a, 2, 2
 a dog, 1, 1
 dog wandered, 1, 1
 wandered around, 1, 1
@@ -3542,69 +3173,288 @@ people dogs, 1, 1
 dogs are, 1, 1
 are our, 1, 1
 our friends, 1, 1
+friends and, 5, 5
+we should, 2, 2
 should protect, 1, 1
 protect them, 2, 2
-lesson, 4, 4
-difficult, 1, 1
-elder, 1, 1
-energy, 1, 1
-enrich, 1, 1
-the chinese, 1, 1
-chinese lesson, 1, 1
-lesson i, 1, 1
-recite many, 1, 1
-many old, 1, 1
-old poems, 1, 1
-very difficult, 1, 1
-difficult for, 1, 1
-the elder, 1, 1
-elder to, 1, 1
-it but, 1, 1
-but it, 1, 1
-so easy, 1, 1
-me as, 2, 2
-am young, 1, 1
-young and, 2, 2
-and full, 1, 1
-of energy, 1, 1
-energy i, 1, 1
-can finish, 1, 1
-the job, 1, 1
-job quickly, 1, 1
-quickly in, 1, 1
-the best, 3, 3
-best age, 1, 1
-age i, 1, 1
-books to, 1, 1
-to enrich, 1, 1
-enrich my, 1, 1
-my life, 5, 5
-life the, 1, 1
-the more, 1, 1
-more i, 2, 1
-can recite, 1, 1
-recite the, 1, 1
-the more, 1, 1
-can remember, 1, 1
+interesting, 3, 3
+movie, 4, 3
+wrote, 1, 1
+letter, 3, 1
+receive, 1, 1
+ten, 1, 1
+meaningful, 1, 1
+days, 3, 3
+recall, 1, 1
+write, 2, 2
+remind, 1, 1
+passion, 1, 1
+owned, 1, 1
+saw an, 2, 2
+an interesting, 2, 2
+interesting movie, 2, 2
+movie a, 1, 1
+a girl, 1, 1
+girl wrote, 1, 1
+wrote a, 1, 1
+a letter, 2, 1
+letter to, 2, 1
+to herself, 1, 1
+herself she, 1, 1
+she would, 1, 1
+would receive, 1, 1
+receive it, 1, 1
+it in, 1, 1
+in ten, 1, 1
+ten years, 1, 1
+years it, 1, 1
+is meaningful, 1, 1
+meaningful if, 1, 1
+we read, 1, 1
+the letter, 1, 1
+letter we, 1, 1
+will think, 1, 1
+think of, 1, 1
+the old, 1, 1
+old days, 1, 1
+days and, 1, 1
+and recall, 1, 1
+recall of, 1, 1
+the happiness, 1, 1
+happiness so, 1, 1
+to write, 1, 1
+write a, 1, 1
+me in, 1, 1
+future i, 1, 1
+to remind, 1, 1
+remind myself, 1, 1
+myself of, 1, 1
+the passion, 1, 1
+passion i, 1, 1
+i owned, 1, 1
+xiao, 1, 1
+wants, 1, 1
+plan, 2, 2
+sets, 1, 1
+expectation, 2, 1
+latest, 1, 1
+progress, 1, 1
+reach, 1, 1
+teachers, 1, 1
+becomes, 1, 1
+xiao li, 1, 1
+li is, 1, 1
+good student, 1, 1
+student he, 1, 1
+he always, 1, 1
+always wants, 1, 1
+wants to, 1, 1
+the top, 1, 1
+top student, 1, 1
+student in, 1, 1
+in class, 1, 1
+class so, 1, 1
+so he, 1, 1
+he makes, 1, 1
+makes the, 2, 2
+the plan, 2, 2
+plan and, 1, 1
+and sets, 1, 1
+sets up, 1, 1
+up high, 1, 1
+high expectation, 1, 1
+expectation in, 1, 1
+the latest, 1, 1
+latest exam, 1, 1
+exam he, 1, 1
+has made, 1, 1
+made the, 2, 2
+the big, 1, 1
+big progress, 1, 1
+progress but, 1, 1
+he still, 1, 1
+still feels, 1, 1
+feels lost, 1, 1
+lost because, 1, 1
+because he, 3, 3
+he does, 2, 1
+does not, 1, 1
+not reach, 1, 1
+reach his, 1, 1
+his expectation, 1, 1
+expectation teachers, 1, 1
+teachers and, 1, 1
+friends tell, 1, 1
+tell him, 1, 1
+him that, 1, 1
+does the, 1, 1
+great job, 1, 1
+job then, 1, 1
+he becomes, 1, 1
+becomes happy, 1, 1
+happy again, 1, 1
+panda, 4, 2
+cute, 1, 1
+valuable, 1, 1
+rare, 1, 1
+government, 1, 1
+dying, 3, 2
+besides, 1, 1
+species, 1, 1
+disappear, 1, 1
+human, 1, 1
+being, 2, 2
+everybody loves, 2, 2
+loves panda, 1, 1
+panda because, 1, 1
+so cute, 1, 1
+cute it, 1, 1
+that panda, 1, 1
+panda is, 1, 1
+very valuable, 1, 1
+valuable and, 1, 1
+and rare, 1, 1
+rare the, 1, 1
+the government, 1, 1
+government works, 1, 1
+protect it, 1, 1
+it from, 1, 1
+from dying, 1, 1
+dying out, 3, 2
+out besides, 1, 1
+besides panda, 1, 1
+panda there, 1, 1
+are other, 1, 1
+other species, 1, 1
+species is, 1, 1
+is dying, 2, 2
+out we, 1, 1
+we need, 1, 1
+protect our, 1, 1
+our environment, 1, 1
+environment so, 1, 1
+protect the, 1, 1
+animals if, 1, 1
+they disappear, 1, 1
+disappear soon, 1, 1
+soon human, 1, 1
+human being, 1, 1
+being will, 1, 1
+will face, 1, 1
+face the, 1, 1
+same result, 1, 1
+biology, 1, 1
+field, 1, 1
+observe, 1, 1
+flowers, 1, 1
+carefully, 1, 1
+today the, 1, 1
+the biology, 1, 1
+biology class, 1, 1
+class is, 1, 1
+very different, 1, 1
+different we, 1, 1
+we don’t, 1, 1
+don’t need, 1, 1
+to sit, 1, 1
+sit in, 1, 1
+classroom because, 1, 1
+because the, 3, 3
+the teacher, 1, 1
+teacher takes, 1, 1
+takes us, 1, 1
+do activities, 1, 1
+activities we, 1, 1
+we go, 1, 1
+a field, 1, 1
+field that, 1, 1
+that is, 1, 1
+is near, 1, 1
+near our, 1, 1
+our school, 1, 1
+task for, 1, 1
+for us, 2, 1
+us is, 1, 1
+to observe, 1, 1
+observe flowers, 1, 1
+flowers we, 1, 1
+we feel, 1, 1
+excited and, 2, 2
+and finish, 1, 1
+task very, 1, 1
+very carefully, 1, 1
+carefully it, 1, 1
+good way, 1, 1
+way for, 1, 1
+learn knowledge, 1, 1
+knowledge i, 1, 1
+walks, 1, 1
+square, 1, 1
+dances, 1, 1
+sun, 1, 1
+shining, 1, 1
+red, 5, 2
+attention, 5, 5
+city, 1, 1
+quiet, 3, 3
+today early, 1, 1
+go out, 3, 3
+out of, 1, 1
+house with, 1, 1
+grandma she, 1, 1
+she walks, 1, 1
+walks to, 1, 1
+the square, 1, 1
+square and, 1, 1
+then dances, 1, 1
+dances with, 1, 1
+her friends, 2, 2
+friends the, 1, 1
+the sky, 1, 1
+clean and, 1, 1
+and beautiful, 2, 2
+beautiful the, 1, 1
+the sun, 1, 1
+sun is, 1, 1
+is shining, 1, 1
+shining with, 1, 1
+with red, 1, 1
+red color, 1, 1
+color the, 1, 1
+the scenery, 1, 1
+scenery catches, 1, 1
+catches my, 1, 1
+my attention, 2, 2
+attention i, 1, 1
+have never, 1, 1
+never noticed, 1, 1
+noticed it, 1, 1
+it before, 2, 2
+before the, 1, 1
+the city, 1, 1
+city in, 1, 1
+morning is, 1, 1
+is quiet, 1, 1
+quiet and, 2, 2
+and comfortable, 1, 1
 lily’s, 1, 1
-birthday, 2, 2
 promised, 1, 1
 surprise, 1, 1
 amusement, 1, 1
 park, 1, 1
 lily, 1, 1
+found, 2, 2
 joy, 1, 1
 items, 1, 1
 hasn’t, 1, 1
 done, 1, 1
-her, 4, 4
 gift, 1, 1
 lily’s birthday, 1, 1
 birthday is, 1, 1
 her parents, 2, 2
-parents have, 4, 4
 have promised, 1, 1
 promised to, 1, 1
+to give, 2, 2
 give her, 1, 1
 her a, 1, 1
 big surprise, 1, 1
@@ -3640,670 +3490,191 @@ company her, 1, 1
 her all, 1, 1
 time what, 1, 1
 great gift, 1, 1
-summer, 3, 3
-vacation, 2, 2
-swimming, 4, 2
-skill, 3, 3
-save, 2, 2
-sports, 2, 2
-as summer, 2, 2
-summer vacation, 2, 2
-vacation is, 2, 2
-coming my, 2, 2
-made some, 2, 2
-some plans, 2, 2
-want me, 4, 2
-learn something, 2, 2
-something useful, 2, 2
-useful this, 2, 2
-this first, 2, 2
-thing they, 2, 2
-learn swimming, 4, 2
-swimming this, 2, 2
-this is, 3, 3
-important skill, 2, 2
-skill it, 2, 2
-can save, 2, 2
-save my, 2, 2
-life if, 2, 2
-fall into, 2, 2
-water i, 2, 2
-i also, 2, 2
-also want, 2, 2
-swimming so, 2, 2
-do many, 2, 2
-many cool, 2, 2
-cool sports, 2, 2
-sports i, 2, 2
-the lesson, 3, 3
-classroom, 2, 2
-deskmate, 1, 1
-brings, 1, 1
-corner, 1, 1
-near, 2, 2
-surprised, 1, 1
-the classroom, 2, 2
-classroom my, 1, 1
-my deskmate, 1, 1
-deskmate brings, 1, 1
-brings me, 1, 1
-a corner, 1, 1
-corner then, 1, 1
-see another, 1, 1
-another three, 1, 1
-three classmates, 1, 1
-classmates are, 2, 2
-are waiting, 1, 1
-waiting there, 1, 1
-there for, 1, 1
-get near, 1, 1
-near them, 1, 1
-they take, 1, 1
-take out, 1, 1
-out presents, 1, 1
-presents and, 1, 1
-say happy, 1, 1
-happy birthday, 1, 1
-birthday to, 1, 1
-so surprised, 1, 1
-surprised and, 1, 1
-and so, 1, 1
-so touched, 1, 1
-touched they, 1, 1
-they remember, 1, 1
-remember my, 1, 1
-my big, 1, 1
-big day, 1, 1
-day they, 1, 1
-are my, 1, 1
-best friends, 2, 2
-elders, 1, 1
-satisfy, 1, 1
-right, 2, 2
-prizes, 1, 1
-free, 2, 2
-meal, 2, 2
-some children, 1, 1
-children think, 1, 1
-think their, 1, 1
-their parents, 3, 3
-parents don’t, 1, 1
-don’t love, 1, 1
-love them, 1, 1
-them enough, 1, 1
-enough because, 1, 1
-the elders, 1, 1
-elders can’t, 1, 1
-can’t satisfy, 1, 1
-satisfy them, 1, 1
-them with, 1, 1
-things they, 1, 1
-want actually, 1, 1
-actually this, 1, 1
-this is, 1, 1
-the right, 2, 2
-right way, 2, 2
-way to, 2, 2
-show love, 1, 1
-love my, 1, 1
-mother gives, 1, 1
-gives me, 1, 1
-me prizes, 1, 1
-prizes by, 1, 1
-my work, 2, 2
-work such, 1, 1
-as help, 1, 1
-help her, 3, 3
-do the, 1, 1
-the house, 2, 2
-she tries, 1, 1
-me know, 1, 1
-know there, 1, 1
-is no, 2, 2
-no free, 2, 2
-free meal, 2, 2
-meal which, 1, 1
-which helps, 1, 1
-movie, 4, 3
-called, 1, 1
-kongfu, 1, 1
-panda, 2, 1
-fat, 1, 1
-panda, 4, 2
-image, 1, 1
-fell, 1, 1
-relevant, 1, 1
-dying, 3, 2
-small i, 1, 1
-saw an, 2, 2
-an interesting, 2, 2
-interesting movie, 2, 2
-movie which, 1, 1
-which was, 1, 1
-was called, 1, 1
-called kongfu, 1, 1
-kongfu panda, 1, 1
-panda the, 1, 1
-the fat, 1, 1
-fat panda, 1, 1
-panda image, 1, 1
-image was, 1, 1
-was so, 2, 2
-so lovely, 2, 2
-learned that, 1, 1
-that there, 3, 3
-there was, 1, 1
-was such, 1, 1
-a lovely, 1, 1
-lovely animal, 1, 1
-animal in, 1, 1
-world since, 1, 1
-i fell, 1, 1
-fell in, 1, 1
-with this, 1, 1
-this animal, 1, 1
-animal i, 1, 1
-of relevant, 1, 1
-relevant knowledge, 1, 1
-knowledge panda, 1, 1
-panda is, 1, 1
-is dying, 2, 2
-dying out, 3, 2
-out so, 1, 1
-so we, 1, 1
-we need, 1, 1
-to protect, 5, 3
-them by, 1, 1
-by protecting, 1, 1
-kids, 4, 3
-were, 2, 2
-chance, 1, 1
-features, 1, 1
-embarrassed, 1, 1
-mistakes, 1, 1
-chinglish, 1, 1
-may, 1, 1
-formal, 1, 1
-that english, 1, 1
-english is, 1, 1
-language that, 1, 1
-that kids, 1, 1
-kids need, 1, 1
-learn it, 1, 1
-it since, 1, 1
-since they, 1, 1
-they were, 1, 1
-were very, 1, 1
-small as, 1, 1
-as many, 1, 1
-many chinese, 1, 1
-chinese kids, 1, 1
-kids don’t, 1, 1
-don’t have, 2, 2
-the chance, 1, 1
-chance to, 1, 1
-to talk, 1, 1
-to foreigners, 1, 1
-foreigners so, 1, 1
-they speak, 1, 1
-speak the, 1, 1
-way with, 1, 1
-with chinese, 1, 1
-chinese features, 1, 1
-features though, 1, 1
-is embarrassed, 1, 1
-embarrassed it, 1, 1
-is better, 1, 1
-better than, 1, 1
-than never, 1, 1
-never speak, 1, 1
-speak out, 1, 1
-out loudly, 1, 1
-loudly we, 1, 1
-can learn, 2, 2
-lot from, 1, 1
-from making, 1, 1
-making mistakes, 1, 1
-mistakes chinglish, 1, 1
-chinglish may, 1, 1
-may be, 1, 1
-be someday, 1, 1
-someday the, 1, 1
-the formal, 1, 1
-formal english, 1, 1
-special, 5, 4
-woman, 2, 1
-lives, 1, 1
-two, 2, 2
-looks, 2, 2
-younger, 2, 2
-envious, 1, 1
-speaks, 1, 1
-talks, 1, 1
-a special, 3, 3
-special woman, 1, 1
-woman who, 1, 1
-who lives, 1, 1
-lives next, 1, 1
-house she, 1, 1
-she has, 2, 1
-has two, 1, 1
-two children, 1, 1
-children and, 1, 1
-she looks, 1, 1
-looks much, 1, 1
-much younger, 1, 1
-younger than, 2, 2
-than her, 1, 1
-her real, 1, 1
-real age, 1, 1
-age my, 1, 1
-mother feels, 2, 2
-feels envious, 1, 1
-envious about, 1, 1
-about her, 2, 2
-and always, 1, 1
-always speaks, 1, 1
-speaks highly, 1, 1
-of her, 1, 1
-her i, 1, 1
-i talk, 1, 1
-the woman, 1, 1
-woman one, 1, 1
-time and, 1, 1
-way she, 1, 1
-she talks, 1, 1
-talks just, 1, 1
-like a, 1, 1
-girl she, 1, 1
-a young, 1, 1
-young heart, 2, 2
-heart which, 1, 1
-way makes, 1, 1
-makes her, 1, 1
-her special, 1, 1
-wrote, 1, 1
-letter, 3, 1
-receive, 1, 1
-ten, 1, 1
-meaningful, 1, 1
-recall, 1, 1
-remind, 1, 1
-passion, 1, 1
-owned, 1, 1
-movie a, 1, 1
-a girl, 1, 1
-girl wrote, 1, 1
-wrote a, 1, 1
-a letter, 2, 1
-letter to, 2, 1
-to herself, 1, 1
-herself she, 1, 1
-she would, 1, 1
-would receive, 1, 1
-receive it, 1, 1
-it in, 1, 1
-in ten, 1, 1
-ten years, 1, 1
-years it, 1, 1
-is meaningful, 1, 1
-meaningful if, 1, 1
-if we, 2, 2
-we read, 1, 1
-the letter, 1, 1
-letter we, 1, 1
-will think, 1, 1
-think of, 1, 1
-the old, 1, 1
-old days, 1, 1
-days and, 1, 1
-and recall, 1, 1
-recall of, 1, 1
-the happiness, 1, 1
-happiness so, 1, 1
-to write, 1, 1
-write a, 1, 1
-me in, 1, 1
-future i, 1, 1
-to remind, 1, 1
-remind myself, 1, 1
-myself of, 1, 1
-the passion, 1, 1
-passion i, 1, 1
-i owned, 1, 1
-mei, 1, 1
-without, 1, 1
-hesitation, 1, 1
-happily, 2, 2
-is li, 2, 2
-li mei, 1, 1
-mei we, 1, 1
-we know, 2, 2
-know each, 2, 2
-other about, 1, 1
-about two, 1, 1
-two years, 1, 1
-she helps, 1, 1
-me without, 1, 1
-without hesitation, 1, 1
-hesitation so, 1, 1
-will also, 1, 1
-also help, 1, 1
-her when, 1, 1
-she meets, 1, 1
-meets difficulty, 1, 1
-difficulty we, 1, 1
-we share, 1, 1
-share our, 1, 1
-secrets and, 1, 1
-sometimes she, 1, 1
-will stay, 1, 1
-stay the, 1, 1
-the night, 1, 1
-night with, 1, 1
-with me, 1, 1
-me we, 1, 1
-talk very, 1, 1
-very happily, 1, 1
-happily and, 1, 1
-to sleep, 1, 1
-rich, 3, 2
-complains, 1, 1
-busy, 1, 1
-family though, 1, 1
-not rich, 1, 1
-rich enough, 1, 1
-enough to, 1, 1
+key, 3, 1
+worried, 1, 1
+places, 1, 1
+shop, 2, 2
+yes, 1, 1
+i lose, 2, 1
+lose my, 1, 1
+my key, 2, 1
+key i, 2, 1
+so worried, 1, 1
+worried and, 1, 1
+to remember, 1, 1
+remember all, 1, 1
+the places, 1, 1
+places i, 1, 1
+have been, 1, 1
+been to, 1, 1
+to as, 1, 1
+the shop, 2, 2
+shop an, 1, 1
+an old, 1, 1
+old man, 1, 1
+man stops, 1, 1
+stops me, 1, 1
+and asks, 1, 1
+asks if, 1, 1
+lose the, 1, 1
+the key, 1, 1
+say yes, 1, 1
+yes at, 1, 1
+at last, 1, 1
+last i, 2, 2
+find my, 3, 3
+key and, 1, 1
+home though, 1, 1
+am lucky, 1, 1
+lucky this, 1, 1
+this time, 2, 2
+do it, 2, 2
+it again, 1, 1
+novel, 1, 1
+books, 4, 3
+guys, 2, 1
+ending, 1, 1
+pay, 2, 2
+bills, 1, 1
+good, 1, 1
+to read, 2, 2
+read novel, 1, 1
+novel so, 1, 1
+have read, 1, 1
+of books, 1, 1
+books since, 1, 1
+since three, 1, 1
+three years, 1, 1
+good guys, 1, 1
+guys always, 1, 1
+always have, 1, 1
+happy ending, 1, 1
+ending and, 1, 1
+the bad, 2, 2
+bad guys, 1, 1
+guys need, 1, 1
+to pay, 1, 1
+pay for, 1, 1
+the bills, 1, 1
+bills so, 1, 1
+i learn, 4, 4
+learn that, 1, 1
+should be, 1, 1
+good person, 1, 1
+person so, 1, 1
+that everybody, 1, 1
+everybody will, 1, 1
+will love, 1, 1
+love me, 1, 1
+and help, 2, 2
+me good, 1, 1
+good books, 1, 1
+books can, 1, 1
+can educate, 1, 1
+educate children, 1, 1
+ot, 1, 1
+part-time, 2, 1
+didnt, 1, 1
+monry, 1, 1
+enconomic, 1, 1
+boring, 1, 1
+maybe, 1, 1
+expensive, 1, 1
+product, 1, 1
+think that, 3, 2
+that student, 1, 1
+student go, 1, 1
+go ot, 1, 1
+ot part-time, 1, 1
+part-time because, 1, 1
+they didnt, 1, 1
+didnt have, 1, 1
+enough monry, 1, 1
+monry to, 1, 1
 to buy, 5, 4
 buy what, 3, 3
-want they, 1, 1
-they give, 1, 1
-best thing, 1, 1
-thing that, 1, 1
-that is, 1, 1
-is love, 1, 1
-love i, 1, 1
-a rich, 1, 1
-rich friend, 1, 1
-friend her, 2, 2
-her name, 2, 2
-lucy she, 1, 1
-she always, 2, 2
-always complains, 1, 1
-complains that, 1, 1
-that her, 2, 2
-are too, 1, 1
-too busy, 1, 1
-busy and, 1, 1
-have much, 1, 1
-much time, 1, 1
-thankful for, 1, 1
-have i, 1, 1
-feel the, 1, 1
-real happiness, 2, 2
-kid, 1, 1
-adults, 1, 1
-innocent, 1, 1
-words, 4, 3
-totally, 1, 1
-small kid, 1, 1
-kid i, 1, 1
-up soon, 1, 1
-can be, 5, 4
-independent but, 1, 1
-but the, 1, 1
-the adults, 1, 1
-adults always, 1, 1
-always tell, 1, 1
-tell me, 1, 1
-a lucky, 1, 1
-lucky thing, 1, 1
-thing to, 1, 1
-child because, 1, 1
-be young, 1, 1
-and innocent, 1, 1
-innocent though, 1, 1
-don’t understand, 1, 1
-understand their, 1, 1
-their words, 2, 2
-words totally, 1, 1
-totally i, 1, 1
-must keep, 1, 1
-keep my, 2, 2
-my young, 1, 1
-heart and, 1, 1
-enjoy every, 2, 2
-every moment, 2, 2
-moment of, 1, 1
-ask, 2, 2
-rumor, 2, 1
-headmaster, 1, 1
-gossiping, 1, 1
-curious, 1, 1
-turned, 1, 1
-wrong, 1, 1
-spread, 1, 1
-respect, 2, 2
-my classmates, 1, 1
-are talking, 2, 1
-talking about, 1, 1
-about something, 1, 1
-something so, 1, 1
-i ask, 1, 1
-ask my, 2, 2
-my friend, 1, 1
-friend when, 1, 1
-talking he, 1, 1
-he tells, 1, 1
-a rumor, 1, 1
-rumor about, 1, 1
-about our, 1, 1
-our headmaster, 1, 1
-headmaster everybody, 1, 1
-everybody is, 1, 1
-is gossiping, 1, 1
-gossiping about, 1, 1
-about it, 1, 1
-it i, 1, 1
-very curious, 1, 1
-curious and, 1, 1
-and talk, 1, 1
-of friends, 1, 1
-friends in, 1, 1
-end the, 1, 1
-the rumor, 1, 1
-rumor is, 1, 1
-is turned, 1, 1
-turned to, 1, 1
-be wrong, 1, 1
-wrong i, 1, 1
-so sorry, 1, 1
-sorry to, 1, 1
-to spread, 1, 1
-spread the, 1, 1
-learn the, 1, 1
-lesson that, 1, 1
-should respect, 1, 1
-respect others, 1, 1
-nature, 1, 1
-seek, 1, 1
-ignore, 1, 1
-themselves, 2, 1
-built, 1, 1
-confidence, 1, 1
-stronger, 1, 1
-only, 1, 1
-ourselves, 1, 1
-the nature, 1, 1
-nature for, 1, 1
-for children, 1, 1
-to seek, 1, 1
-seek for, 1, 1
-for love, 1, 1
-love from, 2, 1
-from their, 1, 1
-parents the, 1, 1
-the happy, 1, 1
-happy family, 1, 1
-family helps, 1, 1
-helps children, 1, 1
-to better, 1, 1
-better grow, 1, 1
-up while, 1, 1
-while most, 1, 1
-most children, 1, 1
-children ignore, 1, 1
-ignore the, 1, 1
-the love, 1, 1
-from themselves, 1, 1
-themselves how, 1, 1
-how much, 1, 1
-much they, 1, 1
-they love, 1, 1
-love themselves, 1, 1
-themselves decides, 1, 1
-person they, 1, 1
-are this, 1, 1
-this love, 1, 1
-love can, 1, 1
-can built, 1, 1
-built confidence, 1, 1
-confidence and, 1, 1
-and make, 1, 1
-make them, 1, 1
-them stronger, 1, 1
-stronger only, 1, 1
-only when, 1, 1
-we love, 1, 1
-love ourselves, 1, 1
-ourselves can, 1, 1
-can we, 1, 1
-we to, 1, 1
-the better, 2, 2
-better persons, 1, 1
-measured, 1, 1
-money, 3, 2
-poor, 1, 1
-root, 1, 1
-always educate, 1, 1
-educate me, 1, 1
-things can't, 1, 1
-can't be, 1, 1
-be measured, 1, 1
-measured by, 1, 1
-by money, 1, 1
-money such, 1, 1
-happiness some, 1, 1
-some rich, 1, 1
-rich people, 1, 1
-people live, 1, 1
-good life, 1, 1
-life but, 1, 1
-but they, 1, 1
-they feel, 1, 1
-feel lonely, 1, 1
-lonely while, 1, 1
-while some, 1, 1
-some poor, 1, 1
-poor people, 1, 1
-people enjoy, 1, 1
-great life, 1, 1
-life with, 1, 1
-their families, 1, 1
-families and, 2, 1
-friends no, 1, 1
-where we, 1, 1
-are families, 1, 1
-friends are, 1, 1
-always the, 1, 1
-the root, 1, 1
-root of, 1, 1
-of happiness, 1, 1
-natural, 1, 1
-protection, 1, 1
-grown, 2, 2
-every child, 1, 1
-child needs, 1, 1
-needs his, 1, 1
-his parents, 1, 1
-parents when, 1, 1
-they meet, 1, 1
-is natural, 1, 1
-natural for, 1, 1
-them to, 4, 4
-find protection, 1, 1
-protection my, 1, 1
-parents protect, 1, 1
-protect me, 1, 1
-me all, 1, 1
-can feel, 1, 1
-feel their, 1, 1
-their love, 1, 1
-love but, 1, 1
-but as, 1, 1
-as i, 1, 1
-up i, 1, 1
-solve problem, 1, 1
-problem by, 1, 1
-by myself, 1, 1
-myself when, 1, 1
-i solve, 1, 1
-moment i, 1, 1
-have grown, 2, 2
-grown up, 2, 2
-cute, 1, 1
-valuable, 1, 1
-rare, 1, 1
-government, 1, 1
-besides, 1, 1
-species, 1, 1
-disappear, 1, 1
-human, 1, 1
-being, 2, 2
-loves panda, 1, 1
-panda because, 1, 1
-so cute, 1, 1
-cute it, 1, 1
-that panda, 1, 1
-panda is, 1, 1
-very valuable, 1, 1
-valuable and, 1, 1
-and rare, 1, 1
-rare the, 1, 1
-the government, 1, 1
-government works, 1, 1
-protect it, 1, 1
-it from, 1, 1
-from dying, 1, 1
-out besides, 1, 1
-besides panda, 1, 1
-panda there, 1, 1
-are other, 1, 1
-other species, 1, 1
-species is, 1, 1
-out we, 1, 1
-we need, 1, 1
-protect our, 1, 1
-our environment, 1, 1
-environment so, 1, 1
-so as, 2, 2
-as to, 2, 2
-protect the, 1, 1
-animals if, 1, 1
-they disappear, 1, 1
-disappear soon, 1, 1
-soon human, 1, 1
-human being, 1, 1
-being will, 1, 1
-will face, 1, 1
-face the, 1, 1
-same result, 1, 1
+what they, 1, 1
+want buy, 1, 1
+buy or, 1, 1
+or they, 1, 1
+to help, 2, 2
+help their, 1, 1
+parents for, 1, 1
+for enconomic, 1, 1
+enconomic if, 1, 1
+to part-time, 1, 1
+part-time i, 1, 1
+must feel, 1, 1
+feel boring, 1, 1
+boring at, 1, 1
+at home, 1, 1
+home or, 1, 1
+or maybe, 1, 1
+maybe i, 1, 1
+buy a, 1, 1
+a expensive, 1, 1
+expensive product, 1, 1
+product i, 1, 1
+get them, 1, 1
+them myself, 1, 1
+myself because, 1, 1
+because that, 1, 1
+that makes, 1, 1
+me very, 1, 1
+happy and, 1, 1
+will very, 1, 1
+very care, 1, 1
+care of, 1, 1
+of them, 2, 2
+difficult, 1, 1
+elder, 1, 1
+full, 2, 2
+energy, 1, 1
+quickly, 3, 3
+enrich, 1, 1
+the chinese, 1, 1
+chinese lesson, 1, 1
+lesson i, 1, 1
+recite many, 1, 1
+many old, 1, 1
+old poems, 1, 1
+very difficult, 1, 1
+difficult for, 1, 1
+the elder, 1, 1
+elder to, 1, 1
+it but, 1, 1
+but it, 1, 1
+so easy, 1, 1
+am young, 1, 1
+and full, 1, 1
+full of, 2, 2
+of energy, 1, 1
+energy i, 1, 1
+can finish, 1, 1
+the job, 1, 1
+job quickly, 1, 1
+quickly in, 1, 1
+best age, 1, 1
+age i, 1, 1
+read more, 2, 2
+more books, 2, 2
+books to, 1, 1
+to enrich, 1, 1
+enrich my, 1, 1
+life the, 1, 1
+the more, 1, 1
+more i, 2, 1
+can recite, 1, 1
+recite the, 1, 1
+the more, 1, 1
+can remember, 1, 1
 pet, 1, 1
 agreed, 1, 1
 cat, 3, 1
 round, 1, 1
 angel, 1, 1
 order, 1, 1
+search, 2, 2
 internet, 1, 1
 information, 1, 1
 raised, 1, 1
@@ -4315,10 +3686,12 @@ week my, 1, 1
 mother finally, 1, 1
 finally agreed, 1, 1
 agreed to, 1, 1
+me a, 2, 2
 a cat, 1, 1
 cat the, 1, 1
 the cat, 1, 1
 cat is, 1, 1
+so lovely, 2, 2
 lovely it, 1, 1
 it has, 1, 1
 a round, 1, 1
@@ -4343,396 +3716,306 @@ internet and, 1, 1
 find the, 1, 1
 the information, 1, 1
 information since, 1, 1
+since i, 4, 4
 i raised, 1, 1
 raised the, 1, 1
 the cat, 1, 1
 cat i, 1, 1
 up so, 1, 1
-sent, 2, 2
-ballet, 1, 1
-choice, 2, 1
-ago my, 1, 1
-mother sent, 1, 1
-sent me, 2, 2
-learn ballet, 1, 1
-ballet at, 1, 1
-at that, 1, 1
-that time, 1, 1
-so unhappy, 1, 1
-unhappy about, 1, 1
-her choice, 1, 1
-choice because, 1, 1
-just wanted, 1, 1
-play but, 1, 1
-but now, 1, 1
-now when, 1, 1
-when someone, 1, 1
-someone asks, 1, 1
-me what, 2, 2
-my talent, 1, 1
-talent is, 1, 1
-very proud, 1, 1
-proud to, 1, 1
-to tell, 1, 1
-tell them, 1, 1
-them i, 3, 3
-can dance, 1, 1
-dance my, 1, 1
-mother makes, 1, 1
-good choice, 1, 1
-choice for, 1, 1
-special skill, 1, 1
-fun, 3, 3
-lied, 1, 1
-toldl, 1, 1
-feeling, 1, 1
-came, 1, 1
-break, 1, 1
-decided, 1, 1
-honest, 1, 1
-last night, 1, 1
-i made, 1, 1
-plan to, 1, 1
-to go, 6, 6
-out for, 3, 3
-for fun, 3, 3
-fun but, 1, 1
-but early, 1, 1
-was too, 1, 1
-too tired, 1, 1
-tired and, 1, 1
-and couldn’t, 1, 1
-couldn’t wake, 1, 1
-up so, 1, 1
-i lied, 1, 1
-lied to, 1, 1
-i toldl, 1, 1
-toldl them, 1, 1
-not feeling, 1, 1
-feeling well, 1, 1
-well so, 1, 1
-they came, 1, 1
-came to, 1, 1
-so bad, 2, 2
-bad to, 2, 2
-to break, 1, 1
-break my, 1, 1
-my words, 2, 1
-words i, 1, 1
-i decided, 1, 1
-decided to, 1, 1
-be honest, 1, 1
-honest to, 1, 1
-to them, 1, 1
-them since, 1, 1
-will always, 1, 1
-always keep, 2, 2
-emotion, 1, 1
-room, 1, 1
-or, 1, 1
-cinema, 1, 1
-watching, 1, 1
-comedy, 1, 1
-sorrow, 2, 2
-ways, 1, 1
-mood, 2, 2
-everybody will, 1, 1
-will have, 1, 1
-the unhappy, 1, 1
-unhappy moment, 1, 1
-moment it, 1, 1
-important for, 1, 1
-the negative, 1, 1
-negative emotion, 1, 1
-emotion when, 1, 1
-am unhappy, 1, 1
-will listen, 1, 1
-the songs, 1, 1
-songs that, 1, 1
-then dance, 1, 1
-dance in, 1, 1
-the room, 1, 1
-room or, 1, 1
-or sometimes, 1, 1
-sometimes i, 1, 1
-will ask, 1, 1
-friends to, 2, 2
-the cinema, 1, 1
-cinema watching, 1, 1
-watching comedy, 1, 1
-comedy helps, 1, 1
-me forget, 1, 1
-the sorrow, 1, 1
-sorrow i, 1, 1
-my ways, 1, 1
-ways to, 1, 1
-bad mood, 1, 1
-freedom, 2, 1
-hang, 1, 1
-skills, 3, 2
-win, 2, 1
-applause, 1, 1
-most children, 1, 1
-children don’t, 1, 1
-just want, 1, 1
-to enjoy, 1, 1
-enjoy freedom, 1, 1
-freedom and, 1, 1
-and hang, 1, 1
-hang out, 1, 1
-fun all, 1, 1
-time but, 1, 1
-but when, 1, 1
-see some, 1, 1
-some kids, 1, 1
-kids studying, 1, 1
-studying so, 1, 1
-and their, 1, 1
-their special, 1, 1
-special skills, 1, 1
-skills help, 1, 1
-help them, 1, 1
-to win, 2, 1
-win applause, 1, 1
-applause i, 1, 1
-learn some, 1, 1
-some skills, 1, 1
-skills so, 1, 1
-win more, 1, 1
-more freedom, 1, 1
-freedom in, 1, 1
-dancing, 1, 1
-drawing, 1, 1
-interested, 1, 1
-tennis, 2, 1
-idea, 2, 2
-spend, 2, 2
-have sent, 1, 1
-learn many, 1, 1
-many skills, 1, 1
-skills such, 1, 1
-as dancing, 1, 1
-dancing and, 1, 1
-and drawing, 1, 1
-drawing but, 1, 1
-am not, 1, 1
-not interested, 1, 1
-interested in, 1, 1
-in them, 1, 1
-play tennis, 2, 1
-tennis i, 1, 1
-tell my, 1, 1
-parents my, 1, 1
-my real, 1, 1
-real idea, 1, 1
-idea then, 1, 1
-they respect, 1, 1
-respect me, 1, 1
-and let, 1, 1
-me do, 1, 1
-like now, 1, 1
-i spend, 1, 1
-spend some, 1, 1
-some time, 1, 1
-tennis when, 1, 1
-have time, 1, 1
-strangers, 2, 1
-distance, 1, 1
-kidnapped, 1, 1
-parents told, 1, 1
-to refuse, 1, 1
-refuse the, 1, 1
-things that, 1, 1
-that strangers, 1, 1
-strangers gave, 1, 1
-gave me, 1, 1
-i keep, 1, 1
-keep their, 1, 1
-words in, 1, 1
-heart so, 1, 1
-so when, 1, 1
-meet strangers, 1, 1
-strangers i, 1, 1
-keep distance, 1, 1
-distance every, 1, 1
-every time, 2, 2
-time when, 2, 2
-news about, 1, 1
-about how, 1, 1
-how kids, 1, 1
-kids are, 1, 1
-are get, 1, 1
-get kidnapped, 1, 1
-kidnapped i, 1, 1
-know i, 1, 1
-protect myself, 1, 1
-myself sometimes, 1, 1
-sometimes it, 1, 1
-necessary to, 1, 1
-say no, 1, 1
-no to, 1, 1
-to others, 2, 2
-uncle, 2, 1
-invites, 1, 1
-weekend, 2, 1
-cousins, 1, 1
-haven’t, 1, 1
-seen, 2, 2
-daily, 1, 1
-enjoying, 1, 1
-precious, 1, 1
-my uncle, 2, 1
-uncle invites, 1, 1
-invites our, 1, 1
-our family, 2, 2
-family to, 1, 1
-visit him, 1, 1
-him at, 1, 1
-at this, 1, 1
-this weekend, 1, 1
-weekend i, 1, 1
-because we, 3, 3
-will spend, 1, 1
-spend the, 1, 1
-lake house, 1, 1
-house i, 1, 1
-will play, 1, 1
-my cousins, 1, 1
-cousins so, 1, 1
-so happily, 1, 1
-happily we, 1, 1
-we haven’t, 1, 1
-haven’t seen, 1, 1
-seen each, 1, 1
-for a, 1, 1
-a while, 1, 1
-while my, 1, 1
-uncle and, 1, 1
-will share, 1, 1
-share the, 2, 2
-the daily, 1, 1
-daily things, 1, 1
-things enjoying, 1, 1
-enjoying the, 1, 1
-the leisure, 1, 1
-leisure time, 1, 1
-time this, 1, 1
-this weekend, 1, 1
-weekend will, 1, 1
-the precious, 1, 1
-precious memory, 1, 1
-memory in, 1, 1
-finds, 1, 1
-pocket, 1, 1
-cleaning, 1, 1
-gain, 1, 1
-extra, 1, 1
-mother finds, 1, 1
-finds a, 1, 1
-a way, 1, 1
-me have, 1, 1
-have more, 1, 1
-more pocket, 1, 1
-pocket money, 1, 1
-money she, 1, 1
-she asks, 1, 1
-do some, 1, 1
-some cleaning, 1, 1
-cleaning work, 1, 1
-work when, 1, 1
-i finish, 2, 2
-finish each, 1, 1
-each task, 1, 1
-task i, 1, 1
-will get, 1, 1
-get little, 1, 1
-little pay, 1, 1
-pay i, 1, 1
-to help, 2, 2
-do house, 1, 1
-work so, 1, 1
-can gain, 1, 1
-gain extra, 1, 1
-extra money, 1, 1
-money to, 1, 1
-want my, 1, 1
-mother shows, 1, 1
-me there, 1, 1
-meal so, 1, 1
-to work, 1, 1
-for what, 1, 1
-tain, 2, 1
-benefit, 1, 1
-folklore, 1, 1
-view, 3, 2
-butiful, 2, 1
-word, 1, 1
-virgin, 1, 1
-vecation, 1, 1
-japen, 4, 1
-confrotable, 1, 1
-you, 1, 1
-improstable, 1, 1
-any, 1, 1
-grabeby, 1, 1
-wish, 1, 1
-november, 1, 1
-rain, 1, 1
-what tain, 1, 1
-tain make, 1, 1
-make me, 1, 1
-the benefit, 1, 1
-benefit it, 1, 1
-is let, 1, 1
-me learn, 1, 1
-more folklore, 1, 1
-folklore and, 1, 1
-and look, 1, 1
-the different, 1, 1
-different view, 1, 1
-view in, 2, 2
-in this, 1, 1
-this butiful, 1, 1
-butiful word, 1, 1
-word in, 1, 1
-my virgin, 1, 1
-virgin tain, 1, 1
-tain this, 1, 1
-the summer, 1, 1
-summer vecation, 1, 1
-vecation in, 1, 1
-the japen, 1, 1
-japen japen, 1, 1
-japen are, 1, 1
-are very, 1, 1
-very confrotable, 1, 1
-confrotable in, 1, 1
-the every, 1, 1
-every where, 1, 1
-where you, 1, 1
-you are, 1, 1
-are improstable, 1, 1
-improstable to, 1, 1
-find any, 1, 1
-any grabeby, 1, 1
-grabeby in, 1, 1
+planned, 2, 2
+wishes, 1, 1
+bottle, 1, 1
+exchange, 1, 1
+bottles, 2, 1
+five, 3, 3
+dreams, 2, 2
+open, 1, 1
+my friends, 2, 2
+have planned, 1, 1
+planned to, 2, 2
+do something, 1, 1
+something interesting, 1, 1
+interesting we, 1, 1
+we write, 1, 1
+write down, 1, 1
+down our, 1, 1
+our future, 1, 1
+future wishes, 1, 1
+wishes and, 1, 1
+put them, 1, 1
+them in, 1, 1
+in a, 1, 1
+a bottle, 1, 1
+bottle then, 1, 1
+we exchange, 1, 1
+exchange the, 1, 1
+the bottles, 2, 1
+bottles making, 1, 1
+making it, 1, 1
+it as, 1, 1
+as our, 1, 1
+secrets we, 1, 1
+we make, 1, 1
+make a, 3, 3
+a deal, 1, 1
+deal to, 1, 1
+to take, 2, 2
+take it, 1, 1
+it out, 1, 1
+out five, 1, 1
+five years, 3, 3
+years later, 1, 1
+later and, 1, 1
+and see, 1, 1
+see if, 1, 1
+if we, 2, 2
+we have, 3, 3
+have realize, 1, 1
+realize our, 2, 2
+our dreams, 2, 2
+dreams no, 1, 1
+no one, 1, 1
+one knows, 1, 1
+knows what, 1, 1
+happen tomorrow, 1, 1
+tomorrow but, 1, 1
+but we, 1, 1
+moment when, 1, 1
+we open, 1, 1
+open the, 1, 1
+too, 4, 4
+obvious, 1, 1
+dressing, 1, 1
+vitality, 2, 1
+red, 1, 1
+year, 1, 1
+most parents, 1, 1
+parents like, 1, 1
+like their, 1, 1
+their children, 4, 3
+to dress, 1, 1
+dress in, 2, 1
+in red, 3, 1
+red but, 1, 1
+but their, 2, 2
+children refuse, 1, 1
+refuse because, 1, 1
+they think, 1, 1
+think red, 1, 1
+red is, 1, 1
+is too, 1, 1
+too obvious, 1, 1
+obvious for, 1, 1
+like dressing, 1, 1
+dressing in, 1, 1
+red which, 1, 1
+which makes, 1, 1
+me look, 1, 1
+look full, 1, 1
+of vitality, 1, 1
+vitality and, 1, 1
+beautiful red, 1, 1
+red presents, 1, 1
+presents life, 1, 1
+life and, 1, 1
+and vitality, 1, 1
+vitality in, 1, 1
+in chinese, 1, 1
+culture when, 1, 1
+the new, 1, 1
+new year, 1, 1
+year is, 1, 1
+coming people, 1, 1
+people will, 2, 2
+will dress, 1, 1
+red to, 1, 1
+show happiness, 1, 1
+expiences, 1, 1
+graduate, 1, 1
+camp, 1, 1
+museams…, 1, 1
+etc, 2, 2
+even, 1, 1
+traveling, 1, 1
+can´t, 2, 1
+common, 2, 2
+ever, 1, 1
+gone, 1, 1
+japan, 3, 2
+learned, 3, 2
+that, 2, 2
+plane, 2, 1
+got, 1, 1
+cars, 1, 1
+drive, 1, 1
+left, 1, 1
+shocked, 1, 1
+worldwilde, 1, 1
+we have, 2, 2
+have many, 1, 1
+many travel, 1, 1
+travel expiences, 1, 1
+expiences in, 1, 1
+our life, 1, 1
+life like, 1, 1
+like graduate, 1, 1
+graduate travel, 1, 1
+travel camp, 1, 1
+camp on, 1, 1
+the mountain, 1, 1
+mountain visit, 1, 1
+visit museams…, 1, 1
+museams… etc, 1, 1
+etc every, 1, 1
+every travel, 1, 1
+travel have, 1, 1
+have little, 1, 1
+little or, 1, 1
+or much, 1, 1
+much knowledge, 1, 1
+knowledge in, 1, 1
+in it, 1, 1
+it even, 1, 1
+even you, 1, 1
+you think, 1, 1
+that you, 1, 1
+you just, 1, 1
+play in, 1, 1
+in traveling, 1, 1
+traveling in, 1, 1
 in fact, 1, 1
-fact i, 1, 1
-i wish, 1, 1
-wish go, 1, 1
-to japen, 2, 1
-japen again, 1, 1
-again if, 1, 1
-if i, 3, 3
-japen in, 1, 1
-the november, 1, 1
-november to, 1, 1
-the rain, 1, 1
-rain i, 1, 1
-just keep, 1, 1
-keep butiful, 1, 1
-butiful mood, 1, 1
-mood in, 1, 1
+fact you, 1, 1
+you learn, 1, 1
+more about, 1, 1
+about life, 2, 2
+life which, 1, 1
+which you, 1, 1
+you can´t, 1, 1
+can´t learn, 1, 1
+learn in, 1, 1
+in common, 2, 2
+common life, 1, 1
+have ever, 1, 1
+ever gone, 1, 1
+gone to, 1, 1
+to japan, 1, 1
+japan once, 1, 1
+once time, 1, 1
+i learned, 3, 2
+learned many, 1, 1
+things in, 2, 2
+the travel, 1, 1
+travel that, 1, 1
+that was, 1, 1
+was my, 1, 1
+my first, 1, 1
+time to, 2, 2
+take the, 1, 1
+the plane, 2, 1
+plane i, 1, 1
+learned what, 1, 1
+do and, 1, 1
+and what, 1, 1
+i can´t, 1, 1
+can´t do, 1, 1
+do on, 1, 1
+plane when, 1, 1
+when we, 1, 1
+we got, 1, 1
+got japan, 1, 1
+japan i, 1, 1
+i found, 1, 1
+found first, 1, 1
+thing which, 1, 1
+is different, 1, 1
+different from, 2, 2
+from taiwan, 1, 1
+taiwan is, 1, 1
+is that, 2, 2
+that their, 1, 1
+their cars, 1, 1
+cars and, 1, 1
+and people, 1, 1
+people drive, 1, 1
+drive or, 1, 1
+or walk, 1, 1
+walk on, 1, 1
+on left, 1, 1
+left it, 1, 1
+it shocked, 1, 1
+shocked me, 1, 1
+that worldwilde, 1, 1
+teach, 1, 1
+wash, 1, 1
+shows, 2, 2
+steps, 1, 1
+mixing, 1, 1
+mother can, 1, 1
+can cook, 1, 1
+food every, 1, 1
+eat the, 1, 1
+food she, 1, 1
+she makes, 1, 1
+makes so, 1, 1
+learn how, 1, 1
+make delicious, 1, 1
+food from, 1, 1
+from her, 1, 1
+is happy, 1, 1
+to teach, 1, 1
+teach me, 1, 1
+i help, 1, 1
+help my, 1, 1
+mother to, 2, 2
+to wash, 1, 1
+wash the, 1, 1
+food first, 1, 1
+then she, 1, 1
+she shows, 1, 1
+shows me, 2, 2
+the steps, 1, 1
+steps of, 1, 1
+of mixing, 1, 1
+mixing food, 1, 1
+food together, 1, 1
+together i, 1, 1
+lucy, 3, 2
+complains, 1, 1
+busy, 1, 1
+thankful, 2, 2
+family though, 1, 1
+parents are, 3, 2
+not rich, 1, 1
+rich enough, 1, 1
+enough to, 1, 1
+want they, 1, 1
+they give, 1, 1
+give me, 2, 2
+best thing, 1, 1
+thing that, 1, 1
+that is, 1, 1
+is love, 1, 1
+love i, 1, 1
+a rich, 1, 1
+rich friend, 1, 1
+friend her, 2, 2
+her name, 2, 2
+is lucy, 2, 2
+lucy she, 1, 1
+she always, 2, 2
+always complains, 1, 1
+complains that, 1, 1
+that her, 2, 2
+are too, 1, 1
+too busy, 1, 1
+busy and, 1, 1
+have much, 1, 1
+much time, 1, 1
+her so, 2, 2
+so thankful, 2, 2
+thankful for, 1, 1
+have i, 1, 1
+feel the, 1, 1
 cherish, 2, 2
 competitive, 1, 1
 middle, 1, 1
@@ -4764,6 +4047,1180 @@ camping and, 1, 1
 we so, 1, 1
 so are, 1, 1
 to it, 1, 1
+promise, 3, 2
+returns, 1, 1
+lazy, 1, 1
+luckily, 1, 1
+something to, 1, 1
+she needs, 1, 1
+to meet, 1, 1
+meet her, 1, 1
+i make, 2, 2
+a promise, 1, 1
+promise that, 1, 1
+will clean, 1, 1
+clean the, 1, 1
+the house, 2, 2
+house when, 1, 1
+she returns, 1, 1
+returns but, 1, 1
+become lazy, 1, 1
+lazy soon, 1, 1
+soon i, 2, 2
+games and, 1, 1
+and forget, 2, 2
+forget my, 1, 1
+my promise, 1, 1
+promise when, 1, 1
+remember i, 1, 1
+start my, 1, 1
+my work, 2, 2
+work quickly, 1, 1
+quickly i, 1, 1
+so bad, 2, 2
+bad to, 2, 2
+to almost, 1, 1
+almost let, 1, 1
+let my, 2, 2
+mother down, 1, 1
+down luckily, 1, 1
+luckily i, 1, 1
+i finish, 2, 2
+job and, 1, 1
+feels happy, 1, 1
+hua, 1, 1
+partners, 1, 1
+idea, 2, 2
+friendship, 2, 2
+hope, 3, 3
+forever, 2, 2
+li hua, 1, 1
+hua we, 1, 1
+other when, 1, 1
+we were, 1, 1
+were five, 1, 1
+years old, 1, 1
+old because, 1, 1
+have so, 1, 1
+common we, 1, 1
+we become, 1, 1
+become partners, 1, 1
+partners soon, 1, 1
+fun with, 1, 1
+her she, 1, 1
+always knows, 1, 1
+knows my, 1, 1
+my idea, 1, 1
+idea and, 1, 1
+can enjoy, 1, 1
+enjoy our, 1, 1
+our time, 1, 1
+cherish our, 1, 1
+our friendship, 2, 2
+friendship so, 1, 1
+i hope, 2, 2
+hope we, 1, 1
+be best, 1, 1
+friends forever, 1, 1
+elders, 1, 1
+satisfy, 1, 1
+right, 2, 2
+prizes, 1, 1
+free, 2, 2
+meal, 2, 2
+some children, 1, 1
+children think, 1, 1
+think their, 1, 1
+parents don’t, 1, 1
+don’t love, 1, 1
+love them, 1, 1
+them enough, 1, 1
+enough because, 1, 1
+the elders, 1, 1
+elders can’t, 1, 1
+can’t satisfy, 1, 1
+satisfy them, 1, 1
+them with, 1, 1
+things they, 1, 1
+want actually, 1, 1
+actually this, 1, 1
+this is, 1, 1
+the right, 2, 2
+right way, 2, 2
+way to, 2, 2
+show love, 1, 1
+love my, 1, 1
+mother gives, 1, 1
+gives me, 1, 1
+me prizes, 1, 1
+prizes by, 1, 1
+work such, 1, 1
+as help, 1, 1
+do the, 1, 1
+house work, 3, 3
+work she, 2, 2
+she tries, 1, 1
+me know, 1, 1
+know there, 1, 1
+is no, 2, 2
+no free, 2, 2
+free meal, 2, 2
+meal which, 1, 1
+which helps, 1, 1
+listen, 3, 3
+songs, 4, 2
+band, 2, 1
+coldplay, 1, 1
+song, 1, 1
+yellow, 1, 1
+reason, 1, 1
+listening, 1, 1
+to listen, 1, 1
+listen to, 3, 3
+to music, 1, 1
+music very, 1, 1
+much especially, 1, 1
+especially the, 1, 1
+english songs, 2, 1
+songs my, 1, 1
+my favorite, 1, 1
+favorite band, 1, 1
+band is, 2, 1
+is coldplay, 1, 1
+coldplay when, 1, 1
+i hear, 1, 1
+hear their, 1, 1
+their classic, 1, 1
+classic song, 1, 1
+song yellow, 1, 1
+yellow i, 1, 1
+excited the, 1, 1
+the reason, 1, 1
+reason i, 1, 1
+like this, 1, 1
+this band, 1, 1
+they have, 2, 2
+have something, 2, 2
+something different, 1, 1
+from others, 1, 1
+others in, 1, 1
+in their, 1, 1
+their songs, 1, 1
+songs they, 1, 1
+they search, 1, 1
+search about, 1, 1
+life listening, 1, 1
+listening to, 1, 1
+to english, 1, 1
+songs also, 1, 1
+also can, 2, 2
+me improve, 1, 1
+finds, 1, 1
+pocket, 1, 1
+cleaning, 1, 1
+gain, 1, 1
+extra, 1, 1
+mother finds, 1, 1
+finds a, 1, 1
+a way, 1, 1
+me have, 1, 1
+have more, 1, 1
+more pocket, 1, 1
+pocket money, 1, 1
+money she, 1, 1
+she asks, 1, 1
+do some, 1, 1
+some cleaning, 1, 1
+cleaning work, 1, 1
+work when, 1, 1
+finish each, 1, 1
+each task, 1, 1
+task i, 1, 1
+will get, 1, 1
+get little, 1, 1
+little pay, 1, 1
+pay i, 1, 1
+do house, 1, 1
+work so, 1, 1
+can gain, 1, 1
+gain extra, 1, 1
+extra money, 1, 1
+money to, 1, 1
+want my, 1, 1
+mother shows, 1, 1
+me there, 1, 1
+meal so, 1, 1
+to work, 1, 1
+for what, 1, 1
+swim, 1, 1
+boating, 1, 1
+pollution, 1, 1
+protecting, 2, 2
+small lake, 1, 1
+lake in, 1, 1
+hometown which, 1, 1
+is one, 1, 1
+favorite place, 1, 1
+always go, 1, 1
+lake with, 1, 1
+friends we, 1, 1
+we swim, 1, 1
+swim and, 1, 1
+lot there, 1, 1
+there sometimes, 1, 1
+sometimes we, 1, 1
+go boating, 1, 1
+boating and, 1, 1
+the quiet, 1, 1
+quiet moment, 1, 1
+moment now, 1, 1
+now the, 1, 1
+lake is, 1, 1
+is not, 2, 2
+not that, 1, 1
+that clean, 1, 1
+clean because, 1, 1
+because of, 1, 1
+the pollution, 1, 1
+pollution i, 1, 1
+of protecting, 1, 1
+protecting the, 2, 2
+the environment, 2, 2
+shopping, 1, 1
+foreigner, 2, 1
+problems, 1, 1
+assistant, 2, 1
+couldn’t, 2, 2
+communicate, 1, 1
+wished, 1, 1
+two days, 2, 2
+days ago, 2, 2
+ago when, 1, 1
+was shopping, 1, 1
+shopping with, 1, 1
+friends we, 1, 1
+we saw, 1, 1
+a foreigner, 1, 1
+foreigner having, 1, 1
+having some, 1, 1
+some problems, 1, 1
+problems with, 1, 1
+shop assistant, 1, 1
+assistant they, 1, 1
+they couldn’t, 1, 1
+couldn’t communicate, 1, 1
+communicate well, 1, 1
+well because, 1, 1
+the assistant, 1, 1
+assistant did, 1, 1
+not understand, 1, 1
+understand english, 1, 1
+english well, 1, 1
+i wished, 1, 1
+wished i, 1, 1
+could help, 1, 1
+help the, 1, 1
+the foreigner, 1, 1
+foreigner to, 1, 1
+problem but, 1, 1
+but my, 1, 1
+english was, 1, 1
+good enough, 1, 1
+enough so, 1, 1
+to master, 1, 1
+language well, 1, 1
+unhappy, 4, 3
+emotion, 1, 1
+room, 1, 1
+or, 1, 1
+ask, 2, 2
+cinema, 1, 1
+watching, 1, 1
+comedy, 1, 1
+ways, 1, 1
+everybody will, 1, 1
+will have, 1, 1
+the unhappy, 1, 1
+unhappy moment, 1, 1
+moment it, 1, 1
+important for, 1, 1
+the negative, 1, 1
+negative emotion, 1, 1
+emotion when, 1, 1
+am unhappy, 1, 1
+unhappy i, 2, 2
+will listen, 1, 1
+the songs, 1, 1
+songs that, 1, 1
+then dance, 1, 1
+dance in, 1, 1
+the room, 1, 1
+room or, 1, 1
+or sometimes, 1, 1
+sometimes i, 1, 1
+will ask, 1, 1
+ask my, 2, 2
+friends to, 2, 2
+the cinema, 1, 1
+cinema watching, 1, 1
+watching comedy, 1, 1
+comedy helps, 1, 1
+me forget, 1, 1
+forget about, 2, 2
+the sorrow, 1, 1
+sorrow i, 1, 1
+my ways, 1, 1
+ways to, 1, 1
+bad mood, 1, 1
+sent, 2, 2
+dancing, 1, 1
+drawing, 1, 1
+interested, 1, 1
+tennis, 2, 1
+respect, 2, 2
+have sent, 1, 1
+sent me, 2, 2
+learn many, 1, 1
+many skills, 1, 1
+skills such, 1, 1
+as dancing, 1, 1
+dancing and, 1, 1
+and drawing, 1, 1
+drawing but, 1, 1
+am not, 1, 1
+not interested, 1, 1
+interested in, 1, 1
+in them, 1, 1
+them i, 3, 3
+play tennis, 2, 1
+tennis i, 1, 1
+tell my, 1, 1
+parents my, 1, 1
+my real, 1, 1
+real idea, 1, 1
+idea then, 1, 1
+they respect, 1, 1
+respect me, 1, 1
+and let, 1, 1
+me do, 1, 1
+like now, 1, 1
+i spend, 1, 1
+spend some, 1, 1
+some time, 1, 1
+tennis when, 1, 1
+have time, 1, 1
+asked, 1, 1
+answer, 1, 1
+dream, 1, 1
+being, 1, 1
+pass, 1, 1
+thinking, 1, 1
+contribution, 1, 1
+worth, 1, 1
+small girl, 1, 1
+girl many, 1, 1
+many teachers, 1, 1
+teachers have, 1, 1
+have asked, 1, 1
+asked me, 1, 1
+me what, 2, 2
+what do, 1, 1
+do i, 1, 1
+be in, 1, 1
+my answer, 1, 1
+answer is, 1, 1
+always to, 1, 1
+a teacher, 2, 1
+teacher it, 1, 1
+my dream, 1, 1
+dream and, 1, 1
+i study, 1, 1
+study so, 1, 1
+realize it, 1, 1
+it being, 1, 1
+being a, 1, 1
+teacher can, 1, 1
+can pass, 1, 1
+pass the, 1, 1
+the knowledge, 1, 1
+knowledge to, 1, 1
+others and, 1, 1
+and guide, 1, 1
+guide them, 1, 1
+way thinking, 1, 1
+thinking about, 1, 1
+great contribution, 1, 1
+contribution i, 1, 1
+make everything, 1, 1
+everything is, 1, 1
+is worth, 1, 1
+weather, 2, 1
+forecast, 1, 1
+predicted, 1, 1
+cold, 2, 1
+wind, 1, 1
+blow, 1, 1
+today, 1, 1
+chillness, 1, 1
+afternoon, 1, 1
+started, 1, 1
+sleepy, 1, 1
+winter, 1, 1
+loosen, 1, 1
+ago the, 1, 1
+the weather, 1, 1
+weather forecast, 1, 1
+forecast predicted, 1, 1
+predicted that, 1, 1
+the cold, 1, 1
+cold wind, 1, 1
+wind would, 1, 1
+would blow, 1, 1
+blow and, 1, 1
+and today, 1, 1
+today early, 1, 1
+felt the, 1, 1
+the chillness, 1, 1
+chillness the, 1, 1
+the weather, 1, 1
+weather changes, 1, 1
+changes so, 1, 1
+so quickly, 1, 1
+quickly that, 1, 1
+very cold, 1, 1
+cold in, 1, 1
+the afternoon, 1, 1
+afternoon i, 1, 1
+i started, 1, 1
+started to, 1, 1
+to feel, 1, 1
+feel sleepy, 1, 1
+sleepy in, 1, 1
+class but, 1, 1
+myself to, 2, 2
+keep focus, 1, 1
+focus winter, 1, 1
+winter is, 1, 1
+not the, 1, 1
+the excuse, 1, 1
+excuse to, 1, 1
+to loosen, 1, 1
+loosen attention, 1, 1
+educated, 2, 2
+historic, 1, 1
+site, 1, 1
+religion, 1, 1
+technology, 1, 1
+travel can, 1, 1
+can see, 1, 1
+of country, 1, 1
+country and, 1, 1
+and study, 1, 1
+study different, 1, 1
+different educated, 1, 1
+educated some, 1, 1
+some country, 1, 1
+country have, 3, 1
+have historic, 1, 1
+historic site, 1, 1
+site some, 1, 1
+some country, 2, 1
+the religion, 1, 1
+religion and, 1, 1
+and some, 1, 1
+the technology, 1, 1
+technology etc, 1, 1
+ballet, 1, 1
+choice, 2, 1
+wanted, 2, 2
+ago my, 1, 1
+mother sent, 1, 1
+learn ballet, 1, 1
+ballet at, 1, 1
+at that, 1, 1
+that time, 1, 1
+was so, 2, 2
+so unhappy, 1, 1
+unhappy about, 1, 1
+her choice, 1, 1
+choice because, 1, 1
+just wanted, 1, 1
+wanted to, 2, 2
+play but, 1, 1
+but now, 1, 1
+now when, 1, 1
+when someone, 1, 1
+someone asks, 1, 1
+what my, 2, 2
+my talent, 1, 1
+talent is, 1, 1
+is i, 2, 2
+very proud, 1, 1
+proud to, 1, 1
+to tell, 1, 1
+tell them, 1, 1
+can dance, 1, 1
+dance my, 1, 1
+mother makes, 1, 1
+good choice, 1, 1
+choice for, 1, 1
+special skill, 1, 1
+movies, 2, 2
+inspiring, 1, 1
+inspire, 1, 1
+difficulties, 1, 1
+heroes, 1, 1
+succeed, 1, 1
+persistent, 1, 1
+to watch, 1, 1
+watch movies, 1, 1
+movies especially, 1, 1
+especially when, 1, 1
+the inspiring, 1, 1
+inspiring stories, 1, 1
+stories i, 1, 1
+will feel, 1, 1
+feel touched, 1, 1
+touched these, 1, 1
+these stories, 1, 1
+stories are, 1, 1
+are good, 1, 1
+good for, 1, 1
+me they, 1, 1
+they inspire, 1, 1
+inspire me, 1, 1
+to move, 1, 1
+on when, 1, 1
+meet difficulties, 1, 1
+difficulties the, 1, 1
+the heroes, 1, 1
+heroes will, 1, 1
+never give, 1, 1
+give up, 1, 1
+and finally, 1, 1
+finally they, 1, 1
+they succeed, 1, 1
+succeed so, 1, 1
+so if, 1, 1
+we want, 1, 1
+dreams we, 1, 1
+we also, 1, 1
+also need, 1, 1
+be persistent, 1, 1
+persistent some, 1, 1
+some day, 1, 1
+day we, 1, 1
+people, 1, 1
+treats, 1, 1
+waiter, 1, 1
+polite, 3, 3
+manner, 2, 1
+like, 1, 1
+shouldn’t, 1, 1
+talking, 3, 2
+occasion, 1, 1
+banned, 1, 1
+people always, 1, 1
+way a, 1, 1
+person treats, 1, 1
+treats the, 1, 1
+the waiter, 1, 1
+waiter decides, 1, 1
+person he, 1, 1
+it my, 1, 1
+are polite, 1, 1
+polite persons, 1, 1
+persons since, 1, 1
+small they, 1, 1
+have educated, 1, 1
+educated me, 1, 1
+the manner, 1, 1
+manner like, 1, 1
+like i, 1, 1
+i shouldn’t, 1, 1
+shouldn’t talk, 1, 1
+talk while, 1, 1
+while eating, 1, 1
+eating and, 1, 1
+and talking, 1, 1
+talking loudly, 1, 1
+loudly in, 1, 1
+in public, 1, 1
+public occasion, 1, 1
+occasion is, 1, 1
+is banned, 1, 1
+banned the, 1, 1
+the good, 1, 1
+good manner, 1, 1
+manner helps, 1, 1
+a better, 2, 2
+better person, 2, 2
+disney, 1, 1
+animation, 2, 1
+beauty, 1, 1
+beast, 1, 1
+brought, 1, 1
+screen, 1, 1
+actors, 1, 1
+heroine, 1, 1
+bell, 1, 1
+character, 1, 1
+kindness, 1, 1
+disney movies, 1, 1
+movies always, 1, 1
+always catch, 1, 1
+catch my, 1, 1
+attention recently, 1, 1
+recently the, 2, 2
+the animation, 2, 1
+animation movie, 1, 1
+movie beauty, 1, 1
+beauty and, 1, 1
+and the, 1, 1
+the beast, 1, 1
+beast will, 1, 1
+be brought, 1, 1
+brought to, 1, 1
+the screen, 1, 1
+screen again, 1, 1
+again but, 1, 1
+but this, 1, 1
+time the, 1, 1
+real actors, 1, 1
+actors play, 1, 1
+play the, 1, 1
+the classic, 1, 1
+classic movie, 1, 1
+movie though, 1, 1
+have seen, 1, 1
+seen the, 1, 1
+animation i, 1, 1
+am still, 1, 1
+still look, 1, 1
+new one, 1, 1
+one the, 1, 1
+the beautiful, 1, 1
+beautiful heroine, 1, 1
+heroine bell, 1, 1
+bell is, 1, 1
+favorite character, 1, 1
+character i, 1, 1
+love her, 1, 1
+her kindness, 1, 1
+kindness and, 1, 1
+good girl, 1, 1
+attend, 1, 1
+friend´s, 1, 1
+marry, 1, 1
+ceremony, 1, 1
+drinks, 1, 1
+wine, 1, 1
+gulp, 1, 1
+host, 2, 1
+angry, 3, 2
+didn´t, 1, 1
+himself, 1, 1
+act, 1, 1
+wave, 1, 1
+hand, 2, 2
+policeman, 3, 1
+office, 1, 1
+said, 3, 2
+were, 1, 1
+do, 1, 1
+why, 1, 1
+here, 1, 1
+evening the, 1, 1
+to attend, 1, 1
+attend friend´s, 1, 1
+friend´s marry, 1, 1
+marry ceremony, 1, 1
+ceremony he, 1, 1
+he drinks, 1, 1
+drinks a, 1, 1
+of wine, 1, 1
+wine and, 1, 1
+and gulp, 1, 1
+gulp face, 1, 1
+face to, 1, 1
+to host, 1, 1
+host the, 1, 1
+the host, 1, 1
+host very, 1, 1
+very angry, 2, 1
+angry because, 2, 2
+he so, 1, 1
+so not, 1, 1
+not polite, 1, 1
+polite he, 1, 1
+he didn´t, 1, 1
+didn´t know, 1, 1
+know himself, 1, 1
+himself act, 1, 1
+act so, 1, 1
+so funny, 1, 1
+funny and, 1, 1
+and wave, 1, 1
+wave his, 1, 1
+his hand, 1, 1
+hand for, 1, 1
+for police, 1, 1
+car the, 1, 1
+the policeman, 1, 1
+policeman took, 1, 1
+took him, 1, 1
+to police, 1, 1
+police office, 1, 1
+office as, 1, 1
+result the, 1, 1
+man wake, 1, 1
+up look, 1, 1
+the policeman, 2, 1
+policeman the, 1, 1
+policeman very, 1, 1
+angry said, 1, 1
+said were, 1, 1
+were are, 1, 1
+are you, 1, 1
+you do, 1, 1
+do you, 1, 1
+you know, 1, 1
+know then, 1, 1
+then man, 1, 1
+man said, 1, 1
+said i, 1, 1
+i don´t, 1, 1
+know why, 1, 1
+why i, 1, 1
+am here, 1, 1
+slept, 1, 1
+describe, 1, 1
+girl’s, 1, 1
+growing, 1, 1
+brave, 1, 1
+heroines, 1, 1
+helping, 1, 1
+parents would, 1, 1
+would read, 1, 1
+read me, 1, 1
+me some, 1, 1
+some stories, 1, 1
+stories before, 1, 1
+i slept, 1, 1
+slept i, 1, 1
+hear the, 1, 1
+the stories, 1, 1
+stories that, 1, 1
+that describe, 1, 1
+describe a, 1, 1
+a girl’s, 1, 1
+girl’s growing, 1, 1
+growing up, 1, 1
+up these, 1, 1
+these girls, 1, 1
+girls are, 1, 1
+so brave, 1, 1
+brave and, 1, 1
+and become, 1, 1
+become heroines, 1, 1
+heroines at, 1, 1
+at last, 1, 1
+be one, 1, 1
+them so, 1, 1
+independent helping, 1, 1
+helping my, 1, 1
+mom with, 1, 1
+her house, 1, 1
+see it, 1, 1
+everywhere, 1, 1
+knew, 2, 1
+have, 1, 1
+land, 1, 1
+however, 1, 1
+somewhere, 1, 1
+differen, 1, 1
+chat, 1, 1
+noti, 1, 1
+i´m, 1, 1
+nice it, 1, 1
+help us, 3, 2
+us understand, 1, 1
+understand everywhere, 1, 1
+everywhere culture, 1, 1
+culture and, 1, 1
+and to, 1, 1
+to meets, 1, 1
+meets different, 1, 1
+different people, 1, 1
+people and, 1, 1
+and travel, 1, 1
+travel also, 1, 1
+to knew, 1, 1
+knew everything, 1, 1
+everything have, 1, 1
+have some, 1, 1
+some land, 1, 1
+land is, 1, 1
+is we, 3, 1
+we study, 1, 1
+study is, 1, 1
+is our, 1, 1
+our book, 1, 1
+book however, 1, 1
+however somewhere, 1, 1
+somewhere is, 1, 1
+to travel, 4, 1
+travel we, 1, 1
+can knew, 1, 1
+knew differen, 1, 1
+differen culture, 1, 1
+culture people, 1, 1
+and life, 1, 1
+life for, 1, 1
+example we, 1, 1
+we go, 1, 1
+in japan, 1, 1
+japan we, 1, 1
+can meets, 1, 1
+meets people, 1, 1
+people become, 1, 1
+become friends, 1, 1
+and chat, 1, 1
+chat have, 1, 1
+something is, 1, 1
+we noti, 1, 1
+noti very, 1, 1
+very like, 1, 1
+travel i´m, 1, 1
+i´m hope, 1, 1
+hope i, 1, 1
+travel every, 1, 1
+every country, 1, 1
+sell, 1, 1
+products, 1, 1
+praise, 1, 1
+strong, 1, 1
+difference, 1, 1
+small boy, 1, 1
+boy was, 1, 1
+was studying, 1, 1
+studying while, 1, 1
+while he, 1, 1
+he helped, 1, 1
+helped his, 1, 1
+his mother, 1, 1
+to sell, 1, 1
+sell the, 1, 1
+the products, 1, 1
+products many, 1, 1
+people gave, 1, 1
+gave him, 1, 1
+him great, 1, 1
+great praise, 1, 1
+praise because, 1, 1
+he could, 1, 1
+could focus, 1, 1
+focus his, 1, 1
+his attention, 1, 1
+attention but, 1, 1
+children always, 1, 1
+always wanted, 1, 1
+play this, 1, 1
+this boy, 1, 1
+boy is, 1, 1
+such strong, 1, 1
+strong that, 1, 1
+he must, 1, 1
+must make, 1, 1
+a difference, 1, 1
+difference in, 1, 1
+future his, 1, 1
+his mother, 1, 1
+so lucky, 1, 1
+lucky to, 1, 1
+a boy, 1, 1
+boy like, 1, 1
+like him, 1, 1
+called, 1, 1
+kongfu, 1, 1
+panda, 2, 1
+fat, 1, 1
+image, 1, 1
+fell, 1, 1
+relevant, 1, 1
+small i, 1, 1
+movie which, 1, 1
+which was, 1, 1
+was called, 1, 1
+called kongfu, 1, 1
+kongfu panda, 1, 1
+panda the, 1, 1
+the fat, 1, 1
+fat panda, 1, 1
+panda image, 1, 1
+image was, 1, 1
+learned that, 1, 1
+there was, 1, 1
+was such, 1, 1
+a lovely, 1, 1
+lovely animal, 1, 1
+animal in, 1, 1
+world since, 1, 1
+i fell, 1, 1
+fell in, 1, 1
+with this, 1, 1
+this animal, 1, 1
+animal i, 1, 1
+of relevant, 1, 1
+relevant knowledge, 1, 1
+knowledge panda, 1, 1
+panda is, 1, 1
+out so, 1, 1
+so we, 1, 1
+we need, 1, 1
+them by, 1, 1
+by protecting, 1, 1
+broaden, 1, 1
+vision, 1, 1
+touches, 1, 1
+readers, 1, 1
+own, 1, 1
+advantages, 1, 1
+disadvantages, 1, 1
+gradually, 1, 1
+that we, 1, 1
+should read, 1, 1
+books it, 1, 1
+it can, 1, 1
+can broaden, 1, 1
+broaden our, 1, 1
+our vision, 1, 1
+vision and, 1, 1
+person once, 1, 1
+book it, 1, 1
+it touches, 1, 1
+touches my, 1, 1
+heart the, 1, 1
+the book, 1, 1
+book tells, 1, 1
+tells the, 1, 1
+the readers, 1, 1
+readers how, 1, 1
+find our, 1, 1
+our own, 1, 1
+own advantages, 1, 1
+advantages and, 1, 1
+and accept, 1, 1
+accept our, 1, 1
+our disadvantages, 1, 1
+disadvantages i, 1, 1
+try not, 1, 1
+not hard, 1, 1
+be myself, 1, 1
+and learn, 1, 1
+up gradually, 1, 1
+david, 2, 1
+beckham, 1, 1
+medias, 1, 1
+four, 1, 1
+favored, 1, 1
+rules, 1, 1
+wife, 1, 1
+behave, 1, 1
+david beckham, 1, 1
+beckham and, 1, 1
+and his, 2, 1
+his families, 1, 1
+families are, 1, 1
+so famous, 1, 1
+famous around, 1, 1
+world no, 1, 1
+where they, 1, 1
+they go, 1, 1
+go they, 1, 1
+will catch, 1, 1
+catch the, 1, 1
+the medias, 1, 1
+medias attention, 1, 1
+attention the, 1, 1
+the four, 1, 1
+four lovely, 1, 1
+lovely children, 1, 1
+children are, 1, 1
+are favored, 1, 1
+favored by, 1, 1
+by people, 1, 1
+people too, 1, 1
+too it, 1, 1
+is said, 1, 1
+said that, 1, 1
+that david, 1, 1
+david makes, 1, 1
+makes family, 1, 1
+family rules, 1, 1
+rules he, 1, 1
+he and, 1, 1
+his wife, 1, 1
+wife tell, 1, 1
+tell their, 1, 1
+be polite, 1, 1
+polite and, 1, 1
+love each, 1, 1
+the children, 1, 1
+children remember, 1, 1
+that and, 1, 1
+and behave, 1, 1
+behave so, 1, 1
+so well, 1, 1
+well everybody, 1, 1
+loves them, 1, 1
+rumor, 2, 1
+headmaster, 1, 1
+gossiping, 1, 1
+curious, 1, 1
+turned, 1, 1
+wrong, 1, 1
+sorry, 2, 2
+spread, 1, 1
+my classmates, 1, 1
+are talking, 2, 1
+talking about, 1, 1
+about something, 1, 1
+something so, 1, 1
+i ask, 1, 1
+my friend, 1, 1
+friend when, 1, 1
+talking he, 1, 1
+he tells, 1, 1
+a rumor, 1, 1
+rumor about, 1, 1
+about our, 1, 1
+our headmaster, 1, 1
+headmaster everybody, 1, 1
+everybody is, 1, 1
+is gossiping, 1, 1
+gossiping about, 1, 1
+about it, 1, 1
+it i, 1, 1
+am very, 2, 2
+very curious, 1, 1
+curious and, 1, 1
+and talk, 1, 1
+of friends, 1, 1
+friends in, 1, 1
+end the, 1, 1
+the rumor, 1, 1
+rumor is, 1, 1
+is turned, 1, 1
+turned to, 1, 1
+be wrong, 1, 1
+wrong i, 1, 1
+so sorry, 1, 1
+sorry to, 1, 1
+to spread, 1, 1
+spread the, 1, 1
+learn the, 1, 1
+lesson that, 1, 1
+should respect, 1, 1
+respect others, 1, 1
+lied, 1, 1
+toldl, 1, 1
+feeling, 1, 1
+came, 1, 1
+break, 1, 1
+decided, 1, 1
+honest, 1, 1
+last night, 1, 1
+i made, 1, 1
+plan to, 1, 1
+fun but, 1, 1
+but early, 1, 1
+was too, 1, 1
+too tired, 1, 1
+tired and, 1, 1
+and couldn’t, 1, 1
+couldn’t wake, 1, 1
+up so, 1, 1
+i lied, 1, 1
+lied to, 1, 1
+i toldl, 1, 1
+toldl them, 1, 1
+not feeling, 1, 1
+feeling well, 1, 1
+well so, 1, 1
+they came, 1, 1
+came to, 1, 1
+to break, 1, 1
+break my, 1, 1
+my words, 2, 1
+words i, 1, 1
+i decided, 1, 1
+decided to, 1, 1
+be honest, 1, 1
+honest to, 1, 1
+to them, 1, 1
+them since, 1, 1
+will always, 1, 1
+turns, 1, 1
+advance, 1, 1
+heart-broken, 1, 1
+won’t, 1, 1
+very naughty, 1, 1
+naughty and, 1, 1
+about what, 1, 1
+me one, 1, 1
+one time, 1, 1
+go back, 1, 1
+late when, 1, 1
+mother she, 1, 1
+she smiles, 1, 1
+then turns, 1, 1
+turns angry, 1, 1
+she has, 1, 1
+has told, 1, 1
+home late, 1, 1
+must tell, 1, 1
+tell her, 1, 1
+her in, 1, 1
+in advance, 1, 1
+advance i, 1, 1
+i let, 1, 1
+mother heart-broken, 1, 1
+heart-broken i, 1, 1
+feel sorry, 1, 1
+sorry and, 1, 1
+and promise, 1, 1
+promise it, 1, 1
+it won’t, 1, 1
+won’t happen, 1, 1
+happen again, 1, 1
+accompany, 1, 1
+true, 1, 1
+lucy we, 1, 1
+have known, 1, 1
+known each, 1, 1
+for more, 1, 1
+more than, 1, 1
+than five, 1, 1
+first one, 1, 1
+one to, 1, 1
+a hand, 1, 1
+hand i, 1, 1
+thankful to, 1, 1
+so when, 1, 1
+she feels, 1, 1
+feels unhappy, 1, 1
+will accompany, 1, 1
+accompany her, 1, 1
+her lucy, 1, 1
+lucy is, 1, 1
+a true, 1, 1
+true friend, 1, 1
+friend i, 1, 1
+hope our, 1, 1
+friendship can, 1, 1
+can last, 1, 1
+last forever, 1, 1
 sister, 3, 1
 sings, 1, 1
 starts, 1, 1
@@ -4802,461 +5259,3 @@ her sister, 1, 1
 sister because, 1, 1
 we share, 1, 1
 same families, 1, 1
-historic, 1, 1
-site, 1, 1
-religion, 1, 1
-technology, 1, 1
-travel can, 1, 1
-can see, 1, 1
-of country, 1, 1
-country and, 1, 1
-and study, 1, 1
-study different, 1, 1
-different educated, 1, 1
-educated some, 1, 1
-some country, 1, 1
-country have, 3, 1
-have historic, 1, 1
-historic site, 1, 1
-site some, 1, 1
-some country, 2, 1
-the religion, 1, 1
-religion and, 1, 1
-and some, 1, 1
-the technology, 1, 1
-technology etc, 1, 1
-ot, 1, 1
-part-time, 2, 1
-didn't, 1, 1
-monry, 1, 1
-enconomic, 1, 1
-boring, 1, 1
-maybe, 1, 1
-expensive, 1, 1
-product, 1, 1
-that student, 1, 1
-student go, 1, 1
-go ot, 1, 1
-ot part-time, 1, 1
-part-time because, 1, 1
-they didn't, 1, 1
-didn't have, 1, 1
-enough monry, 1, 1
-monry to, 1, 1
-what they, 1, 1
-want buy, 1, 1
-buy or, 1, 1
-or they, 1, 1
-help their, 1, 1
-parents for, 1, 1
-for enconomic, 1, 1
-enconomic if, 1, 1
-to part-time, 1, 1
-part-time i, 1, 1
-must feel, 1, 1
-feel boring, 1, 1
-boring at, 1, 1
-at home, 1, 1
-home or, 1, 1
-or maybe, 1, 1
-maybe i, 1, 1
-buy a, 1, 1
-a expensive, 1, 1
-expensive product, 1, 1
-product i, 1, 1
-get them, 1, 1
-them myself, 1, 1
-myself because, 1, 1
-because that, 1, 1
-that makes, 1, 1
-me very, 1, 1
-happy and, 1, 1
-will very, 1, 1
-very care, 1, 1
-care of, 1, 1
-first, 1, 1
-contry´s, 1, 1
-middle, 1, 1
-east, 3, 1
-pig, 1, 1
-westness, 1, 1
-sweet, 1, 1
-petato, 1, 1
-second, 1, 1
-yourself, 1, 1
-less, 1, 1
-pressurethe, 1, 1
-foriend, 2, 1
-oversea, 1, 1
-use, 1, 1
-recycle, 2, 1
-haven´t, 1, 1
-garbage, 1, 1
-destroy, 1, 1
-best teacher, 1, 1
-teacher for, 1, 1
-me first, 1, 1
-first travel, 1, 1
-travel can, 3, 1
-learn about, 1, 1
-about a, 2, 2
-a contry´s, 1, 1
-contry´s culture, 1, 1
-culture for, 1, 1
-example middle, 1, 1
-middle east, 1, 1
-east people, 1, 1
-people don´t, 1, 1
-don´t eat, 1, 1
-eat pig, 1, 1
-pig and, 1, 1
-and westness, 1, 1
-westness eat, 1, 1
-eat sweet, 1, 1
-sweet petato, 1, 1
-petato the, 1, 1
-the second, 1, 1
-second travel, 1, 1
-can realize, 1, 1
-realize yourself, 1, 1
-yourself and, 1, 1
-and less, 1, 1
-less pressurethe, 1, 1
-pressurethe last, 1, 1
-last one, 1, 1
-one travel, 1, 1
-make friend, 1, 1
-friend with, 1, 1
-with foriend, 1, 1
-foriend when, 1, 1
-when you, 1, 1
-you come, 1, 1
-come home, 1, 1
-home foriend, 1, 1
-foriend friend, 1, 1
-friend will, 1, 1
-talk you, 1, 1
-you what, 1, 1
-what things, 1, 1
-things happened, 1, 1
-happened and, 1, 1
-we don´t, 1, 1
-know in, 1, 1
-in oversea, 1, 1
-oversea first, 1, 1
-a travel, 1, 1
-in east, 2, 1
-east taiwan, 2, 1
-taiwan there, 1, 1
-there have, 1, 1
-have high, 1, 1
-high mountain, 1, 1
-mountain and, 1, 1
-and good, 1, 1
-good view, 2, 1
-view that, 1, 1
-that use, 1, 1
-use me, 1, 1
-me think, 1, 1
-think about, 1, 1
-about environment, 1, 1
-environment and, 1, 1
-and recycle, 1, 1
-recycle if, 1, 1
-we haven´t, 1, 1
-haven´t recycle, 1, 1
-recycle garbage, 1, 1
-garbage we, 1, 1
-we would, 1, 1
-would destroy, 1, 1
-destroy that, 1, 1
-that good, 1, 1
-winter, 1, 1
-pick, 1, 1
-our, 1, 1
-sit, 2, 2
-tastes, 1, 1
-convenient, 1, 1
-china, 1, 1
-hot, 1, 1
-symbol, 1, 1
-when winter, 1, 1
-winter comes, 1, 1
-comes hot, 1, 1
-the necessary, 1, 1
-for our, 1, 1
-family it, 1, 1
-very delicious, 1, 1
-delicious we, 1, 1
-can pick, 1, 1
-pick the, 1, 1
-food we, 1, 1
-like our, 1, 1
-our family, 1, 1
-family sit, 1, 1
-sit together, 1, 1
-together having, 1, 1
-having different, 1, 1
-different tastes, 1, 1
-tastes which, 1, 1
-such cool, 1, 1
-cool and, 1, 1
-and convenient, 1, 1
-convenient many, 1, 1
-many foreigners, 1, 1
-foreigners fall, 1, 1
-with hot, 1, 1
-pot when, 1, 1
-to china, 1, 1
-china hot, 1, 1
-hot pot, 1, 1
-pot has, 1, 1
-has been, 1, 1
-been the, 1, 1
-the symbol, 1, 1
-symbol of, 1, 1
-of chinese, 1, 1
-hua, 1, 1
-partners, 1, 1
-li hua, 1, 1
-hua we, 1, 1
-other when, 1, 1
-we were, 1, 1
-were five, 1, 1
-years old, 1, 1
-old because, 1, 1
-have so, 1, 1
-common we, 1, 1
-we become, 1, 1
-become partners, 1, 1
-partners soon, 1, 1
-soon i, 2, 2
-fun with, 1, 1
-her she, 1, 1
-always knows, 1, 1
-knows my, 1, 1
-my idea, 1, 1
-idea and, 1, 1
-can enjoy, 1, 1
-enjoy our, 1, 1
-our time, 1, 1
-cherish our, 1, 1
-friendship so, 1, 1
-hope we, 1, 1
-be best, 1, 1
-friends forever, 1, 1
-teachers, 1, 1
-asked, 1, 1
-answer, 1, 1
-dream, 1, 1
-being, 1, 1
-pass, 1, 1
-thinking, 1, 1
-contribution, 1, 1
-worth, 1, 1
-small girl, 1, 1
-girl many, 1, 1
-many teachers, 1, 1
-teachers have, 1, 1
-have asked, 1, 1
-asked me, 1, 1
-what do, 1, 1
-do i, 1, 1
-be in, 1, 1
-future and, 2, 2
-my answer, 1, 1
-answer is, 1, 1
-always to, 1, 1
-a teacher, 2, 1
-teacher it, 1, 1
-my dream, 1, 1
-dream and, 1, 1
-i study, 1, 1
-study so, 1, 1
-realize it, 1, 1
-it being, 1, 1
-being a, 1, 1
-teacher can, 1, 1
-can pass, 1, 1
-pass the, 1, 1
-the knowledge, 1, 1
-knowledge to, 1, 1
-others and, 1, 1
-and guide, 1, 1
-guide them, 1, 1
-way thinking, 1, 1
-thinking about, 1, 1
-great contribution, 1, 1
-contribution i, 1, 1
-i make, 2, 2
-make everything, 1, 1
-everything is, 1, 1
-is worth, 1, 1
-biology, 1, 1
-field, 1, 1
-observe, 1, 1
-flowers, 1, 1
-carefully, 1, 1
-today the, 1, 1
-the biology, 1, 1
-biology class, 1, 1
-class is, 1, 1
-very different, 1, 1
-different we, 1, 1
-we don’t, 1, 1
-don’t need, 1, 1
-to sit, 1, 1
-sit in, 1, 1
-classroom because, 1, 1
-the teacher, 1, 1
-teacher takes, 1, 1
-takes us, 1, 1
-do activities, 1, 1
-activities we, 1, 1
-we go, 1, 1
-a field, 1, 1
-field that, 1, 1
-that is, 1, 1
-is near, 1, 1
-near our, 1, 1
-our school, 1, 1
-task for, 1, 1
-for us, 2, 1
-us is, 1, 1
-to observe, 1, 1
-observe flowers, 1, 1
-flowers we, 1, 1
-we feel, 1, 1
-and finish, 1, 1
-task very, 1, 1
-very carefully, 1, 1
-carefully it, 1, 1
-good way, 1, 1
-way for, 1, 1
-learn knowledge, 1, 1
-knowledge i, 1, 1
-sees, 1, 1
-alien’s, 1, 1
-foresee, 1, 1
-change, 1, 1
-book about, 1, 1
-girl sees, 1, 1
-sees her, 1, 1
-her future, 1, 1
-future after, 1, 1
-after she, 1, 1
-she learns, 2, 1
-learns the, 1, 1
-the alien’s, 1, 1
-alien’s language, 1, 1
-language her, 1, 1
-her future, 1, 1
-future life, 1, 1
-life has, 1, 1
-has happiness, 1, 1
-happiness and, 1, 1
-and sorrow, 1, 1
-sorrow since, 1, 1
-since she, 1, 1
-she could, 1, 1
-could foresee, 1, 1
-foresee she, 1, 1
-to accept, 1, 1
-accept what, 1, 1
-happen in, 1, 1
-in her, 1, 1
-her life, 1, 1
-life if, 1, 1
-could see, 1, 1
-my future, 1, 1
-can’t change, 1, 1
-change the, 1, 1
-the fact, 1, 1
-fact but, 1, 1
-will enjoy, 1, 1
-every minute, 1, 1
-minute of, 1, 1
-disney, 1, 1
-animation, 2, 1
-beauty, 1, 1
-beast, 1, 1
-brought, 1, 1
-screen, 1, 1
-actors, 1, 1
-heroine, 1, 1
-bell, 1, 1
-character, 1, 1
-kindness, 1, 1
-disney movies, 1, 1
-movies always, 1, 1
-always catch, 1, 1
-catch my, 1, 1
-attention recently, 1, 1
-the animation, 2, 1
-animation movie, 1, 1
-movie beauty, 1, 1
-beauty and, 1, 1
-and the, 1, 1
-the beast, 1, 1
-beast will, 1, 1
-be brought, 1, 1
-brought to, 1, 1
-the screen, 1, 1
-screen again, 1, 1
-again but, 1, 1
-but this, 1, 1
-time the, 1, 1
-real actors, 1, 1
-actors play, 1, 1
-play the, 1, 1
-the classic, 1, 1
-classic movie, 1, 1
-movie though, 1, 1
-have seen, 1, 1
-seen the, 1, 1
-animation i, 1, 1
-am still, 1, 1
-still look, 1, 1
-new one, 1, 1
-one the, 1, 1
-the beautiful, 1, 1
-beautiful heroine, 1, 1
-heroine bell, 1, 1
-bell is, 1, 1
-favorite character, 1, 1
-character i, 1, 1
-love her, 1, 1
-her kindness, 1, 1
-kindness and, 1, 1
-good girl, 1, 1
-returns, 1, 1
-lazy, 1, 1
-luckily, 1, 1
-something to, 1, 1
-she needs, 1, 1
-to meet, 1, 1
-meet her, 1, 1
-a promise, 1, 1
-promise that, 1, 1
-will clean, 1, 1
-clean the, 1, 1
-house when, 1, 1
-she returns, 1, 1
-returns but, 1, 1
-become lazy, 1, 1
-lazy soon, 1, 1
-games and, 1, 1
-forget my, 1, 1
-my promise, 1, 1
-promise when, 1, 1
-remember i, 1, 1
-start my, 1, 1
-work quickly, 1, 1
-quickly i, 1, 1
-to almost, 1, 1
-almost let, 1, 1
-mother down, 1, 1
-down luckily, 1, 1
-luckily i, 1, 1
-job and, 1, 1
-feels happy, 1, 1

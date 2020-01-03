@@ -14,7 +14,8 @@ medium_dict = {}
 total_dict = {}
 b = 1e-9
 
-black_list = ['a', 'an', 'the']
+#black_list = ['a', 'an', 'the']
+black_list = []
 
 def clean_str(context):
     context = context.replace('.', ' ')
@@ -167,7 +168,7 @@ def main():
     make_total_dict(total_dict)
     predict('query.txt', total_dict)
 
-    print(native_dict)
+    #print(native_dict)
 
 if __name__ == '__main__':
     main()

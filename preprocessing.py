@@ -11,6 +11,7 @@ def clean_str(context):
     context = context.replace(';', ' ')
     context = context.replace(':', ' ')
     context = context.replace('!', ' ')
+    context = context.replace('/', ' ')
     context = context.replace('"', ' ')
     context = context.replace('?', ' ')
     return context
