@@ -10,6 +10,12 @@ Final project of R, an English essay scorer.
 - https://www.ukessays.com/
 - https://drive.google.com/drive/folders/0BxEC0dgV3WQQNHBUZzREQTZUQ3M?fbclid=IwAR2oWP_17pbs4vuKLCCzHefcNARNE4iNR2x6iDnwAuOmiITZx4ULBvhuHMc
 
+Totally 312 essays are collected in our dataset. Including:
+* 100 beginner essays
+* 43 medium essays
+* 109 professional
+* 60 native_essays
+
 ### structure:
 ```
 ├── data
@@ -54,25 +60,25 @@ The expected output maybe this for the biginner writer.
 ```
 
 ### Statics Data
-- [ ] [words in document frequency](#df)
-- [ ] the comparsion of prep.
-- [ ] Article richness
-- [ ] word cloud
-- [ ] naive model
-- [ ] vsm model
-- [ ] average sentence length
-- [ ] usage of mark
-- [ ] average word length
+- [words in document frequency](#df)
+- the comparsion of prep.
+- Article richness
+- word cloud
+- naive model
+- vsm model
+- average sentence length
+- usage of mark
+- average word length
 
 <h3 id="df"> words in document frequency </h3>
-This section shows the statics of the a word appears in differnet essays. We discuss the word usage in 4 groups. We make a hypothesis that the lower degree english user may repeatedly use the same words among different essays due to their lacking vocabulary. **R** **wordcloud** is used to demostrate. 
+This section shows the statics of the a word appears in differnet essays. We discuss the word usage in 4 groups. We make a hypothesis that the lower degree english user may repeatedly use the same words among different essays due to their lacking vocabulary. **R-wordcloud** is used to demostrate. 
 
 #### Implementation
 
 R is used to represent the word cloud. We only choose the top 35 frequency words drawing in the plot.
 
 ```r=
-beginner_dat = read.csv("D:/NTU/R/VSMgrader_DataScienceWithR/data/idf_rank/beginner.csv", header = F)
+beginner_dat = read.csv("XXX.csv", header = F) # the path of idf_rank
 head(beginner_dat)
 beginner_dat <- head(beginner_dat, 35)
 library(wordcloud)
@@ -101,7 +107,17 @@ It is not a suprising answer to see such figure. **I** is the most popular word 
 - medium:
 The result of medium level write is intriguing. By knowing advanced grammar they always remember to put **the** before nouns, and they start to descript objectively by using **is**.
 
-![](img/medium.png)
+![](img/df_medium.png)
+
+- professional:
+For professional writer, they use various words make the essay looks vivid. No specific word dominates although **in** seems has highly fequency owning to the wanting amount of essays we use.
+
+![](img/df_professional.png)
+
+- native:
+Our dataset contains the native writer in every generation and every type of essay. As same as professional write, they use various words to present the topic in diverse essays.
+
+![](img/df_native.png)
  
 - [ ] the comparsion of prep.
 - [ ] Article richness
