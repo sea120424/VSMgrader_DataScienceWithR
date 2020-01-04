@@ -1,7 +1,7 @@
 # VSMgrader_DataScienceWithR
 Final project of R, an English essay scorer.
 
-### dataset:
+## dataset:
 - my essay (ranked as medium)
 - sample essay from college essay exam
 - https://github.com/ChiragSoni95/Autograder (use dataset only)
@@ -16,7 +16,7 @@ Totally 312 essays are collected in our dataset. Including:
 * 109 professional (excellent essays from Taiwanese students, which usually gets great score.)
 * 60 native_essays (essays from native english speakers)
 
-### structure:
+## structure:
 ```
 ├── data
 │   ├── professional
@@ -31,7 +31,21 @@ Totally 312 essays are collected in our dataset. Including:
 └── Statics (not yet)
 ```
 
-### preprocessing.py
+## Work
+- [vsm model](#vsm)
+- [essay eye](#ee)
+- [words in document frequency](#df)
+- the comparsion of prep.
+- Article richness
+- [word cloud (without frequency words)](#wc)
+- naive model
+- average sentence length
+- usage of mark
+- [average word length](#avgwordlen)
+
+<h3 id="vsm"> VSM Model </h3>
+
+#### preprocessing.py
 We can clean the data into csv file which record words frequency in essay and the probability of word appearance among files.
 The result will save under the diretory /data/dictionary/.
 The data had bulit. If new essaies are added, you will better execute the python file angin to ensure the accuary.
@@ -39,7 +53,8 @@ The data had bulit. If new essaies are added, you will better execute the python
 python3 preprocessing.py
 ```
 
-<h3 id="vsm"> VSM model </h3>
+#### vsm.py & vsm_v2.py
+
 Use vector space model to evaluate the relationship of the query and per section.
 
 tf: the frequency of the word in an essay, which signifies the importance of the words in the essay.
@@ -54,7 +69,7 @@ python3 vsm_v2.py
 ```
 It will estimate the essay in query.txt and return the result.
 
-### Result
+#### Result
 The expected output maybe this for the biginner writer.
 ```
 |======= English Level =======|
@@ -68,22 +83,19 @@ The expected output maybe this for the biginner writer.
 
 ```
 
-### Statics Data
-- [words in document frequency](#df)
-- the comparsion of prep.
-- Article richness
-- word cloud
-- naive model
-- [vsm model](#vsm)
-- average sentence length
-- usage of mark
-- [average word length](#avgwordlen)
+<h3 id="ee"> Essay Eye </h3>
 
-<h3 id="df"> words in document frequency </h3>
+#### essay_eye.py
+Essay_eye look forword to find the eye word in an essay. It shares same preprocessing file with vsm and it will output 5 candidates eye words after teading the essay in query.txt. You can use python3 to run essay_eye.
+```
+python3 essay_eye.py
+```
+
+<h3 id="df"> Words In Document Frequency </h3>
 This section shows the statics of the a word appears in differnet essays. We discuss the word usage in 4 groups. We make a hypothesis that the lower degree english user may repeatedly use the same words among different essays due to their lacking vocabulary. R wordcloud is used to demostrate. 
 
 #### Implementation
-
+To estimate the most important word in an essay. We prepare two versions of tool.
 R is used to represent the word cloud. We only choose the top 35 frequency words drawing in the plot.
 
 ```r=
@@ -130,13 +142,23 @@ Our dataset contains the native writer in every generation and every type of ess
  
 - [ ] the comparsion of prep.
 - [ ] Article richness
-- [ ] word cloud
+
+<h3 id="wc"> Word Cloud (without frequency words) </h3>
+
+#### Implementation
+
+#### Result
+
+At first, obviously, after we remove all the function word, **can** becomes the most popular words in every english writers. easy verbs tend to be the most frequency words in the beginner level while nouns usually repeatedly appear in other levels.
+
+<img src="img/total_word_cloud.png">
+
 - [ ] naive model
 - [ ] vsm model
 - [ ] average sentence length
 - [ ] usage of mark
 
-<h3 id="avgwordlen"> average word length </h3>
+<h3 id="avgwordlen"> Average Word Length </h3>
 We compare the avg word length test whether there is a positive relationship between avg word length writer degree.
 
 #### Implementation
@@ -157,8 +179,12 @@ for (i in 1:99){
 (beginnerwl <- magic_result_as_dataframe())
 ```
 
+#### Result
+
 The result show as below.
-<img src="img/word length.png"/>
+<img src="img/word length.png" width="50%" height="50%" >
+
+The higher level the writer is, the more longer average words length ther will use. Of course this statics may vulnerable to the topic of essay. The result can be more powerful if we can get all the data with the same topic. 
 
 
 
