@@ -43,7 +43,9 @@ type_native <- type_native %>%
 pp <- ggplot(data = freq_str) +
   geom_bar(mapping = aes(x = string,y = percentage,fill = string),stat = 'identity') +
   facet_wrap(vars(type_of)) +
-  labs(title = "Total",y = 'frequency') + 
+  labs(title = "String Frequency by Language Levels",x = 'String', y = 'Frequency') + 
+  theme(plot.title = element_text(size = 22),
+        axis.title = element_text(size = 16)) +
   coord_flip()
 ggsave("freq_str_by_type.png")
 ```
