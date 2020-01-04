@@ -119,6 +119,7 @@ library(ggplot2)
 
 ggplot(whole) +
   geom_point(aes(x = number, y = avg_word_length), color = "#DB481F") +
+  geom_smooth(aes(x = number, y = avg_word_length)) +
   geom_vline(aes(xintercept = 99)) +
   geom_vline(aes(xintercept = 139)) +
   geom_vline(aes(xintercept = 248)) +
