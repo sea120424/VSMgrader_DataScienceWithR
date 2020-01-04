@@ -1,0 +1,131 @@
+---
+title: "Average Word Length"
+author: "yeh"
+date: "1/2/2020"
+output: html_document
+---
+
+```{r} 
+#read files
+library(readtext)
+beginner <- readtext(paste0("~/Desktop/VSMgrader_DataScienceWithR/data/beginner/", 1:100 , ".txt"))
+
+medium <- readtext(paste0("~/Desktop/VSMgrader_DataScienceWithR/data/medium/", c(1:26,30:46) , ".txt"))
+
+prof <- readtext(paste0("~/Desktop/VSMgrader_DataScienceWithR/data/professional/", 1:109 , ".txt"))
+
+native <- readtext(paste0("~/Desktop/VSMgrader_DataScienceWithR/data/native/", 1:60 , ".txt"))
+```
+
+```{r}
+#beginner word length
+library(stringr)
+library(magicfor)
+
+#bag of words
+bagofbeginner <- str_split(beginner$text[c(1:94,96:100)], " ")
+
+#avg. word length
+magic_for(print, silent = T)
+
+for (i in 1:99){
+  avg_word_length <- mean(nchar(bagofbeginner[[i]]))
+  print(avg_word_length)
+}
+
+(beginnerwl <- magic_result_as_dataframe())
+```
+
+```{r}
+#medium word length
+library(stringr)
+library(magicfor)
+
+#bag of words
+bagofmedium <- str_split(medium$text[c(1:26, 30:43)], " ")
+
+#avg. word length
+magic_for(print, silent = T)
+
+for (i in c(1:40)){
+  avg_word_length <- mean(nchar(bagofmedium[[i]]))
+  print(avg_word_length)
+}
+
+(mediumwl <- magic_result_as_dataframe())
+```
+
+```{r}
+#prof word length
+library(stringr)
+library(magicfor)
+
+#bag of words
+bagofprof <- str_split(prof$text[1:109], " ")
+
+#avg. word length
+magic_for(print, silent = T)
+
+for (i in 1:109){
+  avg_word_length <- mean(nchar(bagofprof[[i]]))
+  print(avg_word_length)
+}
+
+(profwl <- magic_result_as_dataframe())
+```
+
+```{r}
+#native word length
+library(stringr)
+library(magicfor)
+
+#bag of words
+bagofnative <- str_split(native$text[1:60], " ")
+#str_match_all(bagofnative,"\\([^(,)]*\\)")
+
+#avg. word length
+magic_for(print, silent = T)
+
+for (i in 1:60){
+  avg_word_length <- mean(nchar(bagofnative[[i]]))
+  print(avg_word_length)
+}
+
+(nativewl <- magic_result_as_dataframe())
+```
+
+```{r}
+#count mean for every level
+
+mean(beginnerwl$avg_word_length)
+mean(mediumwl$avg_word_length)
+mean(profwl$avg_word_length)
+mean(nativewl$avg_word_length)
+
+```
+
+```{r}
+#combine data frames of 4 levels
+library(dplyr)
+whwh <- rbind(beginnerwl, mediumwl, profwl, nativewl)
+
+whole <- whwh %>% mutate(number = seq_along(i))
+
+```
+
+```{r}
+#let's paint
+library(ggplot2)
+
+ggplot(whole) +
+  geom_point(aes(x = number, y = avg_word_length), color = "#DB481F") +
+  geom_smooth(aes(x = number, y = avg_word_length)) +
+  geom_vline(aes(xintercept = 99)) +
+  geom_vline(aes(xintercept = 139)) +
+  geom_vline(aes(xintercept = 248)) +
+  labs(title = "Average Word Length", x = "English-Level" , y = "avg.") 
+#  theme(text=element_text(family="STHeiti", size=14))
+
+```
+
+

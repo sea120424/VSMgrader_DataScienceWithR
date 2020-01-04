@@ -11,10 +11,10 @@ Final project of R, an English essay scorer.
 - https://drive.google.com/drive/folders/0BxEC0dgV3WQQNHBUZzREQTZUQ3M?fbclid=IwAR2oWP_17pbs4vuKLCCzHefcNARNE4iNR2x6iDnwAuOmiITZx4ULBvhuHMc
 
 Totally 312 essays are collected in our dataset. Including:
-* 100 beginner essays
-* 43 medium essays
-* 109 professional
-* 60 native_essays
+* 100 beginner essays (the essays of elementary school students from China)
+* 43 medium essays (My essays)
+* 109 professional (excellent essays from Taiwanese students, which usually gets great score.)
+* 60 native_essays (essays from native english speakers)
 
 ### structure:
 ```
@@ -39,7 +39,7 @@ The data had bulit. If new essaies are added, you will better execute the python
 python3 preprocessing.py
 ```
 
-### Model
+<h3 id="vsm"> VSM model </h3>
 Use vector space model to evaluate the relationship of the query and per section.
 
 tf: the frequency of the word in an essay, which signifies the importance of the words in the essay.
@@ -74,10 +74,10 @@ The expected output maybe this for the biginner writer.
 - Article richness
 - word cloud
 - naive model
-- vsm model
+- [vsm model](#vsm)
 - average sentence length
 - usage of mark
-- average word length
+- [average word length](#avgwordlen)
 
 <h3 id="df"> words in document frequency </h3>
 This section shows the statics of the a word appears in differnet essays. We discuss the word usage in 4 groups. We make a hypothesis that the lower degree english user may repeatedly use the same words among different essays due to their lacking vocabulary. R wordcloud is used to demostrate. 
@@ -88,10 +88,9 @@ R is used to represent the word cloud. We only choose the top 35 frequency words
 
 ```r=
 beginner_dat = read.csv("XXX.csv", header = F) # the path of idf_rank
-head(beginner_dat)
-beginner_dat <- head(beginner_dat, 35)
-library(wordcloud)
-wordcloud(
+beginner_dat <- head(beginner_dat, 35)	# pick top 35v frequency words
+library(wordcloud)						# word cloud
+wordcloud(								
   words = beginner_dat$V1, 
   freq =  beginner_dat$V2, 
   scale = c(8,.10), 
@@ -136,5 +135,32 @@ Our dataset contains the native writer in every generation and every type of ess
 - [ ] vsm model
 - [ ] average sentence length
 - [ ] usage of mark
-- [ ] average word length
+
+<h3 id="avgwordlen"> average word length </h3>
+We compare the avg word length test whether there is a positive relationship between avg word length writer degree.
+
+#### Implementation
+
+Initially, we use str_split the split the word by space. 
+```r=
+library(stringr)
+bagofprof <- str_split(prof$text[1:109], " ")
+```
+
+Then, We cacluate the word length via package magicfor
+```r=
+magic_for(print, silent = T)
+for (i in 1:99){
+  avg_word_length <- mean(nchar(bagofbeginner[[i]]))
+  print(avg_word_length)
+}
+(beginnerwl <- magic_result_as_dataframe())
+```
+
+The result show as below.
+<img src="img/word length.png"/>
+
+
+
+
 
