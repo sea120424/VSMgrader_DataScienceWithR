@@ -1,0 +1,49 @@
+```{r}
+library(readxl)
+library(ggplot2)
+library(tidyverse)
+
+freq_str <- read_excel("C:/Users/n8748/Desktop/freq_str.xlsx")
+freq_str$...1 <- NULL
+
+names(freq_str)[1] <- "string"
+names(freq_str)[2] <- "type_of"
+names(freq_str)[3] <- "times"
+freq_str <- freq_str[-c(61, 62, 63, 64), ]
+
+freq_str <- freq_str %>%
+  group_by(type_of) %>%
+  mutate(percentage = times/sum(times))
+#=====================================
+type_beginner <- freq_str %>%
+  filter(type_of == 'beginner')
+sum <- sum(type_beginner$times)
+type_beginner <- type_beginner %>%
+  mutate(percentage = times/sum)
+
+type_medium <- freq_str %>%
+  filter(type_of == 'medium')
+sum <- sum(type_medium$times)
+type_medium <- type_medium %>%
+  mutate(percentage = times/sum)
+
+type_professional <- freq_str %>%
+  filter(type_of == 'professional')
+sum <- sum(type_professional$times)
+type_professional <- type_professional %>%
+  mutate(percentage = times/sum)
+
+type_native <- freq_str %>%
+  filter(type_of == 'native')
+sum <- sum(type_native$times)
+type_native <- type_native %>%
+  mutate(percentage = times/sum)
+#=====================================
+
+pp <- ggplot(data = freq_str) +
+  geom_bar(mapping = aes(x = string,y = percentage,fill = string),stat = 'identity') +
+  facet_wrap(vars(type_of)) +
+  labs(title = "Total",y = 'frequency') + 
+  coord_flip()
+ggsave("freq_str_by_type.png")
+```
