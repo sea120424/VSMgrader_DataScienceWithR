@@ -31,6 +31,19 @@ Totally 312 essays are collected in our dataset. Including:
 └── Statics (not yet)
 ```
 
+### Work
+- [vsm model](#vsm)
+- [words in document frequency](#df)
+- the comparsion of prep.
+- Article richness
+- word cloud (without frequency words)
+- naive model
+- average sentence length
+- usage of mark
+- [average word length](#avgwordlen)
+
+<h3 id="vsm"> VSM model </h3>
+
 ### preprocessing.py
 We can clean the data into csv file which record words frequency in essay and the probability of word appearance among files.
 The result will save under the diretory /data/dictionary/.
@@ -39,7 +52,8 @@ The data had bulit. If new essaies are added, you will better execute the python
 python3 preprocessing.py
 ```
 
-<h3 id="vsm"> VSM model </h3>
+### vsm.py & vsm_v2.py
+
 Use vector space model to evaluate the relationship of the query and per section.
 
 tf: the frequency of the word in an essay, which signifies the importance of the words in the essay.
@@ -67,17 +81,6 @@ The expected output maybe this for the biginner writer.
 |=============================|
 
 ```
-
-### Statics Data
-- [words in document frequency](#df)
-- the comparsion of prep.
-- Article richness
-- word cloud
-- naive model
-- [vsm model](#vsm)
-- average sentence length
-- usage of mark
-- [average word length](#avgwordlen)
 
 <h3 id="df"> words in document frequency </h3>
 This section shows the statics of the a word appears in differnet essays. We discuss the word usage in 4 groups. We make a hypothesis that the lower degree english user may repeatedly use the same words among different essays due to their lacking vocabulary. R wordcloud is used to demostrate. 
@@ -157,8 +160,12 @@ for (i in 1:99){
 (beginnerwl <- magic_result_as_dataframe())
 ```
 
+#### Result
+
 The result show as below.
-<img src="img/word length.png"/>
+<img src="img/word length.png" height="75%" >
+
+The higher level the writer is, the more longer average words length ther will use. Of course this statics may vulnerable to the topic of essay. The result can be more powerful if we can get all the data with the same topic. 
 
 
 
