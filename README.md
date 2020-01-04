@@ -158,7 +158,7 @@ for (i in 1:99){
 ```
 
 The result show as below.
-<img src="img/df_beginner.png"/>
+<img src="img/word length.png"/>
 
 
 
