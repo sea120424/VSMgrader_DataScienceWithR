@@ -77,22 +77,20 @@ df_medium<-df_medium%>%mutate(TTR_percent= ifelse(TTR>=0.9, "0.9~1",
 
 ggplot(data = df_medium) +
   geom_bar(mapping = aes(x = TTR_percent),fill = 4)+
-  labs(title = "不同詞頻的數量關係(medium)")
+  labs(title = "不同詞頻的數量關係(medium)")+
+  theme(plot.title = element_text(size = 25),
+        axis.text= element_text(size = 15),
+        axis.title= element_text(size = 15))
 
 ggplot(data = tidy_text_format) +
   geom_bar(mapping = aes(x = pon,y=count), stat = "identity",fill = 4)+
-  labs(title = "不同標點符號的數量關係(medium)")
+  labs(title = "不同標點符號的數量關係(medium)",size=100)+
+  theme(plot.title = element_text(size = 20),
+        axis.text= element_text(size = 15),
+        axis.title= element_text(size = 15))
 
 
-#type_token_ratio <- docs_df1 %>%
-#  unnest_tokens(output = "w", input = "post3",
-#                token = "regex", pattern = " ") 
 
-#type_token_ratio %>%
-#  group_by(id ,w) %>%
-#  summarise(n = n()) %>%  
-#  group_by(id) %>%
-#  summarise(TTR = n() / sum(n)) 
 ```
 #Beginner
 
@@ -154,10 +152,16 @@ df_beginner<-df_beginner%>%mutate(TTR_percent= ifelse(TTR>=0.9, "0.9~1",
 
 ggplot(data = df_beginner) +
   geom_bar(mapping = aes(x = TTR_percent),fill = 4) +
-  labs(title = "不同詞頻的數量關係(beginner)")
+  labs(title = "不同詞頻的數量關係(beginner)")+
+  theme(plot.title = element_text(size = 25),
+        axis.text= element_text(size = 15),
+        axis.title= element_text(size = 15))
 ggplot(data = tidy_text_format) +
   geom_bar(mapping = aes(x = pon,y=count), stat = "identity",fill = 4)+
-  labs(title = "不同標點符號的數量關係(beginner)")
+  labs(title = "不同標點符號的數量關係(beginner)")+
+  theme(plot.title = element_text(size = 20),
+        axis.text= element_text(size = 15),
+        axis.title= element_text(size = 15))
 
 ```
 
@@ -222,10 +226,16 @@ df_professional<-df_professional%>%mutate(TTR_percent= ifelse(TTR>=0.9, "0.9~1",
 
 ggplot(data = df_professional) +
   geom_bar(mapping = aes(x = TTR_percent),fill = 4)+
-  labs(title = "不同詞頻的數量關係(professional)")
+  labs(title = "不同詞頻的數量關係(professional)")+
+  theme(plot.title = element_text(size = 25),
+        axis.text= element_text(size = 15),
+        axis.title= element_text(size = 15))
 ggplot(data = tidy_text_format_professional) +
   geom_bar(mapping = aes(x = pon,y=count), stat = "identity",fill = 4)+
-  labs(title = "不同標點符號的數量關係(professional)")
+  labs(title = "不同標點符號的數量關係(professional)")+
+  theme(plot.title = element_text(size = 20),
+        axis.text= element_text(size = 15),
+        axis.title= element_text(size = 15))
 ```
 
 
@@ -286,7 +296,10 @@ df_native<-df_native%>%mutate(TTR_percent= ifelse(TTR>=0.9, "0.9~1",
 
 ggplot(data = df_native) +
   geom_bar(mapping = aes(x = TTR_percent),fill = 4)+
-  labs(title = "不同詞頻的數量關係(native)")
+  labs(title = "不同詞頻的數量關係(native)")+
+  theme(plot.title = element_text(size = 25),
+        axis.text= element_text(size = 15),
+        axis.title= element_text(size = 15))
 ggplot(data = tidy_text_format_native) +
   geom_bar(mapping = aes(x = pon,y=count), stat = "identity",fill = 4)+
   labs(title = "不同標點符號的數量關係(native)")
