@@ -1,0 +1,296 @@
+---
+title: "Untitled"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Medium
+
+
+
+```{r cars}
+# Get txt file paths
+library(dplyr)
+library(tidytext)
+library(quanteda)
+library(ggplot2)
+
+fps_medium <- list.files("VSMgrader_DataScienceWithR/data/medium", full.names = T)
+
+post3_medium<- vector("character", length(fps_medium))
+post4_medium<- vector("character", length(fps_medium))
+txt<-c(LETTERS,",",".","?","!")
+
+for(i in seq_along(fps_medium)){
+  post_medium<-readLines(fps_medium[i],warn =FALSE)#,encoding = "UTF-8")
+  post1_medium<-paste(post_medium,collapse = " ")
+  post2_medium<-gsub("[[:punct:]]", "", post1_medium)
+  post3_medium[i]<-tolower(post2_medium)
+  post4_medium[i]<-gsub("[A-Z]|[a-z]|織|[0-9]|(攼㸲\u0080愼㸶)|\\\\", "", post1_medium)
+}
+
+docs_df_medium <- tibble::tibble(id = seq_along(fps_medium), content = post3_medium)
+docs_df4_medium <- tibble::tibble(id = seq_along(fps_medium), content = post4_medium)
+tidy_text_format <- docs_df4_medium  %>%
+  unnest_tokens(output = "pon", input = "content",
+                token = "regex", pattern = " ")  %>%
+  group_by(pon)%>%
+  summarise(count=n())%>%
+  filter(pon=="."|pon==","|pon=="'"|pon==":"|pon=="!"|pon=="?"|pon=="''"|pon=="()")%>%
+  arrange(desc(count))
+
+# 將 data frame 轉換成 Corpus object
+quanteda_corpus_medium <- corpus(docs_df_medium, 
+                          docid_field = "id", 
+                          text_field = "content")
+#quanteda_corpus_medium4 <- corpus(docs_df4_medium, 
+#                          docid_field = "id", 
+#                         text_field = "content")
+
+# tokenize the corpus 
+# (因為已先斷過詞, 使用 "fastestword", 即 空白字元 作為 tokenize 的方式)
+qcorp_tokens_medium <- tokens(quanteda_corpus_medium, "fastestword")
+#qcorp_tokens_medium4 <- tokens(quanteda_corpus_medium4, "fastestword")
+
+#詞頻表
+df_medium <-textstat_lexdiv(qcorp_tokens_medium)
+df_medium
+#df4_medium <-textstat_lexdiv(qcorp_tokens_medium4,remove_punct = FALSE)
+#去除功能詞
+toks_nostop_medium <- tokens_select(qcorp_tokens_medium, pattern = stopwords('en'), selection = 'remove')
+
+#畫文字雲
+document_term_matrix_medium <- dfm(toks_nostop_medium)
+textplot_wordcloud(document_term_matrix_medium,max_words = 25,min_size = 1, max_size = 5,random_color = TRUE)
+
+df_medium<-df_medium%>%mutate(TTR_percent= ifelse(TTR>=0.9, "0.9~1",
+                    ifelse(TTR>=0.8&TTR<0.9 , "0.8~0.9",
+                    ifelse(TTR>=0.7&TTR<0.8 , "0.7~0.8",
+                    ifelse(TTR>=0.6&TTR<0.7 , "0.6~0.7",
+                    ifelse(TTR>=0.5&TTR<0.6 , "0.5~0.6",
+                    ifelse(TTR>=0.4&TTR<0.5 , "0.4~0.5",
+                    ifelse(TTR>=0.3&TTR<0.4 , "0.3~0.4","0.2~0.3"))))))))
+                    
+
+ggplot(data = df_medium) +
+  geom_bar(mapping = aes(x = TTR_percent),fill = 4)+
+  labs(title = "不同詞頻的數量關係(medium)")
+
+ggplot(data = tidy_text_format) +
+  geom_bar(mapping = aes(x = pon,y=count), stat = "identity",fill = 4)+
+  labs(title = "不同標點符號的數量關係(medium)")
+
+
+#type_token_ratio <- docs_df1 %>%
+#  unnest_tokens(output = "w", input = "post3",
+#                token = "regex", pattern = " ") 
+
+#type_token_ratio %>%
+#  group_by(id ,w) %>%
+#  summarise(n = n()) %>%  
+#  group_by(id) %>%
+#  summarise(TTR = n() / sum(n)) 
+```
+#Beginner
+
+
+```{r}
+
+fps_beginner <- list.files("VSMgrader_DataScienceWithR/data/beginner", full.names = T)
+
+post3_beginner<- vector("character", length(fps_beginner))
+post4_beginner<- vector("character", length(fps_beginner))
+txt<-c(LETTERS,",",".","?","!")
+
+for(i in seq_along(fps_beginner)){
+  post_beginner<-readLines(fps_beginner[i],warn =FALSE)
+  post1_beginner<-paste(post_beginner,collapse = " ")
+  post2_beginner<-gsub("[[:punct:]]", "", post1_beginner)
+  post3_beginner[i]<-tolower(post2_beginner)
+  post4_beginner[i]<-gsub("[A-Z]|[a-z]|織|[0-9]|(攼㸲\u0080愼㸶)|\\\\", "", post1_beginner)
+}
+
+docs_df_beginner <- tibble::tibble(id = seq_along(fps_beginner), content = post3_beginner)
+docs_df4_beginner <- tibble::tibble(id = seq_along(fps_beginner), content = post4_beginner)
+tidy_text_format <- docs_df4_beginner  %>%
+  unnest_tokens(output = "pon", input = "content",
+                token = "regex", pattern = " ")  %>%
+  group_by(pon)%>%
+  summarise(count=n())%>%
+  filter(pon=="."|pon==","|pon=="'"|pon==":"|pon=="!"|pon=="?"|pon=="''"|pon=="()")%>%
+  arrange(desc(count))
+
+# 將 data frame 轉換成 Corpus object
+quanteda_corpus_beginner <- corpus(docs_df_beginner, 
+                          docid_field = "id", 
+                          text_field = "content")
+
+# tokenize the corpus 
+# (因為已先斷過詞, 使用 "fastestword", 即 空白字元 作為 tokenize 的方式)
+qcorp_tokens_beginner <- tokens(quanteda_corpus_beginner, "fastestword")
+
+#詞頻表
+df_beginner<-textstat_lexdiv(qcorp_tokens_beginner)
+
+#去除功能詞
+toks_nostop_beginner <- tokens_select(qcorp_tokens_beginner, pattern = stopwords('en'), selection = 'remove')
+
+#畫文字雲
+document_term_matrix_beginner <- dfm(toks_nostop_beginner)
+textplot_wordcloud(document_term_matrix_beginner,max_words = 25,min_size = 1, max_size = 5,random_color = TRUE)
+
+df_beginner<-df_beginner%>%mutate(TTR_percent= ifelse(TTR>=0.9, "0.9~1",
+                    ifelse(TTR>=0.8&TTR<0.9 , "0.8~0.9",
+                    ifelse(TTR>=0.7&TTR<0.8 , "0.7~0.8",
+                    ifelse(TTR>=0.6&TTR<0.7 , "0.6~0.7",
+                    ifelse(TTR>=0.5&TTR<0.6 , "0.5~0.6",
+                    ifelse(TTR>=0.4&TTR<0.5 , "0.4~0.5",
+                    ifelse(TTR>=0.3&TTR<0.4 , "0.3~0.4",
+                    ifelse(TTR>=0.2&TTR<0.3 , "0.2~0.3","0.1~0.2")))))))))
+                    
+
+ggplot(data = df_beginner) +
+  geom_bar(mapping = aes(x = TTR_percent),fill = 4) +
+  labs(title = "不同詞頻的數量關係(beginner)")
+ggplot(data = tidy_text_format) +
+  geom_bar(mapping = aes(x = pon,y=count), stat = "identity",fill = 4)+
+  labs(title = "不同標點符號的數量關係(beginner)")
+
+```
+
+## Professional
+
+You can also embed plots, for example:
+
+```{r}
+fps_professional <- list.files("VSMgrader_DataScienceWithR/data/professional", full.names = T)
+
+post3_professional<- vector("character", length(fps_professional))
+post4_professional<- vector("character", length(fps_professional))
+txt<-c(LETTERS,",",".","?","!")
+
+for(i in seq_along(fps_professional)){
+  post_professional<-readLines(fps_professional[i],warn =FALSE)
+  post1_professional<-paste(post_professional,collapse = " ")
+  post2_professional<-gsub("[[:punct:]]", "", post1_professional)
+  post3_professional[i]<-tolower(post2_professional)
+  post4_professional[i]<-gsub("[A-Z]|[a-z]|織|[0-9]|(攼㸲\u0080愼㸶)|\\\\", "", post1_professional)
+}
+
+docs_df_professional<- tibble::tibble(id = seq_along(fps_professional), content = post3_professional)
+docs_df4_professional <- tibble::tibble(id = seq_along(fps_professional), content = post4_professional)
+tidy_text_format_professional <- docs_df4_professional  %>%
+  unnest_tokens(output = "pon", input = "content",
+                token = "regex", pattern = " ")  %>%
+  group_by(pon)%>%
+  summarise(count=n())%>%
+  filter(pon=="."|pon==","|pon=="'"|pon==":"|pon=="!"|pon=="?"|pon=="''"|pon=="()")%>%
+  arrange(desc(count))
+
+
+# 將 data frame 轉換成 Corpus object
+quanteda_corpus_professional <- corpus(docs_df_professional, 
+                          docid_field = "id", 
+                          text_field = "content")
+
+# tokenize the corpus 
+# (因為已先斷過詞, 使用 "fastestword", 即 空白字元 作為 tokenize 的方式)
+qcorp_tokens_professional <- tokens(quanteda_corpus_professional, "fastestword")
+
+#詞頻表
+df_professional<-textstat_lexdiv(qcorp_tokens_professional)
+
+#去除功能詞
+toks_nostop_professional <- tokens_select(qcorp_tokens_professional, pattern = stopwords('en'), selection = 'remove')
+
+#畫文字雲
+document_term_matrix_professional <- dfm(toks_nostop_professional)
+textplot_wordcloud(document_term_matrix_professional,max_words = 25,min_size = 1, max_size = 5,random_color = TRUE)
+
+
+df_professional<-df_professional%>%mutate(TTR_percent= ifelse(TTR>=0.9, "0.9~1",
+                    ifelse(TTR>=0.8&TTR<0.9 , "0.8~0.9",
+                    ifelse(TTR>=0.7&TTR<0.8 , "0.7~0.8",
+                    ifelse(TTR>=0.6&TTR<0.7 , "0.6~0.7",
+                    ifelse(TTR>=0.5&TTR<0.6 , "0.5~0.6",
+                    ifelse(TTR>=0.4&TTR<0.5 , "0.4~0.5",
+                    ifelse(TTR>=0.3&TTR<0.4 , "0.3~0.4","0.2~0.3"))))))))
+                    
+
+ggplot(data = df_professional) +
+  geom_bar(mapping = aes(x = TTR_percent),fill = 4)+
+  labs(title = "不同詞頻的數量關係(professional)")
+ggplot(data = tidy_text_format_professional) +
+  geom_bar(mapping = aes(x = pon,y=count), stat = "identity",fill = 4)+
+  labs(title = "不同標點符號的數量關係(professional)")
+```
+
+
+## Native
+```{r}
+fps_native<- list.files("VSMgrader_DataScienceWithR/data/native", full.names = T)
+
+post3_native<- vector("character", length(fps_native))
+post4_native<- vector("character", length(fps_native))
+txt<-c(LETTERS,",",".","?","!")
+
+for(i in seq_along(fps_native)){
+  post_native<-readLines(fps_native[i],warn =FALSE)
+  post1_native<-paste(post_native,collapse = " ")
+  post2_native<-gsub("[[:punct:]]", "", post1_native)
+  post3_native[i]<-tolower(post2_native)
+  post4_native[i]<-gsub("[A-Z]|[a-z]|織|[0-9]|(攼㸲\u0080愼㸶)|\\\\", "", post1_native)
+}
+
+docs_df_native <- tibble::tibble(id = seq_along(fps_native), content = post3_native)
+docs_df4_native <- tibble::tibble(id = seq_along(fps_native), content = post4_native)
+tidy_text_format_native <- docs_df4_native  %>%
+  unnest_tokens(output = "pon", input = "content",
+                token = "regex", pattern = " ")  %>%
+  group_by(pon)%>%
+  summarise(count=n())%>%
+  filter(pon=="."|pon==","|pon=="'"|pon==":"|pon=="!"|pon=="?"|pon=="''"|pon=="()")%>%
+  arrange(desc(count))
+
+# 將 data frame 轉換成 Corpus object
+quanteda_corpus_native <- corpus(docs_df_native, 
+                          docid_field = "id", 
+                          text_field = "content")
+
+# tokenize the corpus 
+# (因為已先斷過詞, 使用 "fastestword", 即 空白字元 作為 tokenize 的方式)
+qcorp_tokens_native <- tokens(quanteda_corpus_native, "fastestword")
+
+#詞頻表
+df_native<-textstat_lexdiv(qcorp_tokens_native)
+#df_native
+#去除功能詞
+toks_nostop_native <- tokens_select(qcorp_tokens_native, pattern = stopwords('en'), selection = 'remove')
+
+#畫文字雲
+document_term_matrix_native <- dfm(toks_nostop_native)
+textplot_wordcloud(document_term_matrix_native,max_words = 25,min_size = 1, max_size = 5,random_color = TRUE)
+
+
+df_native<-df_native%>%mutate(TTR_percent= ifelse(TTR>=0.9, "0.9~1",
+                    ifelse(TTR>=0.8&TTR<0.9 , "0.8~0.9",
+                    ifelse(TTR>=0.7&TTR<0.8 , "0.7~0.8",
+                    ifelse(TTR>=0.6&TTR<0.7 , "0.6~0.7",
+                    ifelse(TTR>=0.5&TTR<0.6 , "0.5~0.6",
+                    ifelse(TTR>=0.4&TTR<0.5 , "0.4~0.5",
+                    ifelse(TTR>=0.3&TTR<0.4 , "0.3~0.4","0.2~0.3"))))))))
+                    
+
+ggplot(data = df_native) +
+  geom_bar(mapping = aes(x = TTR_percent),fill = 4)+
+  labs(title = "不同詞頻的數量關係(native)")
+ggplot(data = tidy_text_format_native) +
+  geom_bar(mapping = aes(x = pon,y=count), stat = "identity",fill = 4)+
+  labs(title = "不同標點符號的數量關係(native)")
+  
+
+```
+
