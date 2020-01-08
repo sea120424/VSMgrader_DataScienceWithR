@@ -36,11 +36,8 @@ Totally 312 essays are collected in our dataset. Including:
 - [essay eye](#ee)
 - [words in document frequency](#df)
 - the comparsion of prep.
-- Article richness
 - [word cloud (without frequency words)](#wc)
-- naive model
-- average sentence length
-- usage of mark
+- [usage of mark](#uom)
 - [average word length](#avgwordlen)
 
 <h3 id="vsm"> VSM Model </h3>
@@ -88,6 +85,7 @@ The expected output maybe this for the biginner writer.
 #### essay_eye.py
 Essay_eye look forword to find the eye word in an essay. It shares same preprocessing file with vsm and it will output 5 candidates eye words after teading the essay in query.txt. You can use python3 to run essay_eye.
 ```
+python3 preprocessing.py
 python3 essay_eye.py
 ```
 
@@ -141,22 +139,30 @@ Our dataset contains the native writer in every generation and every type of ess
 
  
 - [ ] the comparsion of prep.
-- [ ] Article richness
 
 <h3 id="wc"> Word Cloud (without frequency words) </h3>
 
 #### Implementation
-
+You can run the following file with R
+```
+R_str.Rmd
+```
 #### Result
 
 At first, obviously, after we remove all the function word, **can** becomes the most popular words in every english writers. easy verbs tend to be the most frequency words in the beginner level while nouns usually repeatedly appear in other levels.
 
 <img src="img/total_word_cloud.png">
 
-- [ ] naive model
-- [ ] vsm model
-- [ ] average sentence length
-- [ ] usage of mark
+<h3 id="uom"> Usage Of Mark </h3>
+
+#### Implementation
+You can run the following file with R
+```
+R_str.Rmd
+```
+
+#### Result
+We do it in the file, however, it outputs a common result. common and dot dominate the usage in every degree and with little difference.
 
 <h3 id="avgwordlen"> Average Word Length </h3>
 We compare the avg word length test whether there is a positive relationship between avg word length writer degree.
@@ -169,7 +175,7 @@ library(stringr)
 bagofprof <- str_split(prof$text[1:109], " ")
 ```
 
-Then, We cacluate the word length via package magicfor
+Then, We cacluate the word length via package magic_for
 ```r=
 magic_for(print, silent = T)
 for (i in 1:99){
@@ -181,8 +187,7 @@ for (i in 1:99){
 
 #### Result
 
-The result show as below.
-<img src="img/word length.png" width="50%" height="50%" >
+<img src="img/word length.png" width="60%" height="60%" >
 
 The higher level the writer is, the more longer average words length ther will use. Of course this statics may vulnerable to the topic of essay. The result can be more powerful if we can get all the data with the same topic. 
 
