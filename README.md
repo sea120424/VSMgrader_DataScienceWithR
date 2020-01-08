@@ -167,7 +167,7 @@ R_str.Rmd
 
 At first, obviously, after we remove all the function word, **can** becomes the most popular words in every english writers. easy verbs tend to be the most frequency words in the beginner level while nouns usually repeatedly appear in other levels.
 
-<img src="img/total_word_cloud.png">
+<img src="img/total_word_cloud.png" width="60%" height="60%">
 
 <h3 id="uom"> Usage Of Mark </h3>
 
