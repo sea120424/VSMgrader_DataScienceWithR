@@ -28,14 +28,14 @@ Totally 312 essays are collected in our dataset. Including:
 ├── vsm.py
 ├── vsm_v2.py
 ├── README.md
-└── Statics (not yet)
+└── Statics
 ```
 
 ## Work
 - [vsm model](#vsm)
 - [essay eye](#ee)
 - [words in document frequency](#df)
-- the comparsion of prep.
+- [the comparsion of prep.](#prep)
 - [word cloud (without frequency words)](#wc)
 - [usage of mark](#uom)
 - [average word length](#avgwordlen)
@@ -93,6 +93,11 @@ python3 essay_eye.py
 This section shows the statics of the a word appears in differnet essays. We discuss the word usage in 4 groups. We make a hypothesis that the lower degree english user may repeatedly use the same words among different essays due to their lacking vocabulary. R wordcloud is used to demostrate. 
 
 #### Implementation
+If you want to reproduce the work, you can run the following R markdown file.
+```
+idf_cloud.Rmd
+```
+
 To estimate the most important word in an essay. We prepare two versions of tool.
 R is used to represent the word cloud. We only choose the top 35 frequency words drawing in the plot.
 
@@ -138,7 +143,18 @@ Our dataset contains the native writer in every generation and every type of ess
 <img src="img/df_native.png" width="200" height="200"/>
 
  
-- [ ] the comparsion of prep.
+<h3 id="prep"> Comparsion Of Prep. </h3>
+
+#### Implementation
+You can run the following commands to reproduce the works. Remember to change the directory correctly.
+```
+python3 niceboat.py #data cleaning
+aaa.Rmd
+```
+
+#### Result
+<img src="img/freq_str_by_type.png">
+The figure shows the prep usage frequencies between different degree of people.
 
 <h3 id="wc"> Word Cloud (without frequency words) </h3>
 

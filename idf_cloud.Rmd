@@ -1,0 +1,107 @@
+---
+title: "df_cloud"
+author: "alimadodo"
+date: "2020/1/3"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+### load file
+```{r}
+beginner_dat = read.csv("D:/NTU/R/VSMgrader_DataScienceWithR/data/idf_rank/beginner.csv", header = F)
+head(beginner_dat)
+beginner_dat <- head(beginner_dat, 35)
+```
+
+### frequency cloud(beginner)
+```{r}
+library(wordcloud)
+wordcloud(
+  words = beginner_dat$V1, # 或segC_top50$Var1
+  freq =  beginner_dat$V2, 
+  scale = c(8,.10), # 給定文字尺寸的區間（向量）
+  random.order = FALSE,# 關閉文字隨機顯示 按順序
+  ordered.colors = FALSE,#關閉配色順序
+  rot.per = FALSE,#關閉文字轉角度
+  #min.freq = 7,# 定義最小freq數字 
+  colors = brewer.pal(8,"Dark2"),
+  family = "mono", 
+  font = 10
+)
+```
+
+```{r}
+medium_dat = read.csv("D:/NTU/R/VSMgrader_DataScienceWithR/data/idf_rank/medium.csv", header = F)
+medium_dat$V2[1] <- 20000
+medium_dat$V2 <- medium_dat$V2 / 6
+head(medium_dat)
+medium_dat <- head(medium_dat, 35)
+```
+
+### frequency cloud(medium)
+```{r}
+wordcloud(
+  words = medium_dat$V1, # 或segC_top50$Var1
+  freq =  medium_dat$V2, 
+  scale = c(8,.10), # 給定文字尺寸的區間（向量）
+  random.order = FALSE,# 關閉文字隨機顯示 按順序
+  ordered.colors = FALSE,#關閉配色順序
+  rot.per = FALSE,#關閉文字轉角度
+  #min.freq = 7,# 定義最小freq數字 
+  colors = brewer.pal(8,"Dark2"),
+  family = "mono", 
+  font = 10
+)
+```
+
+### load file
+```{r}
+professional_dat = read.csv("D:/NTU/R/VSMgrader_DataScienceWithR/data/idf_rank/professional.csv", header = F)
+head(professional_dat)
+professional_dat <- head(professional_dat, 35)
+```
+
+### frequency cloud(professional)
+
+```{r}
+wordcloud(
+  words = professional_dat$V1, # 或segC_top50$Var1
+  freq =  professional_dat$V2, 
+  scale = c(8,.10), # 給定文字尺寸的區間（向量）
+  random.order = FALSE,# 關閉文字隨機顯示 按順序
+  ordered.colors = FALSE,#關閉配色順序
+  rot.per = FALSE,#關閉文字轉角度
+  #min.freq = 7,# 定義最小freq數字 
+  colors = brewer.pal(8,"Dark2"),
+  family = "mono", 
+  font = 10
+)
+```
+
+### load file
+```{r}
+dat4 = read.csv("D:/NTU/R/VSMgrader_DataScienceWithR/data/idf_rank/native.csv", header = F)
+head(dat4)
+dat4 <- head(dat4, 35)
+```
+
+### frequency cloud(native)
+
+```{r}
+wordcloud(
+  words = dat4$V1, # 或segC_top50$Var1
+  freq =  dat4$V2, 
+  scale = c(8,.10), # 給定文字尺寸的區間（向量）
+  random.order = FALSE,# 關閉文字隨機顯示 按順序
+  ordered.colors = FALSE,#關閉配色順序
+  rot.per = FALSE,#關閉文字轉角度
+  #min.freq = 7,# 定義最小freq數字 
+  colors = brewer.pal(8,"Dark2"),
+  family = "mono", 
+  font = 10
+)
+```
+
